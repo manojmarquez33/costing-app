@@ -32,7 +32,7 @@
                 <label class="block text-sm font-medium text-gray-700 mb-1">Material</label>
                 <select v-model="formData.materialType" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
                   <option value="PPAL">PPAL</option>
-                  <option value="PIR">PIR</option>
+                  <option value="PPAZ">PPAZ</option>
                   <option value="PPGI">PPGI</option>
                   <option value="GI">GI</option>
                 </select>
@@ -45,6 +45,8 @@
                   <option value="WALL">WALL</option>
                   <option value="CEILING">CEILING</option>
                   <option value="PARTITION">PARTITION</option>
+                  <option value="HIDDEN">HIDDEN</option>
+                  <option value="SS">SS</option>
                 </select>
               </div>
               <!-- E: Color -->
@@ -55,33 +57,18 @@
             </div>
           </div>
 
-          <!-- Material Rates -->
-          <div class="mb-6 bg-yellow-50 p-4 rounded-lg">
-            <h2 class="text-xl font-semibold text-gray-800 mb-3">💰 Material Rates (₹/Ton)</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Top Skin Cost/Ton</label>
-                <input v-model.number="formData.topSkinCostPerTon" type="number" step="0.01" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white" />
-              </div>
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Bottom Skin Cost/Ton</label>
-                <input v-model.number="formData.bottomSkinCostPerTon" type="number" step="0.01" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white" />
-              </div>
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Core Cost/Ton</label>
-                <input v-model.number="formData.coreCostPerTon" type="number" step="0.01" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white" />
-              </div>
-            </div>
-          </div>
-
           <!-- Top Skin (Columns F-K, N) -->
           <div class="mb-6">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-purple-500">📐 Top Skin</h2>
-            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
-              <!-- F: Type of Product -->
+            <div class="grid grid-cols-2 md:grid-cols-7 gap-4">
+              <!-- F: Material Type -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Type of Product</label>
-                <input value="Top Skin" disabled class="w-full px-3 py-2 border border-gray-200 rounded-lg bg-gray-50 text-gray-600" />
+                <label class="block text-sm font-medium text-gray-700 mb-1">Material Type</label>
+                <select v-model="formData.topSkinMaterialType" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                  <option value="PU">PU</option>
+                  <option value="PIR">PIR</option>
+                  <option value="RW">RW</option>
+                </select>
               </div>
               <!-- G: Thickness -->
               <div>
@@ -108,10 +95,8 @@
                 <label class="block text-sm font-medium text-gray-700 mb-1">Density (kg/m³)</label>
                 <input v-model.number="formData.topSkinDensity" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg" />
               </div>
-            </div>
-            <!-- N: Cost/Ton -->
-            <div class="grid grid-cols-1 md:grid-cols-6 gap-4 mt-3">
-              <div class="md:col-start-5">
+              <!-- N: Cost/Ton -->
+              <div>
                 <label class="block text-sm font-medium text-gray-700 mb-1">Cost/Ton (₹)</label>
                 <input v-model.number="formData.topSkinCostPerTon" type="number" step="0.01" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-yellow-50" />
               </div>
@@ -121,11 +106,15 @@
           <!-- Bottom Skin (Columns F-K, N) -->
           <div class="mb-6">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-indigo-500">📐 Bottom Skin</h2>
-            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
-              <!-- F: Type of Product -->
+            <div class="grid grid-cols-2 md:grid-cols-7 gap-4">
+              <!-- F: Material Type -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Type of Product</label>
-                <input value="Bottom Skin" disabled class="w-full px-3 py-2 border border-gray-200 rounded-lg bg-gray-50 text-gray-600" />
+                <label class="block text-sm font-medium text-gray-700 mb-1">Material Type</label>
+                <select v-model="formData.bottomSkinMaterialType" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                  <option value="PU">PU</option>
+                  <option value="PIR">PIR</option>
+                  <option value="RW">RW</option>
+                </select>
               </div>
               <!-- G: Thickness -->
               <div>
@@ -152,10 +141,8 @@
                 <label class="block text-sm font-medium text-gray-700 mb-1">Density (kg/m³)</label>
                 <input v-model.number="formData.bottomSkinDensity" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg" />
               </div>
-            </div>
-            <!-- N: Cost/Ton -->
-            <div class="grid grid-cols-1 md:grid-cols-6 gap-4 mt-3">
-              <div class="md:col-start-5">
+              <!-- N: Cost/Ton -->
+              <div>
                 <label class="block text-sm font-medium text-gray-700 mb-1">Cost/Ton (₹)</label>
                 <input v-model.number="formData.bottomSkinCostPerTon" type="number" step="0.01" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-yellow-50" />
               </div>
@@ -164,12 +151,16 @@
 
           <!-- Core (Columns F-K, N) -->
           <div class="mb-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-pink-500">📐 Core</h2>
-            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
-              <!-- F: Type of Product -->
+            <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-pink-500">Core</h2>
+            <div class="grid grid-cols-2 md:grid-cols-7 gap-4">
+              <!-- F: Material Type -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Type of Product</label>
-                <input value="Core" disabled class="w-full px-3 py-2 border border-gray-200 rounded-lg bg-gray-50 text-gray-600" />
+                <label class="block text-sm font-medium text-gray-700 mb-1">Material Type</label>
+                <select v-model="formData.coreMaterialType" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                  <option value="PU">PU</option>
+                  <option value="PIR">PIR</option>
+                  <option value="RW">RW</option>
+                </select>
               </div>
               <!-- G: Thickness -->
               <div>
@@ -196,14 +187,15 @@
                 <label class="block text-sm font-medium text-gray-700 mb-1">Density (kg/m³)</label>
                 <input v-model.number="formData.coreDensity" type="number" class="w-full px-3 py-2 border border-gray-300 rounded-lg" />
               </div>
-            </div>
-            <!-- N: Cost/Ton + Core Constant -->
-            <div class="grid grid-cols-1 md:grid-cols-6 gap-4 mt-3">
-              <div class="md:col-start-5">
+              <!-- N: Cost/Ton -->
+              <div>
                 <label class="block text-sm font-medium text-gray-700 mb-1">Cost/Ton (₹)</label>
                 <input v-model.number="formData.coreCostPerTon" type="number" step="0.01" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-yellow-50" />
               </div>
-              <div>
+            </div>
+            <!-- Core Constant -->
+            <div class="grid grid-cols-1 md:grid-cols-7 gap-4 mt-3">
+              <div class="md:col-start-6">
                 <label class="block text-sm font-medium text-gray-700 mb-1">Core Constant</label>
                 <input v-model.number="formData.coreConstant" type="number" step="0.001" class="w-full px-3 py-2 border border-gray-300 rounded-lg" />
               </div>
@@ -214,16 +206,10 @@
           <div class="mb-6">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-orange-500">💵 Pricing & Additional Costs</h2>
             
-            <!-- Quoted Price -->
-            <div class="mb-4">
-              <label class="block text-sm font-medium text-gray-700 mb-1">Quoted Price (per unit)</label>
-              <input v-model.number="formData.quotedPrice" type="number" step="0.01" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500" />
-            </div>
-
             <!-- Additional Cost Components -->
             <div class="bg-yellow-50 p-4 rounded-lg">
               <h3 class="text-sm font-semibold text-gray-700 mb-3">Additional Cost Components</h3>
-              <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1">D-Cost (₹)</label>
                   <input v-model.number="formData.dCost" type="number" step="0.001" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
@@ -234,11 +220,19 @@
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1">Over head (₹)</label>
-                  <input v-model.number="formData.overHeadCost" type="number" step="0.001" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
+                  <input v-model.number="formData.overHeadCost" type="number" step="any" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1">Lc (₹)</label>
-                  <input v-model.number="formData.lc" type="number" step="0.001" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
+                  <input v-model.number="formData.lc" type="number" step="any" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Packing Cost (₹)</label>
+                  <input v-model.number="formData.packingCost" type="number" step="any" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Duty (₹)</label>
+                  <input v-model.number="formData.duty" type="number" step="any" class="w-full px-3 py-2 border border-yellow-300 rounded-lg bg-white focus:ring-2 focus:ring-yellow-500" />
                 </div>
               </div>
             </div>
@@ -260,11 +254,11 @@
               <table class="w-full text-sm border-collapse">
                 <thead>
                   <tr class="bg-gray-100 border-b-2 border-gray-300">
-                    <th class="px-3 py-2 text-left border">Type of Product</th>
-                    <th class="px-3 py-2 text-right border">Weight (L)</th>
-                    <th class="px-3 py-2 text-right border">Total Weight/Ton (M)</th>
-                    <th class="px-3 py-2 text-right border">Cost/Ton (N)</th>
-                    <th class="px-3 py-2 text-right border">Material Cost (O)</th>
+                    <th class="px-3 py-2 text-left border">Type of Panel</th>
+                    <th class="px-3 py-2 text-right border">Weight/Meter</th>
+                    <th class="px-3 py-2 text-right border">Total Weight/Meter</th>
+                    <th class="px-3 py-2 text-right border">Cost/Ton</th>
+                    <th class="px-3 py-2 text-right border">Material Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -304,11 +298,6 @@
             <div class="bg-white rounded-lg p-4 shadow mb-4">
               <h3 class="text-lg font-semibold text-gray-700 mb-3">Value Addition Analysis</h3>
               <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
-                <!-- P: Quoted Price -->
-                <div class="bg-blue-50 rounded-lg p-3">
-                  <p class="text-xs text-gray-600 font-semibold">Quoted Price (P)</p>
-                  <p class="text-lg font-bold text-blue-600">{{ formatCurrency(formData.quotedPrice) }}</p>
-                </div>
                 <!-- Q: Value Addition -->
                 <div class="bg-green-50 rounded-lg p-3">
                   <p class="text-xs text-gray-600 font-semibold">Value Addition (Q)</p>
@@ -337,7 +326,7 @@
             <!-- Additional Cost Components -->
             <div class="bg-red-50 rounded-lg p-4 mb-4 border-2 border-red-200">
               <h3 class="text-lg font-semibold text-gray-800 mb-3">📋 Additional Cost Components</h3>
-              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
+              <div class="grid grid-cols-2 md:grid-cols-6 gap-3 mb-3">
                 <div class="bg-white rounded-lg p-3 shadow">
                   <p class="text-xs text-gray-600">D-Cost</p>
                   <p class="text-lg font-bold text-red-600">{{ formatCurrency(formData.dCost) }}</p>
@@ -354,25 +343,35 @@
                   <p class="text-xs text-gray-600">Lc</p>
                   <p class="text-lg font-bold text-red-600">{{ formatCurrency(formData.lc) }}</p>
                 </div>
+                <div class="bg-white rounded-lg p-3 shadow">
+                  <p class="text-xs text-gray-600">Packing Cost</p>
+                  <p class="text-lg font-bold text-red-600">{{ formatCurrency(formData.packingCost) }}</p>
+                </div>
+                <div class="bg-white rounded-lg p-3 shadow">
+                  <p class="text-xs text-gray-600">Duty</p>
+                  <p class="text-lg font-bold text-red-600">{{ formatCurrency(formData.duty) }}</p>
+                </div>
               </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div class="bg-yellow-100 rounded-lg p-3 shadow border-2 border-yellow-400">
-                  <p class="text-sm text-gray-700 mb-1">Cost (Subtotal)</p>
-                  <p class="text-xl font-bold text-yellow-700">{{ formatCurrency(result.cost) }}</p>
-                  <p class="text-xs text-gray-600 mt-1">Material Cost + D-Cost + Labour</p>
+              <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+                <div class="bg-gradient-to-r from-yellow-200 to-yellow-300 rounded-lg p-3 shadow-lg text-center">
+                  <p class="text-sm text-gray-800 mb-1">Cost per Unit</p>
+                  <p class="text-2xl font-bold text-gray-800">{{ formatCurrency(result.costPerUnit) }}</p>
+                </div>
+                <div class="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-3 shadow-lg">
+                  <p class="text-sm text-white mb-1">Cost (Subtotal)</p>
+                  <p class="text-xl font-bold text-white">{{ formatCurrency(result.cost) }}</p>
+                  <p class="text-xs text-blue-100 mt-1">Material Cost + D-Cost + Labour</p>
                 </div>
                 <div class="bg-gradient-to-r from-red-500 to-red-600 rounded-lg p-3 shadow-lg">
                   <p class="text-sm text-white mb-1">Total Cost (Final)</p>
                   <p class="text-2xl font-bold text-white">{{ formatCurrency(result.totalCost) }}</p>
-                  <p class="text-xs text-red-100 mt-1">Cost + Over head + Lc</p>
+                  <p class="text-xs text-red-100 mt-1">Cost + Over head + Lc + Packing Cost + Duty</p>
+                </div>
+                <div class="bg-gradient-to-r from-green-500 to-green-600 rounded-lg p-3 shadow-lg">
+                  <p class="text-sm text-white mb-1">Quoted Price</p>
+                  <p class="text-2xl font-bold text-white">{{ formatCurrency(formData.quotedPrice) }}</p>
                 </div>
               </div>
-            </div>
-
-            <!-- Cost per Unit -->
-            <div class="bg-gradient-to-r from-blue-400 to-indigo-500 rounded-lg p-4 shadow-lg text-center">
-              <p class="text-sm text-white mb-1">Cost per Unit (Based on Total Cost)</p>
-              <p class="text-3xl font-bold text-white">{{ formatCurrency(result.costPerUnit) }}</p>
             </div>
           </div>
         </form>
@@ -390,7 +389,7 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import { reactive, watch } from 'vue'
 
 const formData = reactive({
   quoteNo: 'MAHFAR TRADING',
@@ -399,8 +398,11 @@ const formData = reactive({
   panelType: 'ROOF',
   color: '9002',
   
+  topSkinMaterialType: 'PU',
   topSkinCostPerTon: 1400,
+  bottomSkinMaterialType: 'PU',
   bottomSkinCostPerTon: 1400,
+  coreMaterialType: 'PU',
   coreCostPerTon: 900,
   
   topSkinThickness: 0.5,
@@ -425,8 +427,10 @@ const formData = reactive({
   // Additional cost components from Excel
   dCost: 0.100,
   labour: 0.200,
-  overHeadCost: 0.667,
-  lc: 0.334
+  overHeadCost: 0,
+  lc: 0,
+  packingCost: 0,
+  duty: 0
 })
 
 const result = reactive({
@@ -453,6 +457,66 @@ const result = reactive({
   // New fields from Excel
   cost: 0,  // Subtotal before additional costs
   totalCost: 0  // Final total with all costs
+})
+
+// Helper function to calculate RW cost based on thickness
+// Formula: Cost = Thickness × 0.06 (based on pattern: 50mm=3, 100mm=6, 150mm=9)
+const calculateRWCost = (thickness) => {
+  if (!thickness || thickness <= 0) return 0
+  return thickness * 0.06
+}
+
+// Helper function to get cost for a material type
+const getMaterialCost = (materialType, thickness, manualCost) => {
+  if (materialType === 'RW') {
+    return calculateRWCost(thickness)
+  }
+  return manualCost
+}
+
+// Helper function to get density based on material type (for skins)
+const getDensityByMaterial = (materialType) => {
+  const densityMap = {
+    'PPAL': 2720,
+    'PPGI': 7850,
+    'PPAZ': 7850
+  }
+  return densityMap[materialType] || 2720
+}
+
+// Watchers to update costs when material type or thickness changes
+watch(() => [formData.topSkinMaterialType, formData.topSkinThickness], () => {
+  if (formData.topSkinMaterialType === 'RW') {
+    formData.topSkinCostPerTon = calculateRWCost(formData.topSkinThickness)
+  }
+})
+
+watch(() => [formData.bottomSkinMaterialType, formData.bottomSkinThickness], () => {
+  if (formData.bottomSkinMaterialType === 'RW') {
+    formData.bottomSkinCostPerTon = calculateRWCost(formData.bottomSkinThickness)
+  }
+})
+
+// Watcher to update density based on global material type (for top and bottom skins)
+watch(() => formData.materialType, () => {
+  formData.topSkinDensity = getDensityByMaterial(formData.materialType)
+  formData.bottomSkinDensity = getDensityByMaterial(formData.materialType)
+})
+
+watch(() => [formData.coreMaterialType, formData.coreThickness], () => {
+  if (formData.coreMaterialType === 'RW') {
+    formData.coreCostPerTon = calculateRWCost(formData.coreThickness)
+  }
+})
+
+// Watcher to auto-calculate additional costs based on result.cost
+watch(() => result.cost, () => {
+  if (result.cost > 0) {
+    formData.overHeadCost = result.cost * 0.1
+    formData.lc = result.cost * 0.05
+    formData.packingCost = result.cost * 0.05
+    formData.duty = result.cost * 0.1
+  }
 })
 
 const calculateCost = () => {
@@ -495,10 +559,11 @@ const calculateCost = () => {
   console.log(`  = ${result.topSkinTotalWeight.toFixed(6)} tons`)
   
   // O6 = N6/1000*L6
-  result.topSkinMaterialCost = (formData.topSkinCostPerTon / 1000) * result.topSkinWeight
+  const topSkinCost = getMaterialCost(formData.topSkinMaterialType, formData.topSkinThickness, formData.topSkinCostPerTon)
+  result.topSkinMaterialCost = (topSkinCost / 1000) * result.topSkinWeight
   console.log('\n💰 Material Cost (O6):')
   console.log(`  Formula: (Cost/Ton / 1000) × Weight`)
-  console.log(`  = (${formData.topSkinCostPerTon} / 1000) × ${result.topSkinWeight.toFixed(6)}`)
+  console.log(`  = (${topSkinCost} / 1000) × ${result.topSkinWeight.toFixed(6)}`)
   console.log(`  = ₹${result.topSkinMaterialCost.toFixed(6)}`)
 
   // Bottom Skin Calculations
@@ -525,10 +590,11 @@ const calculateCost = () => {
   console.log(`  = ${result.bottomSkinTotalWeight.toFixed(6)} tons`)
   
   // O7 = N7/1000*L7
-  result.bottomSkinMaterialCost = (formData.bottomSkinCostPerTon / 1000) * result.bottomSkinWeight
+  const bottomSkinCost = getMaterialCost(formData.bottomSkinMaterialType, formData.bottomSkinThickness, formData.bottomSkinCostPerTon)
+  result.bottomSkinMaterialCost = (bottomSkinCost / 1000) * result.bottomSkinWeight
   console.log('\n💰 Material Cost (O7):')
   console.log(`  Formula: (Cost/Ton / 1000) × Weight`)
-  console.log(`  = (${formData.bottomSkinCostPerTon} / 1000) × ${result.bottomSkinWeight.toFixed(6)}`)
+  console.log(`  = (${bottomSkinCost} / 1000) × ${result.bottomSkinWeight.toFixed(6)}`)
   console.log(`  = ₹${result.bottomSkinMaterialCost.toFixed(6)}`)
 
   // Core Calculations
@@ -556,10 +622,11 @@ const calculateCost = () => {
   console.log(`  = ${result.coreTotalWeight.toFixed(6)} tons`)
   
   // O8 = N8/1000*L8
-  result.coreMaterialCost = (formData.coreCostPerTon / 1000) * result.coreWeight
+  const coreCost = getMaterialCost(formData.coreMaterialType, formData.coreThickness, formData.coreCostPerTon)
+  result.coreMaterialCost = (coreCost / 1000) * result.coreWeight
   console.log('\n💰 Material Cost (O8):')
   console.log(`  Formula: (Cost/Ton / 1000) × Weight`)
-  console.log(`  = (${formData.coreCostPerTon} / 1000) × ${result.coreWeight.toFixed(6)}`)
+  console.log(`  = (${coreCost} / 1000) × ${result.coreWeight.toFixed(6)}`)
   console.log(`  = ₹${result.coreMaterialCost.toFixed(6)}`)
 
   // Totals
@@ -633,11 +700,17 @@ const calculateCost = () => {
   console.log('\n📦 Lc:')
   console.log(`  Value: ${formData.lc}`)
   
-  // Total Cost = Cost + Over head + Lc
-  result.totalCost = result.cost + formData.overHeadCost + formData.lc
+  console.log('\n📦 Packing Cost:')
+  console.log(`  Value: ${formData.packingCost}`)
+  
+  console.log('\n🚚 Duty:')
+  console.log(`  Value: ${formData.duty}`)
+  
+  // Total Cost = Cost + Over head + Lc + Packing Cost + Duty
+  result.totalCost = result.cost + formData.overHeadCost + formData.lc + formData.packingCost + formData.duty
   console.log('\n💵 Total Cost (Final):')
-  console.log(`  Formula: Cost + Over head + Lc`)
-  console.log(`  = ${result.cost.toFixed(3)} + ${formData.overHeadCost} + ${formData.lc}`)
+  console.log(`  Formula: Cost + Over head + Lc + Packing Cost + Duty`)
+  console.log(`  = ${result.cost.toFixed(3)} + ${formData.overHeadCost} + ${formData.lc} + ${formData.packingCost} + ${formData.duty}`)
   console.log(`  = ${result.totalCost.toFixed(3)}`)
 
   result.costPerUnit = formData.quantity > 0 ? result.totalCost / formData.quantity : 0
