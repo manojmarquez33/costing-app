@@ -1,5 +1,5 @@
 {
-  "filename": "Pug-cost.xlsx",
+  "filename": "Pug-cost sample 2.xlsx",
   "sheets": [
     {
       "name": "REV-03",
@@ -344,7 +344,7 @@
           "row": 6,
           "column": "G",
           "column_index": 7,
-          "value": "0.5",
+          "value": "0.3",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -374,7 +374,7 @@
           "row": 6,
           "column": "J",
           "column_index": 10,
-          "value": "1000",
+          "value": "1",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -385,7 +385,7 @@
           "row": 6,
           "column": "K",
           "column_index": 11,
-          "value": "2720",
+          "value": "7850",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -399,7 +399,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G6*H6/1000*I6/1000*K6/1000",
-          "calculated_value": "1.6592"
+          "calculated_value": "2.8731"
         },
         {
           "address": "M6",
@@ -410,14 +410,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L6*J6/1000",
-          "calculated_value": "1.6592"
+          "calculated_value": "0.0028731"
         },
         {
           "address": "N6",
           "row": 6,
           "column": "N",
           "column_index": 14,
-          "value": "1400",
+          "value": "400",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -432,16 +432,16 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N6/1000*L6",
-          "calculated_value": "2.32288"
+          "calculated_value": "1.14924"
         },
         {
           "address": "P6",
           "row": 6,
           "column": "P",
           "column_index": 16,
-          "value": "7.7",
+          "value": "5.026",
           "data_type": "n",
-          "number_format": "General",
+          "number_format": "0.000",
           "bold": true
         },
         {
@@ -477,7 +477,7 @@
           "row": 7,
           "column": "G",
           "column_index": 7,
-          "value": "0.5",
+          "value": "0.3",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -511,7 +511,7 @@
           "data_type": "f",
           "number_format": "General",
           "formula": "==J6",
-          "calculated_value": "1000",
+          "calculated_value": "1",
           "bold": true,
           "background_color": "6"
         },
@@ -520,7 +520,7 @@
           "row": 7,
           "column": "K",
           "column_index": 11,
-          "value": "2720",
+          "value": "7850",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -534,7 +534,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G7*H7/1000*I7/1000*K7/1000",
-          "calculated_value": "1.4688"
+          "calculated_value": "2.5434"
         },
         {
           "address": "M7",
@@ -545,14 +545,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L7*J7/1000",
-          "calculated_value": "1.4688"
+          "calculated_value": "0.0025434"
         },
         {
           "address": "N7",
           "row": 7,
           "column": "N",
           "column_index": 14,
-          "value": "1400",
+          "value": "400",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -567,7 +567,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N7/1000*L7",
-          "calculated_value": "2.05632"
+          "calculated_value": "1.01736"
         },
         {
           "address": "A8",
@@ -635,7 +635,7 @@
           "data_type": "f",
           "number_format": "General",
           "formula": "==J6",
-          "calculated_value": "1000",
+          "calculated_value": "1",
           "bold": true,
           "background_color": "6"
         },
@@ -644,7 +644,7 @@
           "row": 8,
           "column": "K",
           "column_index": 11,
-          "value": "40",
+          "value": "38",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -658,7 +658,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G8/1000*H8/1000*I8/1000*K8+0.215",
-          "calculated_value": "2.215"
+          "calculated_value": "2.115"
         },
         {
           "address": "M8",
@@ -669,7 +669,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L8*J8/1000",
-          "calculated_value": "2.215"
+          "calculated_value": "0.002115"
         },
         {
           "address": "N8",
@@ -691,7 +691,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N8/1000*L8",
-          "calculated_value": "1.9934999999999998"
+          "calculated_value": "1.9035000000000002"
         },
         {
           "address": "A9",
@@ -721,7 +721,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==SUM(L6:L8)",
-          "calculated_value": "5.343",
+          "calculated_value": "7.5315",
           "bold": true
         },
         {
@@ -752,7 +752,7 @@
           "data_type": "f",
           "number_format": "General",
           "formula": "==O9*J6",
-          "calculated_value": "100"
+          "calculated_value": "0.1"
         },
         {
           "address": "J10",
@@ -763,7 +763,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==+J8/600",
-          "calculated_value": "1.6666666666666667"
+          "calculated_value": "0.0016666666666666668"
         },
         {
           "address": "K10",
@@ -774,7 +774,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==+ROUNDUP(J10,0)",
-          "calculated_value": "2"
+          "calculated_value": "1"
         },
         {
           "address": "N10",
@@ -804,7 +804,7 @@
           "data_type": "f",
           "number_format": "General",
           "formula": "==O10*J6",
-          "calculated_value": "200"
+          "calculated_value": "0.2"
         },
         {
           "address": "N11",
@@ -824,7 +824,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==SUM(O6:O10)",
-          "calculated_value": "6.6727",
+          "calculated_value": "4.3701",
           "bold": true
         },
         {
@@ -836,7 +836,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P6-O11",
-          "calculated_value": "1.0273000000000003"
+          "calculated_value": "0.6558999999999999"
         },
         {
           "address": "R11",
@@ -847,7 +847,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q11*J6",
-          "calculated_value": "1027.3000000000004"
+          "calculated_value": "0.6558999999999999"
         },
         {
           "address": "S11",
@@ -858,7 +858,7 @@
           "data_type": "f",
           "number_format": "General",
           "formula": "==P6*J6",
-          "calculated_value": "7700"
+          "calculated_value": "5.026"
         },
         {
           "address": "T11",
@@ -869,7 +869,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R11/S11%",
-          "calculated_value": "13.341558441558448"
+          "calculated_value": "13.050139275766016"
         },
         {
           "address": "N12",
@@ -889,7 +889,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P12*O11",
-          "calculated_value": "0.66727",
+          "calculated_value": "0.43701",
           "background_color": "6"
         },
         {
@@ -911,7 +911,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==O12*J6",
-          "calculated_value": "667.27"
+          "calculated_value": "0.43701"
         },
         {
           "address": "N13",
@@ -931,7 +931,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==O11*0.05",
-          "calculated_value": "0.333635",
+          "calculated_value": "0.218505",
           "background_color": "6"
         },
         {
@@ -943,7 +943,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==O13*J6",
-          "calculated_value": "333.635"
+          "calculated_value": "0.218505"
         },
         {
           "address": "N14",
@@ -963,7 +963,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==SUM(O11:O13)",
-          "calculated_value": "7.673605",
+          "calculated_value": "5.025615",
           "bold": true
         },
         {
@@ -2148,7 +2148,8 @@
           "column_index": 6,
           "value": "RIDGE ",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G28",
@@ -2367,7 +2368,8 @@
           "column_index": 6,
           "value": "PROFILE SHEET ",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G29",
@@ -2555,17 +2557,17 @@
           "column_index": 5,
           "value": "9002",
           "data_type": "n",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "F30",
           "row": 30,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-100)",
+          "value": "PURLIN",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G30",
@@ -2583,7 +2585,7 @@
           "row": 30,
           "column": "H",
           "column_index": 8,
-          "value": "150",
+          "value": "1220",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -2603,7 +2605,7 @@
           "row": 30,
           "column": "J",
           "column_index": 10,
-          "value": "487.5",
+          "value": "100",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -2629,7 +2631,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G30*H30/1000*I30/1000*K30/1000",
-          "calculated_value": "0.204"
+          "calculated_value": "1.6592"
         },
         {
           "address": "M30",
@@ -2640,7 +2642,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L30*J30/1000",
-          "calculated_value": "0.09944999999999998"
+          "calculated_value": "0.16591999999999998"
         },
         {
           "address": "N30",
@@ -2664,14 +2666,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N30/1000*L30+0.1",
-          "calculated_value": "0.38559999999999994"
+          "calculated_value": "2.42288"
         },
         {
           "address": "P30",
           "row": 30,
           "column": "P",
           "column_index": 16,
-          "value": "0.7",
+          "value": "3.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -2686,7 +2688,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P30-O30",
-          "calculated_value": "0.3144"
+          "calculated_value": "1.27712"
         },
         {
           "address": "R30",
@@ -2697,7 +2699,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q30*J30",
-          "calculated_value": "153.27"
+          "calculated_value": "127.712"
         },
         {
           "address": "S30",
@@ -2708,29 +2710,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P30*J30",
-          "calculated_value": "341.25"
-        },
-        {
-          "address": "T30",
-          "row": 30,
-          "column": "T",
-          "column_index": 20,
-          "value": "=R30/S30%",
-          "data_type": "f",
-          "number_format": "0.0",
-          "formula": "==R30/S30%",
-          "calculated_value": "44.91428571428572"
-        },
-        {
-          "address": "U30",
-          "row": 30,
-          "column": "U",
-          "column_index": 21,
-          "value": "=R30/M30",
-          "data_type": "f",
-          "number_format": "0.00",
-          "formula": "==R30/M30",
-          "calculated_value": "1541.1764705882356"
+          "calculated_value": "370"
         },
         {
           "address": "A31",
@@ -2775,17 +2755,17 @@
           "column_index": 5,
           "value": "9002",
           "data_type": "n",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "F31",
           "row": 31,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-300)",
+          "value": "DECKING 1",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G31",
@@ -2803,7 +2783,7 @@
           "row": 31,
           "column": "H",
           "column_index": 8,
-          "value": "350",
+          "value": "1220",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -2823,7 +2803,7 @@
           "row": 31,
           "column": "J",
           "column_index": 10,
-          "value": "25",
+          "value": "100",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -2849,7 +2829,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G31*H31/1000*I31/1000*K31/1000",
-          "calculated_value": "0.4759999999999999"
+          "calculated_value": "1.6592"
         },
         {
           "address": "M31",
@@ -2860,7 +2840,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L31*J31/1000",
-          "calculated_value": "0.011899999999999999"
+          "calculated_value": "0.16591999999999998"
         },
         {
           "address": "N31",
@@ -2884,14 +2864,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N31/1000*L31+0.1",
-          "calculated_value": "0.7663999999999999"
+          "calculated_value": "2.42288"
         },
         {
           "address": "P31",
           "row": 31,
           "column": "P",
           "column_index": 16,
-          "value": "1.1",
+          "value": "3.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -2906,7 +2886,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P31-O31",
-          "calculated_value": "0.33360000000000023"
+          "calculated_value": "1.27712"
         },
         {
           "address": "R31",
@@ -2917,7 +2897,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q31*J31",
-          "calculated_value": "8.340000000000005"
+          "calculated_value": "127.712"
         },
         {
           "address": "S31",
@@ -2928,7 +2908,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P31*J31",
-          "calculated_value": "27.500000000000004"
+          "calculated_value": "370"
         },
         {
           "address": "A32",
@@ -2973,17 +2953,17 @@
           "column_index": 5,
           "value": "9002",
           "data_type": "n",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "F32",
           "row": 32,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-600)",
+          "value": "DECKING 2",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G32",
@@ -3001,7 +2981,7 @@
           "row": 32,
           "column": "H",
           "column_index": 8,
-          "value": "650",
+          "value": "1220",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -3021,7 +3001,7 @@
           "row": 32,
           "column": "J",
           "column_index": 10,
-          "value": "225",
+          "value": "100",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -3047,7 +3027,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G32*H32/1000*I32/1000*K32/1000",
-          "calculated_value": "0.884"
+          "calculated_value": "1.6592"
         },
         {
           "address": "M32",
@@ -3058,7 +3038,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L32*J32/1000",
-          "calculated_value": "0.1989"
+          "calculated_value": "0.16591999999999998"
         },
         {
           "address": "N32",
@@ -3082,14 +3062,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N32/1000*L32+0.1",
-          "calculated_value": "1.3376000000000001"
+          "calculated_value": "2.42288"
         },
         {
           "address": "P32",
           "row": 32,
           "column": "P",
           "column_index": 16,
-          "value": "2.1",
+          "value": "3.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -3104,7 +3084,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P32-O32",
-          "calculated_value": "0.7624"
+          "calculated_value": "1.27712"
         },
         {
           "address": "R32",
@@ -3115,7 +3095,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q32*J32",
-          "calculated_value": "171.54"
+          "calculated_value": "127.712"
         },
         {
           "address": "S32",
@@ -3126,29 +3106,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P32*J32",
-          "calculated_value": "472.5"
-        },
-        {
-          "address": "T32",
-          "row": 32,
-          "column": "T",
-          "column_index": 20,
-          "value": "=R32/S32%",
-          "data_type": "f",
-          "number_format": "0.0",
-          "formula": "==R32/S32%",
-          "calculated_value": "36.304761904761904"
-        },
-        {
-          "address": "U32",
-          "row": 32,
-          "column": "U",
-          "column_index": 21,
-          "value": "=R32/M32",
-          "data_type": "f",
-          "number_format": "0.00",
-          "formula": "==R32/M32",
-          "calculated_value": "862.4434389140272"
+          "calculated_value": "370"
         },
         {
           "address": "A33",
@@ -3157,8 +3115,7 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "B33",
@@ -3185,8 +3142,7 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "E33",
@@ -3203,9 +3159,10 @@
           "row": 33,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-800)",
+          "value": "FLASHING (G-100)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G33",
@@ -3223,7 +3180,7 @@
           "row": 33,
           "column": "H",
           "column_index": 8,
-          "value": "850",
+          "value": "150",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -3243,7 +3200,7 @@
           "row": 33,
           "column": "J",
           "column_index": 10,
-          "value": "112.5",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -3269,8 +3226,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G33*H33/1000*I33/1000*K33/1000",
-          "calculated_value": "1.156",
-          "background_color": "0"
+          "calculated_value": "0.204"
         },
         {
           "address": "M33",
@@ -3281,8 +3237,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L33*J33/1000",
-          "calculated_value": "0.13004999999999997",
-          "background_color": "0"
+          "calculated_value": "0.09944999999999998"
         },
         {
           "address": "N33",
@@ -3306,15 +3261,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N33/1000*L33+0.1",
-          "calculated_value": "1.7184",
-          "background_color": "0"
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P33",
           "row": 33,
           "column": "P",
           "column_index": 16,
-          "value": "2.4",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -3329,8 +3283,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P33-O33",
-          "calculated_value": "0.6816",
-          "background_color": "0"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R33",
@@ -3341,7 +3294,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q33*J33",
-          "calculated_value": "76.67999999999999"
+          "calculated_value": "153.27"
         },
         {
           "address": "S33",
@@ -3352,7 +3305,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P33*J33",
-          "calculated_value": "270"
+          "calculated_value": "341.25"
         },
         {
           "address": "T33",
@@ -3363,8 +3316,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R33/S33%",
-          "calculated_value": "28.399999999999995",
-          "background_color": "0"
+          "calculated_value": "44.91428571428572"
         },
         {
           "address": "U33",
@@ -3375,8 +3327,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R33/M33",
-          "calculated_value": "589.6193771626298",
-          "background_color": "0"
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A34",
@@ -3385,8 +3336,7 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "B34",
@@ -3413,8 +3363,7 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "E34",
@@ -3431,9 +3380,10 @@
           "row": 34,
           "column": "F",
           "column_index": 6,
-          "value": "PARAPET GUTTER",
+          "value": "FLASHING (G-200)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G34",
@@ -3451,7 +3401,7 @@
           "row": 34,
           "column": "H",
           "column_index": 8,
-          "value": "1220",
+          "value": "150",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -3471,7 +3421,7 @@
           "row": 34,
           "column": "J",
           "column_index": 10,
-          "value": "362.5",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -3497,8 +3447,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G34*H34/1000*I34/1000*K34/1000",
-          "calculated_value": "1.6592",
-          "background_color": "0"
+          "calculated_value": "0.204"
         },
         {
           "address": "M34",
@@ -3509,8 +3458,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L34*J34/1000",
-          "calculated_value": "0.60146",
-          "background_color": "0"
+          "calculated_value": "0.09944999999999998"
         },
         {
           "address": "N34",
@@ -3534,15 +3482,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N34/1000*L34+0.1",
-          "calculated_value": "2.42288",
-          "background_color": "0"
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P34",
           "row": 34,
           "column": "P",
           "column_index": 16,
-          "value": "3.2",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -3557,8 +3504,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P34-O34",
-          "calculated_value": "0.77712",
-          "background_color": "0"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R34",
@@ -3569,7 +3515,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q34*J34",
-          "calculated_value": "281.706"
+          "calculated_value": "153.27"
         },
         {
           "address": "S34",
@@ -3580,7 +3526,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P34*J34",
-          "calculated_value": "1160"
+          "calculated_value": "341.25"
         },
         {
           "address": "T34",
@@ -3591,8 +3537,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R34/S34%",
-          "calculated_value": "24.285000000000004",
-          "background_color": "0"
+          "calculated_value": "44.91428571428572"
         },
         {
           "address": "U34",
@@ -3603,8 +3548,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R34/M34",
-          "calculated_value": "468.37029893924785",
-          "background_color": "0"
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A35",
@@ -3613,8 +3557,7 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "B35",
@@ -3641,8 +3584,7 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "E35",
@@ -3659,7 +3601,7 @@
           "row": 35,
           "column": "F",
           "column_index": 6,
-          "value": "PLAIN SHEET",
+          "value": "FLASHING (G-300)",
           "data_type": "s",
           "number_format": "General"
         },
@@ -3679,7 +3621,7 @@
           "row": 35,
           "column": "H",
           "column_index": 8,
-          "value": "1220",
+          "value": "350",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -3699,7 +3641,7 @@
           "row": 35,
           "column": "J",
           "column_index": 10,
-          "value": "12.5",
+          "value": "25",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -3725,8 +3667,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G35*H35/1000*I35/1000*K35/1000",
-          "calculated_value": "1.6592",
-          "background_color": "0"
+          "calculated_value": "0.4759999999999999"
         },
         {
           "address": "M35",
@@ -3737,8 +3678,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L35*J35/1000",
-          "calculated_value": "0.020739999999999998",
-          "background_color": "0"
+          "calculated_value": "0.011899999999999999"
         },
         {
           "address": "N35",
@@ -3762,15 +3702,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N35/1000*L35+0.1",
-          "calculated_value": "2.42288",
-          "background_color": "0"
+          "calculated_value": "0.7663999999999999"
         },
         {
           "address": "P35",
           "row": 35,
           "column": "P",
           "column_index": 16,
-          "value": "3.2",
+          "value": "1.1",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -3785,8 +3724,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P35-O35",
-          "calculated_value": "0.77712",
-          "background_color": "0"
+          "calculated_value": "0.33360000000000023"
         },
         {
           "address": "R35",
@@ -3797,7 +3735,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q35*J35",
-          "calculated_value": "9.714"
+          "calculated_value": "8.340000000000005"
         },
         {
           "address": "S35",
@@ -3808,31 +3746,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P35*J35",
-          "calculated_value": "40"
-        },
-        {
-          "address": "T35",
-          "row": 35,
-          "column": "T",
-          "column_index": 20,
-          "value": "=R35/S35%",
-          "data_type": "f",
-          "number_format": "0.0",
-          "formula": "==R35/S35%",
-          "calculated_value": "24.285",
-          "background_color": "0"
-        },
-        {
-          "address": "U35",
-          "row": 35,
-          "column": "U",
-          "column_index": 21,
-          "value": "=R35/M35",
-          "data_type": "f",
-          "number_format": "0.00",
-          "formula": "==R35/M35",
-          "calculated_value": "468.3702989392479",
-          "background_color": "0"
+          "calculated_value": "27.500000000000004"
         },
         {
           "address": "A36",
@@ -3857,7 +3771,7 @@
           "row": 36,
           "column": "C",
           "column_index": 3,
-          "value": "PPGI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -3885,9 +3799,10 @@
           "row": 36,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-200)",
+          "value": "FLASHING (G-400)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G36",
@@ -3905,7 +3820,7 @@
           "row": 36,
           "column": "H",
           "column_index": 8,
-          "value": "250",
+          "value": "150",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -3925,7 +3840,7 @@
           "row": 36,
           "column": "J",
           "column_index": 10,
-          "value": "837.5",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -3936,7 +3851,7 @@
           "row": 36,
           "column": "K",
           "column_index": 11,
-          "value": "7850",
+          "value": "2720",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -3951,7 +3866,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G36*H36/1000*I36/1000*K36/1000",
-          "calculated_value": "0.98125"
+          "calculated_value": "0.204"
         },
         {
           "address": "M36",
@@ -3962,16 +3877,18 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L36*J36/1000",
-          "calculated_value": "0.821796875"
+          "calculated_value": "0.09944999999999998"
         },
         {
           "address": "N36",
           "row": 36,
           "column": "N",
           "column_index": 14,
-          "value": "370",
-          "data_type": "n",
+          "value": "=N$1",
+          "data_type": "f",
           "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -3984,14 +3901,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N36/1000*L36+0.1",
-          "calculated_value": "0.46306249999999993"
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P36",
           "row": 36,
           "column": "P",
           "column_index": 16,
-          "value": "0.75",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -4006,7 +3923,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P36-O36",
-          "calculated_value": "0.28693750000000007"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R36",
@@ -4017,7 +3934,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q36*J36",
-          "calculated_value": "240.31015625000006"
+          "calculated_value": "153.27"
         },
         {
           "address": "S36",
@@ -4028,7 +3945,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P36*J36",
-          "calculated_value": "628.125"
+          "calculated_value": "341.25"
         },
         {
           "address": "T36",
@@ -4039,7 +3956,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R36/S36%",
-          "calculated_value": "38.25833333333334"
+          "calculated_value": "44.91428571428572"
         },
         {
           "address": "U36",
@@ -4050,7 +3967,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R36/M36",
-          "calculated_value": "292.4203821656052"
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A37",
@@ -4075,7 +3992,7 @@
           "row": 37,
           "column": "C",
           "column_index": 3,
-          "value": "PPGI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -4103,9 +4020,10 @@
           "row": 37,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-300)",
+          "value": "FLASHING (G-500)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G37",
@@ -4123,7 +4041,7 @@
           "row": 37,
           "column": "H",
           "column_index": 8,
-          "value": "350",
+          "value": "150",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -4143,7 +4061,7 @@
           "row": 37,
           "column": "J",
           "column_index": 10,
-          "value": "345",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4154,7 +4072,7 @@
           "row": 37,
           "column": "K",
           "column_index": 11,
-          "value": "7850",
+          "value": "2720",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4169,7 +4087,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G37*H37/1000*I37/1000*K37/1000",
-          "calculated_value": "1.37375"
+          "calculated_value": "0.204"
         },
         {
           "address": "M37",
@@ -4180,16 +4098,18 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L37*J37/1000",
-          "calculated_value": "0.47394375"
+          "calculated_value": "0.09944999999999998"
         },
         {
           "address": "N37",
           "row": 37,
           "column": "N",
           "column_index": 14,
-          "value": "370",
-          "data_type": "n",
+          "value": "=N$1",
+          "data_type": "f",
           "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -4202,14 +4122,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N37/1000*L37+0.1",
-          "calculated_value": "0.6082875"
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P37",
           "row": 37,
           "column": "P",
           "column_index": 16,
-          "value": "0.95",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -4224,7 +4144,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P37-O37",
-          "calculated_value": "0.3417125"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R37",
@@ -4235,7 +4155,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q37*J37",
-          "calculated_value": "117.8908125"
+          "calculated_value": "153.27"
         },
         {
           "address": "S37",
@@ -4246,7 +4166,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P37*J37",
-          "calculated_value": "327.75"
+          "calculated_value": "341.25"
         },
         {
           "address": "T37",
@@ -4257,7 +4177,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R37/S37%",
-          "calculated_value": "35.96973684210526"
+          "calculated_value": "44.91428571428572"
         },
         {
           "address": "U37",
@@ -4268,7 +4188,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R37/M37",
-          "calculated_value": "248.74431301182892"
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A38",
@@ -4293,7 +4213,7 @@
           "row": 38,
           "column": "C",
           "column_index": 3,
-          "value": "PPGI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -4361,7 +4281,7 @@
           "row": 38,
           "column": "J",
           "column_index": 10,
-          "value": "112.5",
+          "value": "225",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4372,7 +4292,7 @@
           "row": 38,
           "column": "K",
           "column_index": 11,
-          "value": "7850",
+          "value": "2720",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4387,7 +4307,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G38*H38/1000*I38/1000*K38/1000",
-          "calculated_value": "2.55125"
+          "calculated_value": "0.884"
         },
         {
           "address": "M38",
@@ -4398,16 +4318,18 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L38*J38/1000",
-          "calculated_value": "0.287015625"
+          "calculated_value": "0.1989"
         },
         {
           "address": "N38",
           "row": 38,
           "column": "N",
           "column_index": 14,
-          "value": "370",
-          "data_type": "n",
+          "value": "=N$1",
+          "data_type": "f",
           "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -4420,14 +4342,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N38/1000*L38+0.1",
-          "calculated_value": "1.0439625000000001"
+          "calculated_value": "1.3376000000000001"
         },
         {
           "address": "P38",
           "row": 38,
           "column": "P",
           "column_index": 16,
-          "value": "1.45",
+          "value": "2.1",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -4442,7 +4364,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P38-O38",
-          "calculated_value": "0.40603749999999983"
+          "calculated_value": "0.7624"
         },
         {
           "address": "R38",
@@ -4453,7 +4375,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q38*J38",
-          "calculated_value": "45.67921874999998"
+          "calculated_value": "171.54"
         },
         {
           "address": "S38",
@@ -4464,7 +4386,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P38*J38",
-          "calculated_value": "163.125"
+          "calculated_value": "472.5"
         },
         {
           "address": "T38",
@@ -4475,7 +4397,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R38/S38%",
-          "calculated_value": "28.002586206896538"
+          "calculated_value": "36.304761904761904"
         },
         {
           "address": "U38",
@@ -4486,7 +4408,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R38/M38",
-          "calculated_value": "159.1523762861342"
+          "calculated_value": "862.4434389140272"
         },
         {
           "address": "A39",
@@ -4495,8 +4417,7 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "B39",
@@ -4512,7 +4433,7 @@
           "row": 39,
           "column": "C",
           "column_index": 3,
-          "value": "PPGI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -4523,8 +4444,7 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "E39",
@@ -4541,9 +4461,10 @@
           "row": 39,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-800)",
+          "value": "FLASHING (G-700)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G39",
@@ -4561,7 +4482,7 @@
           "row": 39,
           "column": "H",
           "column_index": 8,
-          "value": "850",
+          "value": "150",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -4581,7 +4502,7 @@
           "row": 39,
           "column": "J",
           "column_index": 10,
-          "value": "172.5",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4592,7 +4513,7 @@
           "row": 39,
           "column": "K",
           "column_index": 11,
-          "value": "7850",
+          "value": "2720",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4607,8 +4528,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G39*H39/1000*I39/1000*K39/1000",
-          "calculated_value": "3.33625",
-          "background_color": "0"
+          "calculated_value": "0.204"
         },
         {
           "address": "M39",
@@ -4619,17 +4539,18 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L39*J39/1000",
-          "calculated_value": "0.5755031250000001",
-          "background_color": "0"
+          "calculated_value": "0.09944999999999998"
         },
         {
           "address": "N39",
           "row": 39,
           "column": "N",
           "column_index": 14,
-          "value": "370",
-          "data_type": "n",
+          "value": "=N$1",
+          "data_type": "f",
           "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -4642,15 +4563,14 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N39/1000*L39+0.1",
-          "calculated_value": "1.3344125000000002",
-          "background_color": "0"
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P39",
           "row": 39,
           "column": "P",
           "column_index": 16,
-          "value": "1.75",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -4665,8 +4585,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P39-O39",
-          "calculated_value": "0.4155874999999998",
-          "background_color": "0"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R39",
@@ -4677,7 +4596,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q39*J39",
-          "calculated_value": "71.68884374999996"
+          "calculated_value": "153.27"
         },
         {
           "address": "S39",
@@ -4688,7 +4607,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P39*J39",
-          "calculated_value": "301.875"
+          "calculated_value": "341.25"
         },
         {
           "address": "T39",
@@ -4699,8 +4618,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R39/S39%",
-          "calculated_value": "23.747857142857132",
-          "background_color": "0"
+          "calculated_value": "44.91428571428572"
         },
         {
           "address": "U39",
@@ -4711,8 +4629,7 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R39/M39",
-          "calculated_value": "124.56725365305348",
-          "background_color": "0"
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A40",
@@ -4721,7 +4638,8 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "B40",
@@ -4737,7 +4655,7 @@
           "row": 40,
           "column": "C",
           "column_index": 3,
-          "value": "GI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -4748,23 +4666,25 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "E40",
           "row": 40,
           "column": "E",
           "column_index": 5,
-          "value": "MILL",
-          "data_type": "s",
-          "number_format": "General"
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F40",
           "row": 40,
           "column": "F",
           "column_index": 6,
-          "value": "FLASHING (G-200)",
+          "value": "FLASHING (G-800)",
           "data_type": "s",
           "number_format": "General"
         },
@@ -4773,7 +4693,7 @@
           "row": 40,
           "column": "G",
           "column_index": 7,
-          "value": "1.5",
+          "value": "0.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4784,7 +4704,7 @@
           "row": 40,
           "column": "H",
           "column_index": 8,
-          "value": "206",
+          "value": "850",
           "data_type": "n",
           "number_format": "General",
           "background_color": "6"
@@ -4804,7 +4724,7 @@
           "row": 40,
           "column": "J",
           "column_index": 10,
-          "value": "1441.12",
+          "value": "112.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4815,7 +4735,7 @@
           "row": 40,
           "column": "K",
           "column_index": 11,
-          "value": "7850",
+          "value": "2720",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -4830,7 +4750,8 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==G40*H40/1000*I40/1000*K40/1000",
-          "calculated_value": "2.42565"
+          "calculated_value": "1.156",
+          "background_color": "0"
         },
         {
           "address": "M40",
@@ -4841,16 +4762,19 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==L40*J40/1000",
-          "calculated_value": "3.495652728"
+          "calculated_value": "0.13004999999999997",
+          "background_color": "0"
         },
         {
           "address": "N40",
           "row": 40,
           "column": "N",
           "column_index": 14,
-          "value": "350",
-          "data_type": "n",
+          "value": "=N$1",
+          "data_type": "f",
           "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -4863,7 +4787,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==N40/1000*L40+0.1",
-          "calculated_value": "0.9489774999999999",
+          "calculated_value": "1.7184",
           "background_color": "0"
         },
         {
@@ -4871,7 +4795,7 @@
           "row": 40,
           "column": "P",
           "column_index": 16,
-          "value": "1.3",
+          "value": "2.4",
           "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "bold": true,
@@ -4886,7 +4810,8 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P40-O40",
-          "calculated_value": "0.3510225000000001"
+          "calculated_value": "0.6816",
+          "background_color": "0"
         },
         {
           "address": "R40",
@@ -4897,7 +4822,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q40*J40",
-          "calculated_value": "505.86554520000016"
+          "calculated_value": "76.67999999999999"
         },
         {
           "address": "S40",
@@ -4908,7 +4833,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P40*J40",
-          "calculated_value": "1873.456"
+          "calculated_value": "270"
         },
         {
           "address": "T40",
@@ -4919,7 +4844,8 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R40/S40%",
-          "calculated_value": "27.00173076923078"
+          "calculated_value": "28.399999999999995",
+          "background_color": "0"
         },
         {
           "address": "U40",
@@ -4930,7 +4856,8 @@
           "data_type": "f",
           "number_format": "0.00",
           "formula": "==R40/M40",
-          "calculated_value": "144.71275740523163"
+          "calculated_value": "589.6193771626298",
+          "background_color": "0"
         },
         {
           "address": "A41",
@@ -4955,7 +4882,7 @@
           "row": 41,
           "column": "C",
           "column_index": 3,
-          "value": "GI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -4973,28 +4900,50 @@
           "row": 41,
           "column": "E",
           "column_index": 5,
-          "value": "MILL",
-          "data_type": "s",
-          "number_format": "General"
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F41",
           "row": 41,
           "column": "F",
           "column_index": 6,
-          "value": "PARAPET GUTTER SUPPORT",
+          "value": "FLASHING (G-900)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G41",
           "row": 41,
           "column": "G",
           "column_index": 7,
-          "value": "1.5",
+          "value": "0.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H41",
+          "row": 41,
+          "column": "H",
+          "column_index": 8,
+          "value": "150",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I41",
+          "row": 41,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
           "background_color": "6"
         },
         {
@@ -5002,9 +4951,55 @@
           "row": 41,
           "column": "J",
           "column_index": 10,
-          "value": "440",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K41",
+          "row": 41,
+          "column": "K",
+          "column_index": 11,
+          "value": "2720",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L41",
+          "row": 41,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G41*H41/1000*I41/1000*K41/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G41*H41/1000*I41/1000*K41/1000",
+          "calculated_value": "0.204"
+        },
+        {
+          "address": "M41",
+          "row": 41,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L41*J41/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L41*J41/1000",
+          "calculated_value": "0.09944999999999998"
+        },
+        {
+          "address": "N41",
+          "row": 41,
+          "column": "N",
+          "column_index": 14,
+          "value": "=N$1",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -5013,20 +5008,20 @@
           "row": 41,
           "column": "O",
           "column_index": 15,
-          "value": "0.7",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N41/1000*L41+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N41/1000*L41+0.1",
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P41",
           "row": 41,
           "column": "P",
           "column_index": 16,
-          "value": "=O41*1.2",
-          "data_type": "f",
+          "value": "0.7",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O41*1.2",
-          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -5039,7 +5034,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P41-O41",
-          "calculated_value": "0.14"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R41",
@@ -5050,7 +5045,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q41*J41",
-          "calculated_value": "61.60000000000001"
+          "calculated_value": "153.27"
         },
         {
           "address": "S41",
@@ -5061,7 +5056,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P41*J41",
-          "calculated_value": "369.59999999999997"
+          "calculated_value": "341.25"
         },
         {
           "address": "T41",
@@ -5072,7 +5067,18 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R41/S41%",
-          "calculated_value": "16.66666666666667"
+          "calculated_value": "44.91428571428572"
+        },
+        {
+          "address": "U41",
+          "row": 41,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R41/M41",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R41/M41",
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A42",
@@ -5097,7 +5103,7 @@
           "row": 42,
           "column": "C",
           "column_index": 3,
-          "value": "GI",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -5115,28 +5121,50 @@
           "row": 42,
           "column": "E",
           "column_index": 5,
-          "value": "MILL",
-          "data_type": "s",
-          "number_format": "General"
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F42",
           "row": 42,
           "column": "F",
           "column_index": 6,
-          "value": "PARAPET GUTTER SLEEVE",
+          "value": "FLASHING (G-1000)",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
         },
         {
           "address": "G42",
           "row": 42,
           "column": "G",
           "column_index": 7,
-          "value": "1.5",
+          "value": "0.5",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H42",
+          "row": 42,
+          "column": "H",
+          "column_index": 8,
+          "value": "150",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I42",
+          "row": 42,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
           "background_color": "6"
         },
         {
@@ -5144,9 +5172,55 @@
           "row": 42,
           "column": "J",
           "column_index": 10,
-          "value": "145",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K42",
+          "row": 42,
+          "column": "K",
+          "column_index": 11,
+          "value": "2720",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L42",
+          "row": 42,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G42*H42/1000*I42/1000*K42/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G42*H42/1000*I42/1000*K42/1000",
+          "calculated_value": "0.204"
+        },
+        {
+          "address": "M42",
+          "row": 42,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L42*J42/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L42*J42/1000",
+          "calculated_value": "0.09944999999999998"
+        },
+        {
+          "address": "N42",
+          "row": 42,
+          "column": "N",
+          "column_index": 14,
+          "value": "=N$1",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -5155,20 +5229,20 @@
           "row": 42,
           "column": "O",
           "column_index": 15,
-          "value": "0.7",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N42/1000*L42+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N42/1000*L42+0.1",
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P42",
           "row": 42,
           "column": "P",
           "column_index": 16,
-          "value": "=O42*1.2",
-          "data_type": "f",
+          "value": "0.7",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O42*1.2",
-          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -5181,7 +5255,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P42-O42",
-          "calculated_value": "0.14"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R42",
@@ -5192,7 +5266,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q42*J42",
-          "calculated_value": "20.3"
+          "calculated_value": "153.27"
         },
         {
           "address": "S42",
@@ -5203,7 +5277,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P42*J42",
-          "calculated_value": "121.8"
+          "calculated_value": "341.25"
         },
         {
           "address": "T42",
@@ -5214,7 +5288,18 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R42/S42%",
-          "calculated_value": "16.666666666666668"
+          "calculated_value": "44.91428571428572"
+        },
+        {
+          "address": "U42",
+          "row": 42,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R42/M42",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R42/M42",
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A43",
@@ -5250,8 +5335,7 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "E43",
@@ -5268,18 +5352,96 @@
           "row": 43,
           "column": "F",
           "column_index": 6,
-          "value": " GUTTER END CAPS",
+          "value": "FLASHING (G-1220",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "G43",
+          "row": 43,
+          "column": "G",
+          "column_index": 7,
+          "value": "0.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H43",
+          "row": 43,
+          "column": "H",
+          "column_index": 8,
+          "value": "150",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I43",
+          "row": 43,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J43",
           "row": 43,
           "column": "J",
           "column_index": 10,
-          "value": "12",
+          "value": "487.5",
           "data_type": "n",
           "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K43",
+          "row": 43,
+          "column": "K",
+          "column_index": 11,
+          "value": "2720",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L43",
+          "row": 43,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G43*H43/1000*I43/1000*K43/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G43*H43/1000*I43/1000*K43/1000",
+          "calculated_value": "0.204"
+        },
+        {
+          "address": "M43",
+          "row": 43,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L43*J43/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L43*J43/1000",
+          "calculated_value": "0.09944999999999998"
+        },
+        {
+          "address": "N43",
+          "row": 43,
+          "column": "N",
+          "column_index": 14,
+          "value": "=N$1",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -5288,20 +5450,20 @@
           "row": 43,
           "column": "O",
           "column_index": 15,
-          "value": "0.7",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N43/1000*L43+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N43/1000*L43+0.1",
+          "calculated_value": "0.38559999999999994"
         },
         {
           "address": "P43",
           "row": 43,
           "column": "P",
           "column_index": 16,
-          "value": "=O43*1.2",
-          "data_type": "f",
+          "value": "0.7",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O43*1.2",
-          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -5314,7 +5476,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P43-O43",
-          "calculated_value": "0.14"
+          "calculated_value": "0.3144"
         },
         {
           "address": "R43",
@@ -5325,7 +5487,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q43*J43",
-          "calculated_value": "1.6800000000000002"
+          "calculated_value": "153.27"
         },
         {
           "address": "S43",
@@ -5336,7 +5498,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P43*J43",
-          "calculated_value": "10.08"
+          "calculated_value": "341.25"
         },
         {
           "address": "T43",
@@ -5347,7 +5509,18 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R43/S43%",
-          "calculated_value": "16.666666666666668"
+          "calculated_value": "44.91428571428572"
+        },
+        {
+          "address": "U43",
+          "row": 43,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R43/M43",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R43/M43",
+          "calculated_value": "1541.1764705882356"
         },
         {
           "address": "A44",
@@ -5356,7 +5529,8 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "B44",
@@ -5401,18 +5575,97 @@
           "row": 44,
           "column": "F",
           "column_index": 6,
-          "value": "GRP PIPE 100DIA",
+          "value": "PARAPET GUTTER",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "G44",
+          "row": 44,
+          "column": "G",
+          "column_index": 7,
+          "value": "0.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H44",
+          "row": 44,
+          "column": "H",
+          "column_index": 8,
+          "value": "1220",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I44",
+          "row": 44,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J44",
           "row": 44,
           "column": "J",
           "column_index": 10,
-          "value": "70",
+          "value": "362.5",
           "data_type": "n",
           "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K44",
+          "row": 44,
+          "column": "K",
+          "column_index": 11,
+          "value": "2720",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L44",
+          "row": 44,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G44*H44/1000*I44/1000*K44/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G44*H44/1000*I44/1000*K44/1000",
+          "calculated_value": "1.6592",
+          "background_color": "0"
+        },
+        {
+          "address": "M44",
+          "row": 44,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L44*J44/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L44*J44/1000",
+          "calculated_value": "0.60146",
+          "background_color": "0"
+        },
+        {
+          "address": "N44",
+          "row": 44,
+          "column": "N",
+          "column_index": 14,
+          "value": "=N$1",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -5421,20 +5674,21 @@
           "row": 44,
           "column": "O",
           "column_index": 15,
-          "value": "3",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N44/1000*L44+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N44/1000*L44+0.1",
+          "calculated_value": "2.42288",
+          "background_color": "0"
         },
         {
           "address": "P44",
           "row": 44,
           "column": "P",
           "column_index": 16,
-          "value": "=O44*1.2",
-          "data_type": "f",
+          "value": "3.2",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O44*1.2",
-          "calculated_value": "3.5999999999999996",
           "bold": true,
           "background_color": "6"
         },
@@ -5447,7 +5701,8 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P44-O44",
-          "calculated_value": "0.5999999999999996"
+          "calculated_value": "0.77712",
+          "background_color": "0"
         },
         {
           "address": "R44",
@@ -5458,7 +5713,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q44*J44",
-          "calculated_value": "41.99999999999997"
+          "calculated_value": "281.706"
         },
         {
           "address": "S44",
@@ -5469,7 +5724,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P44*J44",
-          "calculated_value": "251.99999999999997"
+          "calculated_value": "1160"
         },
         {
           "address": "T44",
@@ -5480,7 +5735,20 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R44/S44%",
-          "calculated_value": "16.666666666666657"
+          "calculated_value": "24.285000000000004",
+          "background_color": "0"
+        },
+        {
+          "address": "U44",
+          "row": 44,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R44/M44",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R44/M44",
+          "calculated_value": "468.37029893924785",
+          "background_color": "0"
         },
         {
           "address": "A45",
@@ -5489,7 +5757,8 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "B45",
@@ -5534,18 +5803,97 @@
           "row": 45,
           "column": "F",
           "column_index": 6,
-          "value": "OUTLET",
+          "value": "PLAIN SHEET",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "G45",
+          "row": 45,
+          "column": "G",
+          "column_index": 7,
+          "value": "0.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H45",
+          "row": 45,
+          "column": "H",
+          "column_index": 8,
+          "value": "1220",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I45",
+          "row": 45,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J45",
           "row": 45,
           "column": "J",
           "column_index": 10,
-          "value": "0",
+          "value": "12.5",
           "data_type": "n",
           "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K45",
+          "row": 45,
+          "column": "K",
+          "column_index": 11,
+          "value": "2720",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L45",
+          "row": 45,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G45*H45/1000*I45/1000*K45/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G45*H45/1000*I45/1000*K45/1000",
+          "calculated_value": "1.6592",
+          "background_color": "0"
+        },
+        {
+          "address": "M45",
+          "row": 45,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L45*J45/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L45*J45/1000",
+          "calculated_value": "0.020739999999999998",
+          "background_color": "0"
+        },
+        {
+          "address": "N45",
+          "row": 45,
+          "column": "N",
+          "column_index": 14,
+          "value": "=N$1",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "==N$1",
+          "calculated_value": "1400",
           "bold": true,
           "background_color": "6"
         },
@@ -5554,20 +5902,21 @@
           "row": 45,
           "column": "O",
           "column_index": 15,
-          "value": "3",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N45/1000*L45+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N45/1000*L45+0.1",
+          "calculated_value": "2.42288",
+          "background_color": "0"
         },
         {
           "address": "P45",
           "row": 45,
           "column": "P",
           "column_index": 16,
-          "value": "=O45*1.2",
-          "data_type": "f",
+          "value": "3.2",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O45*1.2",
-          "calculated_value": "3.5999999999999996",
           "bold": true,
           "background_color": "6"
         },
@@ -5580,7 +5929,8 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P45-O45",
-          "calculated_value": "0.5999999999999996"
+          "calculated_value": "0.77712",
+          "background_color": "0"
         },
         {
           "address": "R45",
@@ -5591,7 +5941,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q45*J45",
-          "calculated_value": "0"
+          "calculated_value": "9.714"
         },
         {
           "address": "S45",
@@ -5602,7 +5952,31 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P45*J45",
-          "calculated_value": "0"
+          "calculated_value": "40"
+        },
+        {
+          "address": "T45",
+          "row": 45,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R45/S45%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R45/S45%",
+          "calculated_value": "24.285",
+          "background_color": "0"
+        },
+        {
+          "address": "U45",
+          "row": 45,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R45/M45",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R45/M45",
+          "calculated_value": "468.3702989392479",
+          "background_color": "0"
         },
         {
           "address": "A46",
@@ -5627,7 +6001,7 @@
           "row": 46,
           "column": "C",
           "column_index": 3,
-          "value": "PPAL",
+          "value": "PPGI",
           "data_type": "s",
           "number_format": "General"
         },
@@ -5638,8 +6012,7 @@
           "column_index": 4,
           "value": "SS",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "E46",
@@ -5656,16 +6029,91 @@
           "row": 46,
           "column": "F",
           "column_index": 6,
-          "value": "BEND",
+          "value": "FLASHING (G-200)",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "G46",
+          "row": 46,
+          "column": "G",
+          "column_index": 7,
+          "value": "0.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H46",
+          "row": 46,
+          "column": "H",
+          "column_index": 8,
+          "value": "250",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I46",
+          "row": 46,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J46",
           "row": 46,
           "column": "J",
           "column_index": 10,
-          "value": "0",
+          "value": "837.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K46",
+          "row": 46,
+          "column": "K",
+          "column_index": 11,
+          "value": "7850",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L46",
+          "row": 46,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G46*H46/1000*I46/1000*K46/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G46*H46/1000*I46/1000*K46/1000",
+          "calculated_value": "0.98125"
+        },
+        {
+          "address": "M46",
+          "row": 46,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L46*J46/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L46*J46/1000",
+          "calculated_value": "0.821796875"
+        },
+        {
+          "address": "N46",
+          "row": 46,
+          "column": "N",
+          "column_index": 14,
+          "value": "370",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -5676,20 +6124,20 @@
           "row": 46,
           "column": "O",
           "column_index": 15,
-          "value": "3",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N46/1000*L46+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N46/1000*L46+0.1",
+          "calculated_value": "0.46306249999999993"
         },
         {
           "address": "P46",
           "row": 46,
           "column": "P",
           "column_index": 16,
-          "value": "=O46*1.2",
-          "data_type": "f",
+          "value": "0.75",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O46*1.2",
-          "calculated_value": "3.5999999999999996",
           "bold": true,
           "background_color": "6"
         },
@@ -5702,7 +6150,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P46-O46",
-          "calculated_value": "0.5999999999999996"
+          "calculated_value": "0.28693750000000007"
         },
         {
           "address": "R46",
@@ -5713,7 +6161,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q46*J46",
-          "calculated_value": "0"
+          "calculated_value": "240.31015625000006"
         },
         {
           "address": "S46",
@@ -5724,7 +6172,29 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P46*J46",
-          "calculated_value": "0"
+          "calculated_value": "628.125"
+        },
+        {
+          "address": "T46",
+          "row": 46,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R46/S46%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R46/S46%",
+          "calculated_value": "38.25833333333334"
+        },
+        {
+          "address": "U46",
+          "row": 46,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R46/M46",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R46/M46",
+          "calculated_value": "292.4203821656052"
         },
         {
           "address": "A47",
@@ -5749,7 +6219,7 @@
           "row": 47,
           "column": "C",
           "column_index": 3,
-          "value": "PPAL",
+          "value": "PPGI",
           "data_type": "s",
           "number_format": "General"
         },
@@ -5769,23 +6239,99 @@
           "column_index": 5,
           "value": "9002",
           "data_type": "n",
-          "number_format": "General"
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F47",
           "row": 47,
           "column": "F",
           "column_index": 6,
-          "value": "DOWN PIPE STRAP",
+          "value": "FLASHING (G-300)",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "G47",
+          "row": 47,
+          "column": "G",
+          "column_index": 7,
+          "value": "0.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H47",
+          "row": 47,
+          "column": "H",
+          "column_index": 8,
+          "value": "350",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I47",
+          "row": 47,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J47",
           "row": 47,
           "column": "J",
           "column_index": 10,
-          "value": "0",
+          "value": "345",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K47",
+          "row": 47,
+          "column": "K",
+          "column_index": 11,
+          "value": "7850",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L47",
+          "row": 47,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G47*H47/1000*I47/1000*K47/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G47*H47/1000*I47/1000*K47/1000",
+          "calculated_value": "1.37375"
+        },
+        {
+          "address": "M47",
+          "row": 47,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L47*J47/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L47*J47/1000",
+          "calculated_value": "0.47394375"
+        },
+        {
+          "address": "N47",
+          "row": 47,
+          "column": "N",
+          "column_index": 14,
+          "value": "370",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -5796,20 +6342,20 @@
           "row": 47,
           "column": "O",
           "column_index": 15,
-          "value": "0.7",
-          "data_type": "n",
-          "number_format": "0.000"
+          "value": "=N47/1000*L47+0.1",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==N47/1000*L47+0.1",
+          "calculated_value": "0.6082875"
         },
         {
           "address": "P47",
           "row": 47,
           "column": "P",
           "column_index": 16,
-          "value": "=O47*1.2",
-          "data_type": "f",
+          "value": "0.95",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O47*1.2",
-          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -5822,7 +6368,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P47-O47",
-          "calculated_value": "0.14"
+          "calculated_value": "0.3417125"
         },
         {
           "address": "R47",
@@ -5833,7 +6379,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q47*J47",
-          "calculated_value": "0"
+          "calculated_value": "117.8908125"
         },
         {
           "address": "S47",
@@ -5844,7 +6390,29 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P47*J47",
-          "calculated_value": "0"
+          "calculated_value": "327.75"
+        },
+        {
+          "address": "T47",
+          "row": 47,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R47/S47%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R47/S47%",
+          "calculated_value": "35.96973684210526"
+        },
+        {
+          "address": "U47",
+          "row": 47,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R47/M47",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R47/M47",
+          "calculated_value": "248.74431301182892"
         },
         {
           "address": "A48",
@@ -5869,16 +6437,35 @@
           "row": 48,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "PPGI",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "D48",
+          "row": 48,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "E48",
+          "row": 48,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F48",
           "row": 48,
           "column": "F",
           "column_index": 6,
-          "value": "SELF DRILLING SCREW-SS",
+          "value": "FLASHING (G-600)",
           "data_type": "s",
           "number_format": "General"
         },
@@ -5887,17 +6474,82 @@
           "row": 48,
           "column": "G",
           "column_index": 7,
-          "value": "6.3*150mm (SS410)",
-          "data_type": "s",
+          "value": "0.5",
+          "data_type": "n",
           "number_format": "General",
-          "bold": true
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H48",
+          "row": 48,
+          "column": "H",
+          "column_index": 8,
+          "value": "650",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I48",
+          "row": 48,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J48",
           "row": 48,
           "column": "J",
           "column_index": 10,
-          "value": "50300",
+          "value": "112.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K48",
+          "row": 48,
+          "column": "K",
+          "column_index": 11,
+          "value": "7850",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L48",
+          "row": 48,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G48*H48/1000*I48/1000*K48/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G48*H48/1000*I48/1000*K48/1000",
+          "calculated_value": "2.55125"
+        },
+        {
+          "address": "M48",
+          "row": 48,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L48*J48/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L48*J48/1000",
+          "calculated_value": "0.287015625"
+        },
+        {
+          "address": "N48",
+          "row": 48,
+          "column": "N",
+          "column_index": 14,
+          "value": "370",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -5908,21 +6560,20 @@
           "row": 48,
           "column": "O",
           "column_index": 15,
-          "value": "0.165",
-          "data_type": "n",
+          "value": "=N48/1000*L48+0.1",
+          "data_type": "f",
           "number_format": "0.000",
-          "background_color": "9"
+          "formula": "==N48/1000*L48+0.1",
+          "calculated_value": "1.0439625000000001"
         },
         {
           "address": "P48",
           "row": 48,
           "column": "P",
           "column_index": 16,
-          "value": "=O48*1.2",
-          "data_type": "f",
+          "value": "1.45",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O48*1.2",
-          "calculated_value": "0.198",
           "bold": true,
           "background_color": "6"
         },
@@ -5935,7 +6586,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P48-O48",
-          "calculated_value": "0.033"
+          "calculated_value": "0.40603749999999983"
         },
         {
           "address": "R48",
@@ -5946,7 +6597,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q48*J48",
-          "calculated_value": "1659.9"
+          "calculated_value": "45.67921874999998"
         },
         {
           "address": "S48",
@@ -5957,7 +6608,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P48*J48",
-          "calculated_value": "9959.4"
+          "calculated_value": "163.125"
         },
         {
           "address": "T48",
@@ -5968,7 +6619,18 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R48/S48%",
-          "calculated_value": "16.666666666666668"
+          "calculated_value": "28.002586206896538"
+        },
+        {
+          "address": "U48",
+          "row": 48,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R48/M48",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R48/M48",
+          "calculated_value": "159.1523762861342"
         },
         {
           "address": "A49",
@@ -5977,7 +6639,8 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General"
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "B49",
@@ -5993,16 +6656,36 @@
           "row": 49,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "PPGI",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "D49",
+          "row": 49,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "E49",
+          "row": 49,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F49",
           "row": 49,
           "column": "F",
           "column_index": 6,
-          "value": "SELF DRILLING SCREW-GI",
+          "value": "FLASHING (G-800)",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6011,17 +6694,84 @@
           "row": 49,
           "column": "G",
           "column_index": 7,
-          "value": "6.3*25mm",
-          "data_type": "s",
+          "value": "0.5",
+          "data_type": "n",
           "number_format": "General",
-          "bold": true
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "H49",
+          "row": 49,
+          "column": "H",
+          "column_index": 8,
+          "value": "850",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I49",
+          "row": 49,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J49",
           "row": 49,
           "column": "J",
           "column_index": 10,
-          "value": "5500",
+          "value": "172.5",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K49",
+          "row": 49,
+          "column": "K",
+          "column_index": 11,
+          "value": "7850",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L49",
+          "row": 49,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G49*H49/1000*I49/1000*K49/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G49*H49/1000*I49/1000*K49/1000",
+          "calculated_value": "3.33625",
+          "background_color": "0"
+        },
+        {
+          "address": "M49",
+          "row": 49,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L49*J49/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L49*J49/1000",
+          "calculated_value": "0.5755031250000001",
+          "background_color": "0"
+        },
+        {
+          "address": "N49",
+          "row": 49,
+          "column": "N",
+          "column_index": 14,
+          "value": "370",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6032,21 +6782,21 @@
           "row": 49,
           "column": "O",
           "column_index": 15,
-          "value": "0.018",
-          "data_type": "n",
+          "value": "=N49/1000*L49+0.1",
+          "data_type": "f",
           "number_format": "0.000",
-          "background_color": "9"
+          "formula": "==N49/1000*L49+0.1",
+          "calculated_value": "1.3344125000000002",
+          "background_color": "0"
         },
         {
           "address": "P49",
           "row": 49,
           "column": "P",
           "column_index": 16,
-          "value": "=O49*1.2",
-          "data_type": "f",
+          "value": "1.75",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O49*1.2",
-          "calculated_value": "0.021599999999999998",
           "bold": true,
           "background_color": "6"
         },
@@ -6059,7 +6809,8 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P49-O49",
-          "calculated_value": "0.003599999999999999"
+          "calculated_value": "0.4155874999999998",
+          "background_color": "0"
         },
         {
           "address": "R49",
@@ -6070,7 +6821,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q49*J49",
-          "calculated_value": "19.799999999999994"
+          "calculated_value": "71.68884374999996"
         },
         {
           "address": "S49",
@@ -6081,7 +6832,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P49*J49",
-          "calculated_value": "118.79999999999998"
+          "calculated_value": "301.875"
         },
         {
           "address": "T49",
@@ -6092,7 +6843,20 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R49/S49%",
-          "calculated_value": "16.666666666666664"
+          "calculated_value": "23.747857142857132",
+          "background_color": "0"
+        },
+        {
+          "address": "U49",
+          "row": 49,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R49/M49",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R49/M49",
+          "calculated_value": "124.56725365305348",
+          "background_color": "0"
         },
         {
           "address": "A50",
@@ -6117,7 +6881,16 @@
           "row": 50,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "GI",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "D50",
+          "row": 50,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6126,8 +6899,8 @@
           "row": 50,
           "column": "E",
           "column_index": 5,
-          "value": "9002",
-          "data_type": "n",
+          "value": "MILL",
+          "data_type": "s",
           "number_format": "General"
         },
         {
@@ -6135,7 +6908,7 @@
           "row": 50,
           "column": "F",
           "column_index": 6,
-          "value": "SCREW CAPS",
+          "value": "FLASHING (G-200)",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6144,18 +6917,82 @@
           "row": 50,
           "column": "G",
           "column_index": 7,
-          "value": "RAL-9002",
-          "data_type": "s",
+          "value": "1.5",
+          "data_type": "n",
           "number_format": "General",
           "bold": true,
-          "background_color": "0"
+          "background_color": "6"
+        },
+        {
+          "address": "H50",
+          "row": 50,
+          "column": "H",
+          "column_index": 8,
+          "value": "206",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
+        },
+        {
+          "address": "I50",
+          "row": 50,
+          "column": "I",
+          "column_index": 9,
+          "value": "1000",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "6"
         },
         {
           "address": "J50",
           "row": 50,
           "column": "J",
           "column_index": 10,
-          "value": "50300",
+          "value": "1441.12",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "K50",
+          "row": 50,
+          "column": "K",
+          "column_index": 11,
+          "value": "7850",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "L50",
+          "row": 50,
+          "column": "L",
+          "column_index": 12,
+          "value": "=G50*H50/1000*I50/1000*K50/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==G50*H50/1000*I50/1000*K50/1000",
+          "calculated_value": "2.42565"
+        },
+        {
+          "address": "M50",
+          "row": 50,
+          "column": "M",
+          "column_index": 13,
+          "value": "=L50*J50/1000",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==L50*J50/1000",
+          "calculated_value": "3.495652728"
+        },
+        {
+          "address": "N50",
+          "row": 50,
+          "column": "N",
+          "column_index": 14,
+          "value": "350",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6166,21 +7003,21 @@
           "row": 50,
           "column": "O",
           "column_index": 15,
-          "value": "0.007",
-          "data_type": "n",
+          "value": "=N50/1000*L50+0.1",
+          "data_type": "f",
           "number_format": "0.000",
-          "background_color": "9"
+          "formula": "==N50/1000*L50+0.1",
+          "calculated_value": "0.9489774999999999",
+          "background_color": "0"
         },
         {
           "address": "P50",
           "row": 50,
           "column": "P",
           "column_index": 16,
-          "value": "=O50*1.2",
-          "data_type": "f",
+          "value": "1.3",
+          "data_type": "n",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O50*1.2",
-          "calculated_value": "0.0084",
           "bold": true,
           "background_color": "6"
         },
@@ -6193,7 +7030,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P50-O50",
-          "calculated_value": "0.0013999999999999993"
+          "calculated_value": "0.3510225000000001"
         },
         {
           "address": "R50",
@@ -6204,7 +7041,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q50*J50",
-          "calculated_value": "70.41999999999997"
+          "calculated_value": "505.86554520000016"
         },
         {
           "address": "S50",
@@ -6215,7 +7052,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P50*J50",
-          "calculated_value": "422.52"
+          "calculated_value": "1873.456"
         },
         {
           "address": "T50",
@@ -6226,7 +7063,18 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R50/S50%",
-          "calculated_value": "16.66666666666666"
+          "calculated_value": "27.00173076923078"
+        },
+        {
+          "address": "U50",
+          "row": 50,
+          "column": "U",
+          "column_index": 21,
+          "value": "=R50/M50",
+          "data_type": "f",
+          "number_format": "0.00",
+          "formula": "==R50/M50",
+          "calculated_value": "144.71275740523163"
         },
         {
           "address": "A51",
@@ -6251,7 +7099,25 @@
           "row": 51,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "GI",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "D51",
+          "row": 51,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "E51",
+          "row": 51,
+          "column": "E",
+          "column_index": 5,
+          "value": "MILL",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6260,7 +7126,7 @@
           "row": 51,
           "column": "F",
           "column_index": 6,
-          "value": "SITCH SCREW",
+          "value": "PARAPET GUTTER SUPPORT",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6269,17 +7135,18 @@
           "row": 51,
           "column": "G",
           "column_index": 7,
-          "value": "4.8*20mm",
-          "data_type": "s",
+          "value": "1.5",
+          "data_type": "n",
           "number_format": "General",
-          "bold": true
+          "bold": true,
+          "background_color": "6"
         },
         {
           "address": "J51",
           "row": 51,
           "column": "J",
           "column_index": 10,
-          "value": "41900",
+          "value": "440",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6290,7 +7157,7 @@
           "row": 51,
           "column": "O",
           "column_index": 15,
-          "value": "0.038",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "0.000"
         },
@@ -6303,7 +7170,7 @@
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "formula": "==O51*1.2",
-          "calculated_value": "0.045599999999999995",
+          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -6316,7 +7183,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P51-O51",
-          "calculated_value": "0.007599999999999996"
+          "calculated_value": "0.14"
         },
         {
           "address": "R51",
@@ -6327,7 +7194,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q51*J51",
-          "calculated_value": "318.4399999999998"
+          "calculated_value": "61.60000000000001"
         },
         {
           "address": "S51",
@@ -6338,7 +7205,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P51*J51",
-          "calculated_value": "1910.6399999999999"
+          "calculated_value": "369.59999999999997"
         },
         {
           "address": "T51",
@@ -6349,7 +7216,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R51/S51%",
-          "calculated_value": "16.66666666666666"
+          "calculated_value": "16.66666666666667"
         },
         {
           "address": "A52",
@@ -6358,8 +7225,7 @@
           "column_index": 1,
           "value": "MAHFAR TRADING",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
         },
         {
           "address": "B52",
@@ -6375,17 +7241,34 @@
           "row": 52,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "GI",
           "data_type": "s",
-          "number_format": "General",
-          "background_color": "0"
+          "number_format": "General"
+        },
+        {
+          "address": "D52",
+          "row": 52,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "E52",
+          "row": 52,
+          "column": "E",
+          "column_index": 5,
+          "value": "MILL",
+          "data_type": "s",
+          "number_format": "General"
         },
         {
           "address": "F52",
           "row": 52,
           "column": "F",
           "column_index": 6,
-          "value": "POP REVITS",
+          "value": "PARAPET GUTTER SLEEVE",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6394,18 +7277,18 @@
           "row": 52,
           "column": "G",
           "column_index": 7,
-          "value": "4.8*12mm",
-          "data_type": "s",
+          "value": "1.5",
+          "data_type": "n",
           "number_format": "General",
           "bold": true,
-          "background_color": "0"
+          "background_color": "6"
         },
         {
           "address": "J52",
           "row": 52,
           "column": "J",
           "column_index": 10,
-          "value": "52710",
+          "value": "145",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6416,10 +7299,9 @@
           "row": 52,
           "column": "O",
           "column_index": 15,
-          "value": "0.007",
+          "value": "0.7",
           "data_type": "n",
-          "number_format": "0.000",
-          "background_color": "0"
+          "number_format": "0.000"
         },
         {
           "address": "P52",
@@ -6430,7 +7312,7 @@
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "formula": "==O52*1.2",
-          "calculated_value": "0.0084",
+          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -6443,8 +7325,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P52-O52",
-          "calculated_value": "0.0013999999999999993",
-          "background_color": "0"
+          "calculated_value": "0.14"
         },
         {
           "address": "R52",
@@ -6455,7 +7336,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q52*J52",
-          "calculated_value": "73.79399999999997"
+          "calculated_value": "20.3"
         },
         {
           "address": "S52",
@@ -6466,7 +7347,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P52*J52",
-          "calculated_value": "442.76399999999995"
+          "calculated_value": "121.8"
         },
         {
           "address": "T52",
@@ -6477,8 +7358,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R52/S52%",
-          "calculated_value": "16.66666666666666",
-          "background_color": "0"
+          "calculated_value": "16.666666666666668"
         },
         {
           "address": "A53",
@@ -6503,35 +7383,45 @@
           "row": 53,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "D53",
+          "row": 53,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "E53",
+          "row": 53,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F53",
           "row": 53,
           "column": "F",
           "column_index": 6,
-          "value": "ROPE SEAL TAPE-( 1 ROLL )",
+          "value": " GUTTER END CAPS",
           "data_type": "s",
           "number_format": "General"
-        },
-        {
-          "address": "G53",
-          "row": 53,
-          "column": "G",
-          "column_index": 7,
-          "value": "9.5mm*2.4mm*19mtrs",
-          "data_type": "s",
-          "number_format": "General",
-          "bold": true
         },
         {
           "address": "J53",
           "row": 53,
           "column": "J",
           "column_index": 10,
-          "value": "1360",
+          "value": "12",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6542,10 +7432,9 @@
           "row": 53,
           "column": "O",
           "column_index": 15,
-          "value": "0.96",
+          "value": "0.7",
           "data_type": "n",
-          "number_format": "0.000",
-          "background_color": "9"
+          "number_format": "0.000"
         },
         {
           "address": "P53",
@@ -6556,7 +7445,7 @@
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "formula": "==O53*1.2",
-          "calculated_value": "1.152",
+          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -6569,7 +7458,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P53-O53",
-          "calculated_value": "0.19199999999999995"
+          "calculated_value": "0.14"
         },
         {
           "address": "R53",
@@ -6580,7 +7469,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q53*J53",
-          "calculated_value": "261.11999999999995"
+          "calculated_value": "1.6800000000000002"
         },
         {
           "address": "S53",
@@ -6591,7 +7480,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P53*J53",
-          "calculated_value": "1566.7199999999998"
+          "calculated_value": "10.08"
         },
         {
           "address": "T53",
@@ -6602,7 +7491,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R53/S53%",
-          "calculated_value": "16.666666666666664"
+          "calculated_value": "16.666666666666668"
         },
         {
           "address": "A54",
@@ -6627,16 +7516,36 @@
           "row": 54,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "D54",
+          "row": 54,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "E54",
+          "row": 54,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F54",
           "row": 54,
           "column": "F",
           "column_index": 6,
-          "value": "SAUDAN SILICON CLEAR",
+          "value": "GRP PIPE 100DIA",
           "data_type": "s",
           "number_format": "General"
         },
@@ -6645,7 +7554,7 @@
           "row": 54,
           "column": "J",
           "column_index": 10,
-          "value": "240",
+          "value": "70",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6656,10 +7565,9 @@
           "row": 54,
           "column": "O",
           "column_index": 15,
-          "value": "0.505",
+          "value": "3",
           "data_type": "n",
-          "number_format": "0.000",
-          "background_color": "9"
+          "number_format": "0.000"
         },
         {
           "address": "P54",
@@ -6670,7 +7578,7 @@
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "formula": "==O54*1.2",
-          "calculated_value": "0.606",
+          "calculated_value": "3.5999999999999996",
           "bold": true,
           "background_color": "6"
         },
@@ -6683,7 +7591,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P54-O54",
-          "calculated_value": "0.10099999999999998"
+          "calculated_value": "0.5999999999999996"
         },
         {
           "address": "R54",
@@ -6694,7 +7602,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q54*J54",
-          "calculated_value": "24.239999999999995"
+          "calculated_value": "41.99999999999997"
         },
         {
           "address": "S54",
@@ -6705,7 +7613,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P54*J54",
-          "calculated_value": "145.44"
+          "calculated_value": "251.99999999999997"
         },
         {
           "address": "T54",
@@ -6716,7 +7624,7 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R54/S54%",
-          "calculated_value": "16.666666666666664"
+          "calculated_value": "16.666666666666657"
         },
         {
           "address": "A55",
@@ -6741,35 +7649,45 @@
           "row": 55,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "D55",
+          "row": 55,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "E55",
+          "row": 55,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F55",
           "row": 55,
           "column": "F",
           "column_index": 6,
-          "value": "FORM CLOUSRES",
+          "value": "OUTLET",
           "data_type": "s",
           "number_format": "General"
-        },
-        {
-          "address": "G55",
-          "row": 55,
-          "column": "G",
-          "column_index": 7,
-          "value": "32/250 PROFILE",
-          "data_type": "s",
-          "number_format": "General",
-          "bold": true
         },
         {
           "address": "J55",
           "row": 55,
           "column": "J",
           "column_index": 10,
-          "value": "330",
+          "value": "0",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6780,10 +7698,9 @@
           "row": 55,
           "column": "O",
           "column_index": 15,
-          "value": "0.55",
+          "value": "3",
           "data_type": "n",
-          "number_format": "0.000",
-          "background_color": "9"
+          "number_format": "0.000"
         },
         {
           "address": "P55",
@@ -6794,7 +7711,7 @@
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "formula": "==O55*1.2",
-          "calculated_value": "0.66",
+          "calculated_value": "3.5999999999999996",
           "bold": true,
           "background_color": "6"
         },
@@ -6807,7 +7724,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P55-O55",
-          "calculated_value": "0.10999999999999999"
+          "calculated_value": "0.5999999999999996"
         },
         {
           "address": "R55",
@@ -6818,7 +7735,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q55*J55",
-          "calculated_value": "36.3"
+          "calculated_value": "0"
         },
         {
           "address": "S55",
@@ -6829,18 +7746,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P55*J55",
-          "calculated_value": "217.8"
-        },
-        {
-          "address": "T55",
-          "row": 55,
-          "column": "T",
-          "column_index": 20,
-          "value": "=R55/S55%",
-          "data_type": "f",
-          "number_format": "0.0",
-          "formula": "==R55/S55%",
-          "calculated_value": "16.666666666666664"
+          "calculated_value": "0"
         },
         {
           "address": "A56",
@@ -6865,35 +7771,45 @@
           "row": 56,
           "column": "C",
           "column_index": 3,
-          "value": "TRADING",
+          "value": "PPAL",
           "data_type": "s",
           "number_format": "General"
+        },
+        {
+          "address": "D56",
+          "row": 56,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "E56",
+          "row": 56,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General",
+          "background_color": "0"
         },
         {
           "address": "F56",
           "row": 56,
           "column": "F",
           "column_index": 6,
-          "value": "FIBERGLASS LOOSE INSULATION 50MM",
+          "value": "BEND",
           "data_type": "s",
           "number_format": "General"
-        },
-        {
-          "address": "G56",
-          "row": 56,
-          "column": "G",
-          "column_index": 7,
-          "value": "DENSITY 12KG/M3 (20MTR ROLL)",
-          "data_type": "s",
-          "number_format": "General",
-          "bold": true
         },
         {
           "address": "J56",
           "row": 56,
           "column": "J",
           "column_index": 10,
-          "value": "6",
+          "value": "0",
           "data_type": "n",
           "number_format": "General",
           "bold": true,
@@ -6904,7 +7820,7 @@
           "row": 56,
           "column": "O",
           "column_index": 15,
-          "value": "1.5",
+          "value": "3",
           "data_type": "n",
           "number_format": "0.000"
         },
@@ -6913,11 +7829,11 @@
           "row": 56,
           "column": "P",
           "column_index": 16,
-          "value": "=+O56*1.2",
+          "value": "=O56*1.2",
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==+O56*1.2",
-          "calculated_value": "1.7999999999999998",
+          "formula": "==O56*1.2",
+          "calculated_value": "3.5999999999999996",
           "bold": true,
           "background_color": "6"
         },
@@ -6930,7 +7846,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P56-O56",
-          "calculated_value": "0.2999999999999998"
+          "calculated_value": "0.5999999999999996"
         },
         {
           "address": "R56",
@@ -6941,7 +7857,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==Q56*J56",
-          "calculated_value": "1.799999999999999"
+          "calculated_value": "0"
         },
         {
           "address": "S56",
@@ -6952,18 +7868,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P56*J56",
-          "calculated_value": "10.799999999999999"
-        },
-        {
-          "address": "T56",
-          "row": 56,
-          "column": "T",
-          "column_index": 20,
-          "value": "=R56/S56%",
-          "data_type": "f",
-          "number_format": "0.0",
-          "formula": "==R56/S56%",
-          "calculated_value": "16.66666666666666"
+          "calculated_value": "0"
         },
         {
           "address": "A57",
@@ -6988,8 +7893,26 @@
           "row": 57,
           "column": "C",
           "column_index": 3,
-          "value": "SERVICE",
+          "value": "PPAL",
           "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "D57",
+          "row": 57,
+          "column": "D",
+          "column_index": 4,
+          "value": "SS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "E57",
+          "row": 57,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
           "number_format": "General"
         },
         {
@@ -6997,30 +7920,18 @@
           "row": 57,
           "column": "F",
           "column_index": 6,
-          "value": "TRANSPORT CHARGES",
+          "value": "DOWN PIPE STRAP",
           "data_type": "s",
           "number_format": "General"
-        },
-        {
-          "address": "G57",
-          "row": 57,
-          "column": "G",
-          "column_index": 7,
-          "value": "SAMAIL TO BAHRAIN",
-          "data_type": "s",
-          "number_format": "General",
-          "bold": true
         },
         {
           "address": "J57",
           "row": 57,
           "column": "J",
           "column_index": 10,
-          "value": "=+K10+K21",
-          "data_type": "f",
-          "number_format": "0",
-          "formula": "==+K10+K21",
-          "calculated_value": "4",
+          "value": "0",
+          "data_type": "n",
+          "number_format": "General",
           "bold": true,
           "background_color": "6"
         },
@@ -7029,7 +7940,7 @@
           "row": 57,
           "column": "O",
           "column_index": 15,
-          "value": "600",
+          "value": "0.7",
           "data_type": "n",
           "number_format": "0.000"
         },
@@ -7038,9 +7949,11 @@
           "row": 57,
           "column": "P",
           "column_index": 16,
-          "value": "600",
-          "data_type": "n",
+          "value": "=O57*1.2",
+          "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O57*1.2",
+          "calculated_value": "0.84",
           "bold": true,
           "background_color": "6"
         },
@@ -7053,7 +7966,7 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P57-O57",
-          "calculated_value": "0"
+          "calculated_value": "0.14"
         },
         {
           "address": "R57",
@@ -7075,73 +7988,244 @@
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==P57*J57",
-          "calculated_value": "2400"
+          "calculated_value": "0"
         },
         {
-          "address": "T57",
-          "row": 57,
-          "column": "T",
-          "column_index": 20,
-          "value": "=R57/S57%",
+          "address": "A58",
+          "row": 58,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B58",
+          "row": 58,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C58",
+          "row": 58,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F58",
+          "row": 58,
+          "column": "F",
+          "column_index": 6,
+          "value": "SELF DRILLING SCREW-SS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G58",
+          "row": 58,
+          "column": "G",
+          "column_index": 7,
+          "value": "6.3*150mm (SS410)",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J58",
+          "row": 58,
+          "column": "J",
+          "column_index": 10,
+          "value": "50300",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O58",
+          "row": 58,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.165",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "9"
+        },
+        {
+          "address": "P58",
+          "row": 58,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O58*1.2",
           "data_type": "f",
-          "number_format": "0.0",
-          "formula": "==R57/S57%",
-          "calculated_value": "0"
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O58*1.2",
+          "calculated_value": "0.198",
+          "bold": true,
+          "background_color": "6"
         },
         {
           "address": "Q58",
           "row": 58,
           "column": "Q",
           "column_index": 17,
-          "value": "Trading ",
-          "data_type": "s",
-          "number_format": "0.000"
+          "value": "=P58-O58",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P58-O58",
+          "calculated_value": "0.033"
         },
         {
           "address": "R58",
           "row": 58,
           "column": "R",
           "column_index": 18,
-          "value": "=SUM(R41:R56)",
+          "value": "=Q58*J58",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==SUM(R41:R56)",
-          "calculated_value": "2591.394"
+          "formula": "==Q58*J58",
+          "calculated_value": "1659.9"
         },
         {
           "address": "S58",
           "row": 58,
           "column": "S",
           "column_index": 19,
-          "value": "=SUM(S41:S56)",
+          "value": "=P58*J58",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==SUM(S41:S56)",
-          "calculated_value": "15548.363999999996"
+          "formula": "==P58*J58",
+          "calculated_value": "9959.4"
+        },
+        {
+          "address": "T58",
+          "row": 58,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R58/S58%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R58/S58%",
+          "calculated_value": "16.666666666666668"
+        },
+        {
+          "address": "A59",
+          "row": 59,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B59",
+          "row": 59,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C59",
+          "row": 59,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F59",
+          "row": 59,
+          "column": "F",
+          "column_index": 6,
+          "value": "SELF DRILLING SCREW-GI",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G59",
+          "row": 59,
+          "column": "G",
+          "column_index": 7,
+          "value": "6.3*25mm",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J59",
+          "row": 59,
+          "column": "J",
+          "column_index": 10,
+          "value": "5500",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O59",
+          "row": 59,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.018",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "9"
+        },
+        {
+          "address": "P59",
+          "row": 59,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O59*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O59*1.2",
+          "calculated_value": "0.021599999999999998",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q59",
+          "row": 59,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P59-O59",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P59-O59",
+          "calculated_value": "0.003599999999999999"
         },
         {
           "address": "R59",
           "row": 59,
           "column": "R",
           "column_index": 18,
-          "value": "=R11+SUM(R28:R57)",
+          "value": "=Q59*J59",
           "data_type": "f",
-          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==R11+SUM(R28:R57)",
-          "calculated_value": "5490.18401645",
-          "bold": true
+          "number_format": "0.000",
+          "formula": "==Q59*J59",
+          "calculated_value": "19.799999999999994"
         },
         {
           "address": "S59",
           "row": 59,
           "column": "S",
           "column_index": 19,
-          "value": "=S11+SUM(S28:S57)",
+          "value": "=P59*J59",
           "data_type": "f",
-          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==S11+SUM(S28:S57)",
-          "calculated_value": "32077.545",
-          "bold": true
+          "number_format": "0.000",
+          "formula": "==P59*J59",
+          "calculated_value": "118.79999999999998"
         },
         {
           "address": "T59",
@@ -7152,23 +8236,1083 @@
           "data_type": "f",
           "number_format": "0.0",
           "formula": "==R59/S59%",
-          "calculated_value": "17.115349745281318"
+          "calculated_value": "16.666666666666664"
+        },
+        {
+          "address": "A60",
+          "row": 60,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B60",
+          "row": 60,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C60",
+          "row": 60,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "E60",
+          "row": 60,
+          "column": "E",
+          "column_index": 5,
+          "value": "9002",
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "address": "F60",
+          "row": 60,
+          "column": "F",
+          "column_index": 6,
+          "value": "SCREW CAPS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G60",
+          "row": 60,
+          "column": "G",
+          "column_index": 7,
+          "value": "RAL-9002",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "0"
+        },
+        {
+          "address": "J60",
+          "row": 60,
+          "column": "J",
+          "column_index": 10,
+          "value": "50300",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O60",
+          "row": 60,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.007",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "9"
+        },
+        {
+          "address": "P60",
+          "row": 60,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O60*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O60*1.2",
+          "calculated_value": "0.0084",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q60",
+          "row": 60,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P60-O60",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P60-O60",
+          "calculated_value": "0.0013999999999999993"
+        },
+        {
+          "address": "R60",
+          "row": 60,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q60*J60",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q60*J60",
+          "calculated_value": "70.41999999999997"
         },
         {
           "address": "S60",
           "row": 60,
           "column": "S",
           "column_index": 19,
-          "value": "=S59*0",
+          "value": "=P60*J60",
           "data_type": "f",
-          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==S59*0",
-          "calculated_value": "0",
-          "bold": true
+          "number_format": "0.000",
+          "formula": "==P60*J60",
+          "calculated_value": "422.52"
         },
         {
           "address": "T60",
           "row": 60,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R60/S60%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R60/S60%",
+          "calculated_value": "16.66666666666666"
+        },
+        {
+          "address": "A61",
+          "row": 61,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B61",
+          "row": 61,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C61",
+          "row": 61,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F61",
+          "row": 61,
+          "column": "F",
+          "column_index": 6,
+          "value": "SITCH SCREW",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G61",
+          "row": 61,
+          "column": "G",
+          "column_index": 7,
+          "value": "4.8*20mm",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J61",
+          "row": 61,
+          "column": "J",
+          "column_index": 10,
+          "value": "41900",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O61",
+          "row": 61,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.038",
+          "data_type": "n",
+          "number_format": "0.000"
+        },
+        {
+          "address": "P61",
+          "row": 61,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O61*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O61*1.2",
+          "calculated_value": "0.045599999999999995",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q61",
+          "row": 61,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P61-O61",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P61-O61",
+          "calculated_value": "0.007599999999999996"
+        },
+        {
+          "address": "R61",
+          "row": 61,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q61*J61",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q61*J61",
+          "calculated_value": "318.4399999999998"
+        },
+        {
+          "address": "S61",
+          "row": 61,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P61*J61",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P61*J61",
+          "calculated_value": "1910.6399999999999"
+        },
+        {
+          "address": "T61",
+          "row": 61,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R61/S61%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R61/S61%",
+          "calculated_value": "16.66666666666666"
+        },
+        {
+          "address": "A62",
+          "row": 62,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "B62",
+          "row": 62,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C62",
+          "row": 62,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General",
+          "background_color": "0"
+        },
+        {
+          "address": "F62",
+          "row": 62,
+          "column": "F",
+          "column_index": 6,
+          "value": "POP REVITS",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G62",
+          "row": 62,
+          "column": "G",
+          "column_index": 7,
+          "value": "4.8*12mm",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "0"
+        },
+        {
+          "address": "J62",
+          "row": 62,
+          "column": "J",
+          "column_index": 10,
+          "value": "52710",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O62",
+          "row": 62,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.007",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "0"
+        },
+        {
+          "address": "P62",
+          "row": 62,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O62*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O62*1.2",
+          "calculated_value": "0.0084",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q62",
+          "row": 62,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P62-O62",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P62-O62",
+          "calculated_value": "0.0013999999999999993",
+          "background_color": "0"
+        },
+        {
+          "address": "R62",
+          "row": 62,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q62*J62",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q62*J62",
+          "calculated_value": "73.79399999999997"
+        },
+        {
+          "address": "S62",
+          "row": 62,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P62*J62",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P62*J62",
+          "calculated_value": "442.76399999999995"
+        },
+        {
+          "address": "T62",
+          "row": 62,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R62/S62%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R62/S62%",
+          "calculated_value": "16.66666666666666",
+          "background_color": "0"
+        },
+        {
+          "address": "A63",
+          "row": 63,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B63",
+          "row": 63,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C63",
+          "row": 63,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F63",
+          "row": 63,
+          "column": "F",
+          "column_index": 6,
+          "value": "ROPE SEAL TAPE-( 1 ROLL )",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G63",
+          "row": 63,
+          "column": "G",
+          "column_index": 7,
+          "value": "9.5mm*2.4mm*19mtrs",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J63",
+          "row": 63,
+          "column": "J",
+          "column_index": 10,
+          "value": "1360",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O63",
+          "row": 63,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.96",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "9"
+        },
+        {
+          "address": "P63",
+          "row": 63,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O63*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O63*1.2",
+          "calculated_value": "1.152",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q63",
+          "row": 63,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P63-O63",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P63-O63",
+          "calculated_value": "0.19199999999999995"
+        },
+        {
+          "address": "R63",
+          "row": 63,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q63*J63",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q63*J63",
+          "calculated_value": "261.11999999999995"
+        },
+        {
+          "address": "S63",
+          "row": 63,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P63*J63",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P63*J63",
+          "calculated_value": "1566.7199999999998"
+        },
+        {
+          "address": "T63",
+          "row": 63,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R63/S63%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R63/S63%",
+          "calculated_value": "16.666666666666664"
+        },
+        {
+          "address": "A64",
+          "row": 64,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B64",
+          "row": 64,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C64",
+          "row": 64,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F64",
+          "row": 64,
+          "column": "F",
+          "column_index": 6,
+          "value": "SAUDAN SILICON CLEAR",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "J64",
+          "row": 64,
+          "column": "J",
+          "column_index": 10,
+          "value": "240",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O64",
+          "row": 64,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.505",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "9"
+        },
+        {
+          "address": "P64",
+          "row": 64,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O64*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O64*1.2",
+          "calculated_value": "0.606",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q64",
+          "row": 64,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P64-O64",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P64-O64",
+          "calculated_value": "0.10099999999999998"
+        },
+        {
+          "address": "R64",
+          "row": 64,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q64*J64",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q64*J64",
+          "calculated_value": "24.239999999999995"
+        },
+        {
+          "address": "S64",
+          "row": 64,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P64*J64",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P64*J64",
+          "calculated_value": "145.44"
+        },
+        {
+          "address": "T64",
+          "row": 64,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R64/S64%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R64/S64%",
+          "calculated_value": "16.666666666666664"
+        },
+        {
+          "address": "A65",
+          "row": 65,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B65",
+          "row": 65,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C65",
+          "row": 65,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F65",
+          "row": 65,
+          "column": "F",
+          "column_index": 6,
+          "value": "FORM CLOUSRES",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G65",
+          "row": 65,
+          "column": "G",
+          "column_index": 7,
+          "value": "32/250 PROFILE",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J65",
+          "row": 65,
+          "column": "J",
+          "column_index": 10,
+          "value": "330",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O65",
+          "row": 65,
+          "column": "O",
+          "column_index": 15,
+          "value": "0.55",
+          "data_type": "n",
+          "number_format": "0.000",
+          "background_color": "9"
+        },
+        {
+          "address": "P65",
+          "row": 65,
+          "column": "P",
+          "column_index": 16,
+          "value": "=O65*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==O65*1.2",
+          "calculated_value": "0.66",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q65",
+          "row": 65,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P65-O65",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P65-O65",
+          "calculated_value": "0.10999999999999999"
+        },
+        {
+          "address": "R65",
+          "row": 65,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q65*J65",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q65*J65",
+          "calculated_value": "36.3"
+        },
+        {
+          "address": "S65",
+          "row": 65,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P65*J65",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P65*J65",
+          "calculated_value": "217.8"
+        },
+        {
+          "address": "T65",
+          "row": 65,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R65/S65%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R65/S65%",
+          "calculated_value": "16.666666666666664"
+        },
+        {
+          "address": "A66",
+          "row": 66,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B66",
+          "row": 66,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C66",
+          "row": 66,
+          "column": "C",
+          "column_index": 3,
+          "value": "TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F66",
+          "row": 66,
+          "column": "F",
+          "column_index": 6,
+          "value": "FIBERGLASS LOOSE INSULATION 50MM",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G66",
+          "row": 66,
+          "column": "G",
+          "column_index": 7,
+          "value": "DENSITY 12KG/M3 (20MTR ROLL)",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J66",
+          "row": 66,
+          "column": "J",
+          "column_index": 10,
+          "value": "6",
+          "data_type": "n",
+          "number_format": "General",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O66",
+          "row": 66,
+          "column": "O",
+          "column_index": 15,
+          "value": "1.5",
+          "data_type": "n",
+          "number_format": "0.000"
+        },
+        {
+          "address": "P66",
+          "row": 66,
+          "column": "P",
+          "column_index": 16,
+          "value": "=+O66*1.2",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==+O66*1.2",
+          "calculated_value": "1.7999999999999998",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q66",
+          "row": 66,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P66-O66",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P66-O66",
+          "calculated_value": "0.2999999999999998"
+        },
+        {
+          "address": "R66",
+          "row": 66,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q66*J66",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q66*J66",
+          "calculated_value": "1.799999999999999"
+        },
+        {
+          "address": "S66",
+          "row": 66,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P66*J66",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P66*J66",
+          "calculated_value": "10.799999999999999"
+        },
+        {
+          "address": "T66",
+          "row": 66,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R66/S66%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R66/S66%",
+          "calculated_value": "16.66666666666666"
+        },
+        {
+          "address": "A67",
+          "row": 67,
+          "column": "A",
+          "column_index": 1,
+          "value": "MAHFAR TRADING",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "B67",
+          "row": 67,
+          "column": "B",
+          "column_index": 2,
+          "value": "2025-10-30 00:00:00",
+          "data_type": "d",
+          "number_format": "mm-dd-yy"
+        },
+        {
+          "address": "C67",
+          "row": 67,
+          "column": "C",
+          "column_index": 3,
+          "value": "SERVICE",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "F67",
+          "row": 67,
+          "column": "F",
+          "column_index": 6,
+          "value": "TRANSPORT CHARGES",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "address": "G67",
+          "row": 67,
+          "column": "G",
+          "column_index": 7,
+          "value": "SAMAIL TO BAHRAIN",
+          "data_type": "s",
+          "number_format": "General",
+          "bold": true
+        },
+        {
+          "address": "J67",
+          "row": 67,
+          "column": "J",
+          "column_index": 10,
+          "value": "=+K10+K21",
+          "data_type": "f",
+          "number_format": "0",
+          "formula": "==+K10+K21",
+          "calculated_value": "3",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "O67",
+          "row": 67,
+          "column": "O",
+          "column_index": 15,
+          "value": "600",
+          "data_type": "n",
+          "number_format": "0.000"
+        },
+        {
+          "address": "P67",
+          "row": 67,
+          "column": "P",
+          "column_index": 16,
+          "value": "600",
+          "data_type": "n",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "bold": true,
+          "background_color": "6"
+        },
+        {
+          "address": "Q67",
+          "row": 67,
+          "column": "Q",
+          "column_index": 17,
+          "value": "=P67-O67",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P67-O67",
+          "calculated_value": "0"
+        },
+        {
+          "address": "R67",
+          "row": 67,
+          "column": "R",
+          "column_index": 18,
+          "value": "=Q67*J67",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==Q67*J67",
+          "calculated_value": "0"
+        },
+        {
+          "address": "S67",
+          "row": 67,
+          "column": "S",
+          "column_index": 19,
+          "value": "=P67*J67",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==P67*J67",
+          "calculated_value": "1800"
+        },
+        {
+          "address": "T67",
+          "row": 67,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R67/S67%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R67/S67%",
+          "calculated_value": "0"
+        },
+        {
+          "address": "Q68",
+          "row": 68,
+          "column": "Q",
+          "column_index": 17,
+          "value": "Trading ",
+          "data_type": "s",
+          "number_format": "0.000"
+        },
+        {
+          "address": "R68",
+          "row": 68,
+          "column": "R",
+          "column_index": 18,
+          "value": "=SUM(R51:R66)",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==SUM(R51:R66)",
+          "calculated_value": "2591.394"
+        },
+        {
+          "address": "S68",
+          "row": 68,
+          "column": "S",
+          "column_index": 19,
+          "value": "=SUM(S51:S66)",
+          "data_type": "f",
+          "number_format": "0.000",
+          "formula": "==SUM(S51:S66)",
+          "calculated_value": "15548.363999999996"
+        },
+        {
+          "address": "R69",
+          "row": 69,
+          "column": "R",
+          "column_index": 18,
+          "value": "=R11+SUM(R28:R67)",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==R11+SUM(R28:R67)",
+          "calculated_value": "5919.56591645",
+          "bold": true
+        },
+        {
+          "address": "S69",
+          "row": 69,
+          "column": "S",
+          "column_index": 19,
+          "value": "=S11+SUM(S28:S67)",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==S11+SUM(S28:S67)",
+          "calculated_value": "27281.321",
+          "bold": true
+        },
+        {
+          "address": "T69",
+          "row": 69,
+          "column": "T",
+          "column_index": 20,
+          "value": "=R69/S69%",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "==R69/S69%",
+          "calculated_value": "21.698237839912515"
+        },
+        {
+          "address": "S70",
+          "row": 70,
+          "column": "S",
+          "column_index": 19,
+          "value": "=S69*0",
+          "data_type": "f",
+          "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
+          "formula": "==S69*0",
+          "calculated_value": "0",
+          "bold": true
+        },
+        {
+          "address": "T70",
+          "row": 70,
           "column": "T",
           "column_index": 20,
           "value": "Vat",
@@ -7176,20 +9320,20 @@
           "number_format": "0.0"
         },
         {
-          "address": "S61",
-          "row": 61,
+          "address": "S71",
+          "row": 71,
           "column": "S",
           "column_index": 19,
-          "value": "=S59+S60",
+          "value": "=S69+S70",
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==S59+S60",
-          "calculated_value": "32077.545",
+          "formula": "==S69+S70",
+          "calculated_value": "27281.321",
           "bold": true
         },
         {
-          "address": "T61",
-          "row": 61,
+          "address": "T71",
+          "row": 71,
           "column": "T",
           "column_index": 20,
           "value": "Total",
@@ -7197,8 +9341,8 @@
           "number_format": "0.0"
         },
         {
-          "address": "L65",
-          "row": 65,
+          "address": "L75",
+          "row": 75,
           "column": "L",
           "column_index": 12,
           "value": "Wt of AL TOP",
@@ -7207,41 +9351,41 @@
           "bold": true
         },
         {
-          "address": "M65",
-          "row": 65,
+          "address": "M75",
+          "row": 75,
           "column": "M",
           "column_index": 13,
-          "value": "=+SUM(M30:M35)+M28+M6",
+          "value": "=+SUM(M33:M45)+M28+M6",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==+SUM(M30:M35)+M28+M6",
-          "calculated_value": "2.9904903999999997"
+          "formula": "==+SUM(M33:M45)+M28+M6",
+          "calculated_value": "2.0303134999999997"
         },
         {
-          "address": "N65",
-          "row": 65,
+          "address": "N75",
+          "row": 75,
           "column": "N",
           "column_index": 14,
           "value": "=N6",
           "data_type": "f",
           "number_format": "General",
           "formula": "==N6",
-          "calculated_value": "1400"
+          "calculated_value": "400"
         },
         {
-          "address": "O65",
-          "row": 65,
+          "address": "O75",
+          "row": 75,
           "column": "O",
           "column_index": 15,
-          "value": "=M65*N65",
+          "value": "=M75*N75",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==M65*N65",
-          "calculated_value": "4186.686559999999"
+          "formula": "==M75*N75",
+          "calculated_value": "812.1253999999999"
         },
         {
-          "address": "L66",
-          "row": 66,
+          "address": "L76",
+          "row": 76,
           "column": "L",
           "column_index": 12,
           "value": "Wt of AL Bottom",
@@ -7249,41 +9393,41 @@
           "number_format": "General"
         },
         {
-          "address": "M66",
-          "row": 66,
+          "address": "M76",
+          "row": 76,
           "column": "M",
           "column_index": 13,
           "value": "=M7",
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==M7",
-          "calculated_value": "1.4688"
+          "calculated_value": "0.0025434"
         },
         {
-          "address": "N66",
-          "row": 66,
+          "address": "N76",
+          "row": 76,
           "column": "N",
           "column_index": 14,
           "value": "=N7",
           "data_type": "f",
           "number_format": "General",
           "formula": "==N7",
-          "calculated_value": "1400"
+          "calculated_value": "400"
         },
         {
-          "address": "O66",
-          "row": 66,
+          "address": "O76",
+          "row": 76,
           "column": "O",
           "column_index": 15,
-          "value": "=M66*N66",
+          "value": "=M76*N76",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==M66*N66",
-          "calculated_value": "2056.32"
+          "formula": "==M76*N76",
+          "calculated_value": "1.01736"
         },
         {
-          "address": "R66",
-          "row": 66,
+          "address": "R76",
+          "row": 76,
           "column": "R",
           "column_index": 18,
           "value": "PANEL :",
@@ -7292,20 +9436,20 @@
           "bold": true
         },
         {
-          "address": "S66",
-          "row": 66,
+          "address": "S76",
+          "row": 76,
           "column": "S",
           "column_index": 19,
           "value": "=S11",
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
           "formula": "==S11",
-          "calculated_value": "7700",
+          "calculated_value": "5.026",
           "bold": true
         },
         {
-          "address": "L67",
-          "row": 67,
+          "address": "L77",
+          "row": 77,
           "column": "L",
           "column_index": 12,
           "value": "Wt of PPGI",
@@ -7313,19 +9457,19 @@
           "number_format": "General"
         },
         {
-          "address": "M67",
-          "row": 67,
+          "address": "M77",
+          "row": 77,
           "column": "M",
           "column_index": 13,
-          "value": "=+M36+M37+M38+M39",
+          "value": "=+M46+M47+M48+M49",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==+M36+M37+M38+M39",
+          "formula": "==+M46+M47+M48+M49",
           "calculated_value": "2.158259375"
         },
         {
-          "address": "N67",
-          "row": 67,
+          "address": "N77",
+          "row": 77,
           "column": "N",
           "column_index": 14,
           "value": "370",
@@ -7333,19 +9477,19 @@
           "number_format": "General"
         },
         {
-          "address": "O67",
-          "row": 67,
+          "address": "O77",
+          "row": 77,
           "column": "O",
           "column_index": 15,
-          "value": "=M67*N67",
+          "value": "=M77*N77",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==M67*N67",
+          "formula": "==M77*N77",
           "calculated_value": "798.55596875"
         },
         {
-          "address": "R67",
-          "row": 67,
+          "address": "R77",
+          "row": 77,
           "column": "R",
           "column_index": 18,
           "value": "RIDGE :",
@@ -7354,8 +9498,8 @@
           "bold": true
         },
         {
-          "address": "S67",
-          "row": 67,
+          "address": "S77",
+          "row": 77,
           "column": "S",
           "column_index": 19,
           "value": "=+S28",
@@ -7366,8 +9510,8 @@
           "bold": true
         },
         {
-          "address": "L68",
-          "row": 68,
+          "address": "L78",
+          "row": 78,
           "column": "L",
           "column_index": 12,
           "value": "Wt GI",
@@ -7375,41 +9519,41 @@
           "number_format": "General"
         },
         {
-          "address": "M68",
-          "row": 68,
+          "address": "M78",
+          "row": 78,
           "column": "M",
           "column_index": 13,
-          "value": "=M40",
+          "value": "=M50",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==M40",
+          "formula": "==M50",
           "calculated_value": "3.495652728"
         },
         {
-          "address": "N68",
-          "row": 68,
+          "address": "N78",
+          "row": 78,
           "column": "N",
           "column_index": 14,
-          "value": "=N40",
+          "value": "=N50",
           "data_type": "f",
           "number_format": "General",
-          "formula": "==N40",
+          "formula": "==N50",
           "calculated_value": "350"
         },
         {
-          "address": "O68",
-          "row": 68,
+          "address": "O78",
+          "row": 78,
           "column": "O",
           "column_index": 15,
-          "value": "=M68*N68",
+          "value": "=M78*N78",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==M68*N68",
+          "formula": "==M78*N78",
           "calculated_value": "1223.4784548"
         },
         {
-          "address": "R68",
-          "row": 68,
+          "address": "R78",
+          "row": 78,
           "column": "R",
           "column_index": 18,
           "value": "PROFILE SHEET :",
@@ -7418,8 +9562,8 @@
           "bold": true
         },
         {
-          "address": "S68",
-          "row": 68,
+          "address": "S78",
+          "row": 78,
           "column": "S",
           "column_index": 19,
           "value": "=+S29",
@@ -7430,8 +9574,8 @@
           "bold": true
         },
         {
-          "address": "L69",
-          "row": 69,
+          "address": "L79",
+          "row": 79,
           "column": "L",
           "column_index": 12,
           "value": "Wt of Insulation",
@@ -7439,19 +9583,19 @@
           "number_format": "General"
         },
         {
-          "address": "M69",
-          "row": 69,
+          "address": "M79",
+          "row": 79,
           "column": "M",
           "column_index": 13,
           "value": "=M8",
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==M8",
-          "calculated_value": "2.215"
+          "calculated_value": "0.002115"
         },
         {
-          "address": "N69",
-          "row": 69,
+          "address": "N79",
+          "row": 79,
           "column": "N",
           "column_index": 14,
           "value": "=N8",
@@ -7461,19 +9605,19 @@
           "calculated_value": "900"
         },
         {
-          "address": "O69",
-          "row": 69,
+          "address": "O79",
+          "row": 79,
           "column": "O",
           "column_index": 15,
-          "value": "=M69*N69",
+          "value": "=M79*N79",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==M69*N69",
-          "calculated_value": "1993.4999999999998"
+          "formula": "==M79*N79",
+          "calculated_value": "1.9035000000000002"
         },
         {
-          "address": "R69",
-          "row": 69,
+          "address": "R79",
+          "row": 79,
           "column": "R",
           "column_index": 18,
           "value": "SKY LIGHT :",
@@ -7482,8 +9626,8 @@
           "bold": true
         },
         {
-          "address": "S69",
-          "row": 69,
+          "address": "S79",
+          "row": 79,
           "column": "S",
           "column_index": 19,
           "value": "=S29",
@@ -7494,8 +9638,8 @@
           "bold": true
         },
         {
-          "address": "L70",
-          "row": 70,
+          "address": "L80",
+          "row": 80,
           "column": "L",
           "column_index": 12,
           "value": "Trading",
@@ -7503,19 +9647,19 @@
           "number_format": "General"
         },
         {
-          "address": "O70",
-          "row": 70,
+          "address": "O80",
+          "row": 80,
           "column": "O",
           "column_index": 15,
-          "value": "=S58-R58",
+          "value": "=S68-R68",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==S58-R58",
+          "formula": "==S68-R68",
           "calculated_value": "12956.969999999996"
         },
         {
-          "address": "R70",
-          "row": 70,
+          "address": "R80",
+          "row": 80,
           "column": "R",
           "column_index": 18,
           "value": "FL & ACC.  :",
@@ -7524,20 +9668,20 @@
           "bold": true
         },
         {
-          "address": "S70",
-          "row": 70,
+          "address": "S80",
+          "row": 80,
           "column": "S",
           "column_index": 19,
-          "value": "=SUM(S30:S56)",
+          "value": "=SUM(S33:S66)",
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==SUM(S30:S56)",
-          "calculated_value": "21153.944999999996",
+          "formula": "==SUM(S33:S66)",
+          "calculated_value": "23542.694999999996",
           "bold": true
         },
         {
-          "address": "U70",
-          "row": 70,
+          "address": "U80",
+          "row": 80,
           "column": "U",
           "column_index": 21,
           "value": "1048.155",
@@ -7545,8 +9689,8 @@
           "number_format": "General"
         },
         {
-          "address": "L71",
-          "row": 71,
+          "address": "L81",
+          "row": 81,
           "column": "L",
           "column_index": 12,
           "value": "Total Mat",
@@ -7554,20 +9698,20 @@
           "number_format": "General"
         },
         {
-          "address": "O71",
-          "row": 71,
+          "address": "O81",
+          "row": 81,
           "column": "O",
           "column_index": 15,
-          "value": "=SUM(O65:O70)",
+          "value": "=SUM(O75:O80)",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==SUM(O65:O70)",
-          "calculated_value": "23215.510983549997",
+          "formula": "==SUM(O75:O80)",
+          "calculated_value": "15794.050683549996",
           "bold": true
         },
         {
-          "address": "R71",
-          "row": 71,
+          "address": "R81",
+          "row": 81,
           "column": "R",
           "column_index": 18,
           "value": "TRANSPORT :",
@@ -7576,20 +9720,20 @@
           "bold": true
         },
         {
-          "address": "S71",
-          "row": 71,
+          "address": "S81",
+          "row": 81,
           "column": "S",
           "column_index": 19,
-          "value": "=+S57",
+          "value": "=+S67",
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==+S57",
-          "calculated_value": "2400",
+          "formula": "==+S67",
+          "calculated_value": "1800",
           "bold": true
         },
         {
-          "address": "L72",
-          "row": 72,
+          "address": "L82",
+          "row": 82,
           "column": "L",
           "column_index": 12,
           "value": "Total Labour",
@@ -7597,19 +9741,19 @@
           "number_format": "General"
         },
         {
-          "address": "O72",
-          "row": 72,
+          "address": "O82",
+          "row": 82,
           "column": "O",
           "column_index": 15,
           "value": "=R10",
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==R10",
-          "calculated_value": "200"
+          "calculated_value": "0.2"
         },
         {
-          "address": "R72",
-          "row": 72,
+          "address": "R82",
+          "row": 82,
           "column": "R",
           "column_index": 18,
           "value": "TOTAL :",
@@ -7619,32 +9763,32 @@
           "background_color": "FFFFFF00"
         },
         {
-          "address": "S72",
-          "row": 72,
+          "address": "S82",
+          "row": 82,
           "column": "S",
           "column_index": 19,
-          "value": "=SUM(S65:S71)",
+          "value": "=SUM(S75:S81)",
           "data_type": "f",
           "number_format": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)",
-          "formula": "==SUM(S65:S71)",
-          "calculated_value": "32447.545",
+          "formula": "==SUM(S75:S81)",
+          "calculated_value": "26541.320999999996",
           "bold": true,
           "background_color": "FFFFFF00"
         },
         {
-          "address": "U72",
-          "row": 72,
+          "address": "U82",
+          "row": 82,
           "column": "U",
           "column_index": 21,
-          "value": "=150000-S72",
+          "value": "=150000-S82",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==150000-S72",
-          "calculated_value": "117552.455"
+          "formula": "==150000-S82",
+          "calculated_value": "123458.679"
         },
         {
-          "address": "L73",
-          "row": 73,
+          "address": "L83",
+          "row": 83,
           "column": "L",
           "column_index": 12,
           "value": "Total Over head",
@@ -7652,19 +9796,19 @@
           "number_format": "General"
         },
         {
-          "address": "O73",
-          "row": 73,
+          "address": "O83",
+          "row": 83,
           "column": "O",
           "column_index": 15,
           "value": "=R12",
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==R12",
-          "calculated_value": "667.27"
+          "calculated_value": "0.43701"
         },
         {
-          "address": "L74",
-          "row": 74,
+          "address": "L84",
+          "row": 84,
           "column": "L",
           "column_index": 12,
           "value": "Transport",
@@ -7672,31 +9816,31 @@
           "number_format": "General"
         },
         {
-          "address": "O74",
-          "row": 74,
+          "address": "O84",
+          "row": 84,
           "column": "O",
           "column_index": 15,
-          "value": "=+S57",
+          "value": "=+S67",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==+S57",
-          "calculated_value": "2400"
+          "formula": "==+S67",
+          "calculated_value": "1800"
         },
         {
-          "address": "P74",
-          "row": 74,
+          "address": "P84",
+          "row": 84,
           "column": "P",
           "column_index": 16,
-          "value": "=O74/J57",
+          "value": "=O84/J67",
           "data_type": "f",
           "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O74/J57",
+          "formula": "==O84/J67",
           "calculated_value": "600",
           "bold": true
         },
         {
-          "address": "Q74",
-          "row": 74,
+          "address": "Q84",
+          "row": 84,
           "column": "Q",
           "column_index": 17,
           "value": "OMR Per Trip",
@@ -7705,8 +9849,8 @@
           "bold": true
         },
         {
-          "address": "L75",
-          "row": 75,
+          "address": "L85",
+          "row": 85,
           "column": "L",
           "column_index": 12,
           "value": "LC",
@@ -7714,31 +9858,31 @@
           "number_format": "General"
         },
         {
-          "address": "O75",
-          "row": 75,
+          "address": "O85",
+          "row": 85,
           "column": "O",
           "column_index": 15,
           "value": "=R13",
           "data_type": "f",
           "number_format": "0.000",
           "formula": "==R13",
-          "calculated_value": "333.635"
+          "calculated_value": "0.218505"
         },
         {
-          "address": "P75",
-          "row": 75,
+          "address": "P85",
+          "row": 85,
           "column": "P",
           "column_index": 16,
-          "value": "=O74/P74",
+          "value": "=O84/P84",
           "data_type": "f",
           "number_format": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)",
-          "formula": "==O74/P74",
-          "calculated_value": "4",
+          "formula": "==O84/P84",
+          "calculated_value": "3",
           "bold": true
         },
         {
-          "address": "Q75",
-          "row": 75,
+          "address": "Q85",
+          "row": 85,
           "column": "Q",
           "column_index": 17,
           "value": "TRANSPORT",
@@ -7747,8 +9891,8 @@
           "bold": true
         },
         {
-          "address": "L76",
-          "row": 76,
+          "address": "L86",
+          "row": 86,
           "column": "L",
           "column_index": 12,
           "value": "Sales",
@@ -7756,20 +9900,20 @@
           "number_format": "General"
         },
         {
-          "address": "O76",
-          "row": 76,
+          "address": "O86",
+          "row": 86,
           "column": "O",
           "column_index": 15,
-          "value": "=S59",
+          "value": "=S69",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==S59",
-          "calculated_value": "32077.545",
+          "formula": "==S69",
+          "calculated_value": "27281.321",
           "bold": true
         },
         {
-          "address": "L77",
-          "row": 77,
+          "address": "L87",
+          "row": 87,
           "column": "L",
           "column_index": 12,
           "value": "Value Add",
@@ -7777,20 +9921,20 @@
           "number_format": "General"
         },
         {
-          "address": "O77",
-          "row": 77,
+          "address": "O87",
+          "row": 87,
           "column": "O",
           "column_index": 15,
-          "value": "=R59",
+          "value": "=R69",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==R59",
-          "calculated_value": "5490.18401645",
+          "formula": "==R69",
+          "calculated_value": "5919.56591645",
           "bold": true
         },
         {
-          "address": "L78",
-          "row": 78,
+          "address": "L88",
+          "row": 88,
           "column": "L",
           "column_index": 12,
           "value": "Value Add %",
@@ -7798,21 +9942,21 @@
           "number_format": "General"
         },
         {
-          "address": "O78",
-          "row": 78,
+          "address": "O88",
+          "row": 88,
           "column": "O",
           "column_index": 15,
-          "value": "=+O77/O76%",
+          "value": "=+O87/O86%",
           "data_type": "f",
           "number_format": "0.000",
-          "formula": "==+O77/O76%",
-          "calculated_value": "17.115349745281318",
+          "formula": "==+O87/O86%",
+          "calculated_value": "21.698237839912515",
           "bold": true
         }
       ],
       "merged_cells": [],
       "dimensions": {
-        "max_row": 78,
+        "max_row": 88,
         "max_column": 24
       }
     }

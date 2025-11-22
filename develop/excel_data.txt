@@ -1,11 +1,11 @@
-Excel File: Pug-cost.xlsx
+Excel File: Pug-cost sample 2.xlsx
 ================================================================================
 
 
 ================================================================================
 SHEET: REV-03
 ================================================================================
-Dimensions: 78 rows × 24 columns
+Dimensions: 88 rows × 24 columns
 
 
 --- Row 1 ---
@@ -168,7 +168,7 @@ Dimensions: 78 rows × 24 columns
     Value: Top Skin
 
   Cell G6 (G6):
-    Value: 0.5
+    Value: 0.3
     Type: n
     Background: 6
 
@@ -183,43 +183,44 @@ Dimensions: 78 rows × 24 columns
     Type: n
 
   Cell J6 (J6):
-    Value: 1000
+    Value: 1
     Type: n
     Style: BOLD
     Background: 6
 
   Cell K6 (K6):
-    Value: 2720
+    Value: 7850
     Type: n
     Background: 6
 
   Cell L6 (L6):
     Formula: ==G6*H6/1000*I6/1000*K6/1000
-    Calculated Value: 1.6592
+    Calculated Value: 2.8731
     Type: f
     Format: 0.000
 
   Cell M6 (M6):
     Formula: ==L6*J6/1000
-    Calculated Value: 1.6592
+    Calculated Value: 0.0028731
     Type: f
     Format: 0.000
 
   Cell N6 (N6):
-    Value: 1400
+    Value: 400
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O6 (O6):
     Formula: ==N6/1000*L6
-    Calculated Value: 2.32288
+    Calculated Value: 1.14924
     Type: f
     Format: 0.000
 
   Cell P6 (P6):
-    Value: 7.7
+    Value: 5.026
     Type: n
+    Format: 0.000
     Style: BOLD
 
 --- Row 7 ---
@@ -236,7 +237,7 @@ Dimensions: 78 rows × 24 columns
     Value: Bottom Skin
 
   Cell G7 (G7):
-    Value: 0.5
+    Value: 0.3
     Type: n
     Background: 6
 
@@ -252,37 +253,37 @@ Dimensions: 78 rows × 24 columns
 
   Cell J7 (J7):
     Formula: ==J6
-    Calculated Value: 1000
+    Calculated Value: 1
     Type: f
     Style: BOLD
     Background: 6
 
   Cell K7 (K7):
-    Value: 2720
+    Value: 7850
     Type: n
     Background: 6
 
   Cell L7 (L7):
     Formula: ==G7*H7/1000*I7/1000*K7/1000
-    Calculated Value: 1.4688
+    Calculated Value: 2.5434
     Type: f
     Format: 0.000
 
   Cell M7 (M7):
     Formula: ==L7*J7/1000
-    Calculated Value: 1.4688
+    Calculated Value: 0.0025434
     Type: f
     Format: 0.000
 
   Cell N7 (N7):
-    Value: 1400
+    Value: 400
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O7 (O7):
     Formula: ==N7/1000*L7
-    Calculated Value: 2.05632
+    Calculated Value: 1.01736
     Type: f
     Format: 0.000
 
@@ -314,25 +315,25 @@ Dimensions: 78 rows × 24 columns
 
   Cell J8 (J8):
     Formula: ==J6
-    Calculated Value: 1000
+    Calculated Value: 1
     Type: f
     Style: BOLD
     Background: 6
 
   Cell K8 (K8):
-    Value: 40
+    Value: 38
     Type: n
     Background: 6
 
   Cell L8 (L8):
     Formula: ==G8/1000*H8/1000*I8/1000*K8+0.215
-    Calculated Value: 2.215
+    Calculated Value: 2.115
     Type: f
     Format: 0.000
 
   Cell M8 (M8):
     Formula: ==L8*J8/1000
-    Calculated Value: 2.215
+    Calculated Value: 0.002115
     Type: f
     Format: 0.000
 
@@ -344,7 +345,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell O8 (O8):
     Formula: ==N8/1000*L8
-    Calculated Value: 1.9934999999999998
+    Calculated Value: 1.9035000000000002
     Type: f
     Format: 0.000
 
@@ -359,7 +360,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell L9 (L9):
     Formula: ==SUM(L6:L8)
-    Calculated Value: 5.343
+    Calculated Value: 7.5315
     Type: f
     Format: 0.000
     Style: BOLD
@@ -375,20 +376,20 @@ Dimensions: 78 rows × 24 columns
 
   Cell R9 (R9):
     Formula: ==O9*J6
-    Calculated Value: 100
+    Calculated Value: 0.1
     Type: f
 
 --- Row 10 ---
 
   Cell J10 (J10):
     Formula: ==+J8/600
-    Calculated Value: 1.6666666666666667
+    Calculated Value: 0.0016666666666666668
     Type: f
     Format: 0.000
 
   Cell K10 (K10):
     Formula: ==+ROUNDUP(J10,0)
-    Calculated Value: 2
+    Calculated Value: 1
     Type: f
     Format: 0.000
 
@@ -403,7 +404,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell R10 (R10):
     Formula: ==O10*J6
-    Calculated Value: 200
+    Calculated Value: 0.2
     Type: f
 
 --- Row 11 ---
@@ -413,31 +414,31 @@ Dimensions: 78 rows × 24 columns
 
   Cell O11 (O11):
     Formula: ==SUM(O6:O10)
-    Calculated Value: 6.6727
+    Calculated Value: 4.3701
     Type: f
     Format: 0.000
     Style: BOLD
 
   Cell Q11 (Q11):
     Formula: ==P6-O11
-    Calculated Value: 1.0273000000000003
+    Calculated Value: 0.6558999999999999
     Type: f
     Format: 0.000
 
   Cell R11 (R11):
     Formula: ==Q11*J6
-    Calculated Value: 1027.3000000000004
+    Calculated Value: 0.6558999999999999
     Type: f
     Format: 0.000
 
   Cell S11 (S11):
     Formula: ==P6*J6
-    Calculated Value: 7700
+    Calculated Value: 5.026
     Type: f
 
   Cell T11 (T11):
     Formula: ==R11/S11%
-    Calculated Value: 13.341558441558448
+    Calculated Value: 13.050139275766016
     Type: f
     Format: 0.00
 
@@ -448,7 +449,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell O12 (O12):
     Formula: ==P12*O11
-    Calculated Value: 0.66727
+    Calculated Value: 0.43701
     Type: f
     Format: 0.000
     Background: 6
@@ -460,7 +461,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell R12 (R12):
     Formula: ==O12*J6
-    Calculated Value: 667.27
+    Calculated Value: 0.43701
     Type: f
     Format: 0.000
 
@@ -471,14 +472,14 @@ Dimensions: 78 rows × 24 columns
 
   Cell O13 (O13):
     Formula: ==O11*0.05
-    Calculated Value: 0.333635
+    Calculated Value: 0.218505
     Type: f
     Format: 0.000
     Background: 6
 
   Cell R13 (R13):
     Formula: ==O13*J6
-    Calculated Value: 333.635
+    Calculated Value: 0.218505
     Type: f
     Format: 0.000
 
@@ -489,7 +490,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell O14 (O14):
     Formula: ==SUM(O11:O13)
-    Calculated Value: 7.673605
+    Calculated Value: 5.025615
     Type: f
     Format: 0.000
     Style: BOLD
@@ -1073,6 +1074,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell F28 (F28):
     Value: RIDGE 
+    Style: BOLD
 
   Cell G28 (G28):
     Value: 0.5
@@ -1186,6 +1188,7 @@ Dimensions: 78 rows × 24 columns
 
   Cell F29 (F29):
     Value: PROFILE SHEET 
+    Style: BOLD
 
   Cell G29 (G29):
     Value: 0.5
@@ -1284,10 +1287,10 @@ Dimensions: 78 rows × 24 columns
   Cell E30 (E30):
     Value: 9002
     Type: n
-    Background: 0
 
   Cell F30 (F30):
-    Value: FLASHING (G-100)
+    Value: PURLIN
+    Style: BOLD
 
   Cell G30 (G30):
     Value: 0.5
@@ -1296,7 +1299,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H30 (H30):
-    Value: 150
+    Value: 1220
     Type: n
     Background: 6
 
@@ -1306,7 +1309,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J30 (J30):
-    Value: 487.5
+    Value: 100
     Type: n
     Style: BOLD
     Background: 6
@@ -1319,13 +1322,13 @@ Dimensions: 78 rows × 24 columns
 
   Cell L30 (L30):
     Formula: ==G30*H30/1000*I30/1000*K30/1000
-    Calculated Value: 0.204
+    Calculated Value: 1.6592
     Type: f
     Format: 0.000
 
   Cell M30 (M30):
     Formula: ==L30*J30/1000
-    Calculated Value: 0.09944999999999998
+    Calculated Value: 0.16591999999999998
     Type: f
     Format: 0.000
 
@@ -1338,12 +1341,12 @@ Dimensions: 78 rows × 24 columns
 
   Cell O30 (O30):
     Formula: ==N30/1000*L30+0.1
-    Calculated Value: 0.38559999999999994
+    Calculated Value: 2.42288
     Type: f
     Format: 0.000
 
   Cell P30 (P30):
-    Value: 0.7
+    Value: 3.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -1351,33 +1354,21 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q30 (Q30):
     Formula: ==P30-O30
-    Calculated Value: 0.3144
+    Calculated Value: 1.27712
     Type: f
     Format: 0.000
 
   Cell R30 (R30):
     Formula: ==Q30*J30
-    Calculated Value: 153.27
+    Calculated Value: 127.712
     Type: f
     Format: 0.000
 
   Cell S30 (S30):
     Formula: ==P30*J30
-    Calculated Value: 341.25
+    Calculated Value: 370
     Type: f
     Format: 0.000
-
-  Cell T30 (T30):
-    Formula: ==R30/S30%
-    Calculated Value: 44.91428571428572
-    Type: f
-    Format: 0.0
-
-  Cell U30 (U30):
-    Formula: ==R30/M30
-    Calculated Value: 1541.1764705882356
-    Type: f
-    Format: 0.00
 
 --- Row 31 ---
 
@@ -1398,10 +1389,10 @@ Dimensions: 78 rows × 24 columns
   Cell E31 (E31):
     Value: 9002
     Type: n
-    Background: 0
 
   Cell F31 (F31):
-    Value: FLASHING (G-300)
+    Value: DECKING 1
+    Style: BOLD
 
   Cell G31 (G31):
     Value: 0.5
@@ -1410,7 +1401,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H31 (H31):
-    Value: 350
+    Value: 1220
     Type: n
     Background: 6
 
@@ -1420,7 +1411,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J31 (J31):
-    Value: 25
+    Value: 100
     Type: n
     Style: BOLD
     Background: 6
@@ -1433,13 +1424,13 @@ Dimensions: 78 rows × 24 columns
 
   Cell L31 (L31):
     Formula: ==G31*H31/1000*I31/1000*K31/1000
-    Calculated Value: 0.4759999999999999
+    Calculated Value: 1.6592
     Type: f
     Format: 0.000
 
   Cell M31 (M31):
     Formula: ==L31*J31/1000
-    Calculated Value: 0.011899999999999999
+    Calculated Value: 0.16591999999999998
     Type: f
     Format: 0.000
 
@@ -1452,12 +1443,12 @@ Dimensions: 78 rows × 24 columns
 
   Cell O31 (O31):
     Formula: ==N31/1000*L31+0.1
-    Calculated Value: 0.7663999999999999
+    Calculated Value: 2.42288
     Type: f
     Format: 0.000
 
   Cell P31 (P31):
-    Value: 1.1
+    Value: 3.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -1465,19 +1456,19 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q31 (Q31):
     Formula: ==P31-O31
-    Calculated Value: 0.33360000000000023
+    Calculated Value: 1.27712
     Type: f
     Format: 0.000
 
   Cell R31 (R31):
     Formula: ==Q31*J31
-    Calculated Value: 8.340000000000005
+    Calculated Value: 127.712
     Type: f
     Format: 0.000
 
   Cell S31 (S31):
     Formula: ==P31*J31
-    Calculated Value: 27.500000000000004
+    Calculated Value: 370
     Type: f
     Format: 0.000
 
@@ -1500,10 +1491,10 @@ Dimensions: 78 rows × 24 columns
   Cell E32 (E32):
     Value: 9002
     Type: n
-    Background: 0
 
   Cell F32 (F32):
-    Value: FLASHING (G-600)
+    Value: DECKING 2
+    Style: BOLD
 
   Cell G32 (G32):
     Value: 0.5
@@ -1512,7 +1503,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H32 (H32):
-    Value: 650
+    Value: 1220
     Type: n
     Background: 6
 
@@ -1522,7 +1513,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J32 (J32):
-    Value: 225
+    Value: 100
     Type: n
     Style: BOLD
     Background: 6
@@ -1535,13 +1526,13 @@ Dimensions: 78 rows × 24 columns
 
   Cell L32 (L32):
     Formula: ==G32*H32/1000*I32/1000*K32/1000
-    Calculated Value: 0.884
+    Calculated Value: 1.6592
     Type: f
     Format: 0.000
 
   Cell M32 (M32):
     Formula: ==L32*J32/1000
-    Calculated Value: 0.1989
+    Calculated Value: 0.16591999999999998
     Type: f
     Format: 0.000
 
@@ -1554,12 +1545,12 @@ Dimensions: 78 rows × 24 columns
 
   Cell O32 (O32):
     Formula: ==N32/1000*L32+0.1
-    Calculated Value: 1.3376000000000001
+    Calculated Value: 2.42288
     Type: f
     Format: 0.000
 
   Cell P32 (P32):
-    Value: 2.1
+    Value: 3.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -1567,39 +1558,26 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q32 (Q32):
     Formula: ==P32-O32
-    Calculated Value: 0.7624
+    Calculated Value: 1.27712
     Type: f
     Format: 0.000
 
   Cell R32 (R32):
     Formula: ==Q32*J32
-    Calculated Value: 171.54
+    Calculated Value: 127.712
     Type: f
     Format: 0.000
 
   Cell S32 (S32):
     Formula: ==P32*J32
-    Calculated Value: 472.5
+    Calculated Value: 370
     Type: f
     Format: 0.000
-
-  Cell T32 (T32):
-    Formula: ==R32/S32%
-    Calculated Value: 36.304761904761904
-    Type: f
-    Format: 0.0
-
-  Cell U32 (U32):
-    Formula: ==R32/M32
-    Calculated Value: 862.4434389140272
-    Type: f
-    Format: 0.00
 
 --- Row 33 ---
 
   Cell A33 (A33):
     Value: MAHFAR TRADING
-    Background: 0
 
   Cell B33 (B33):
     Value: 2025-10-30 00:00:00
@@ -1611,7 +1589,6 @@ Dimensions: 78 rows × 24 columns
 
   Cell D33 (D33):
     Value: SS
-    Background: 0
 
   Cell E33 (E33):
     Value: 9002
@@ -1619,7 +1596,8 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F33 (F33):
-    Value: FLASHING (G-800)
+    Value: FLASHING (G-100)
+    Style: BOLD
 
   Cell G33 (G33):
     Value: 0.5
@@ -1628,7 +1606,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H33 (H33):
-    Value: 850
+    Value: 150
     Type: n
     Background: 6
 
@@ -1638,7 +1616,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J33 (J33):
-    Value: 112.5
+    Value: 487.5
     Type: n
     Style: BOLD
     Background: 6
@@ -1651,17 +1629,15 @@ Dimensions: 78 rows × 24 columns
 
   Cell L33 (L33):
     Formula: ==G33*H33/1000*I33/1000*K33/1000
-    Calculated Value: 1.156
+    Calculated Value: 0.204
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell M33 (M33):
     Formula: ==L33*J33/1000
-    Calculated Value: 0.13004999999999997
+    Calculated Value: 0.09944999999999998
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell N33 (N33):
     Formula: ==N$1
@@ -1672,13 +1648,12 @@ Dimensions: 78 rows × 24 columns
 
   Cell O33 (O33):
     Formula: ==N33/1000*L33+0.1
-    Calculated Value: 1.7184
+    Calculated Value: 0.38559999999999994
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell P33 (P33):
-    Value: 2.4
+    Value: 0.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -1686,42 +1661,38 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q33 (Q33):
     Formula: ==P33-O33
-    Calculated Value: 0.6816
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell R33 (R33):
     Formula: ==Q33*J33
-    Calculated Value: 76.67999999999999
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S33 (S33):
     Formula: ==P33*J33
-    Calculated Value: 270
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T33 (T33):
     Formula: ==R33/S33%
-    Calculated Value: 28.399999999999995
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
-    Background: 0
 
   Cell U33 (U33):
     Formula: ==R33/M33
-    Calculated Value: 589.6193771626298
+    Calculated Value: 1541.1764705882356
     Type: f
     Format: 0.00
-    Background: 0
 
 --- Row 34 ---
 
   Cell A34 (A34):
     Value: MAHFAR TRADING
-    Background: 0
 
   Cell B34 (B34):
     Value: 2025-10-30 00:00:00
@@ -1733,7 +1704,6 @@ Dimensions: 78 rows × 24 columns
 
   Cell D34 (D34):
     Value: SS
-    Background: 0
 
   Cell E34 (E34):
     Value: 9002
@@ -1741,7 +1711,8 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F34 (F34):
-    Value: PARAPET GUTTER
+    Value: FLASHING (G-200)
+    Style: BOLD
 
   Cell G34 (G34):
     Value: 0.5
@@ -1750,7 +1721,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H34 (H34):
-    Value: 1220
+    Value: 150
     Type: n
     Background: 6
 
@@ -1760,7 +1731,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J34 (J34):
-    Value: 362.5
+    Value: 487.5
     Type: n
     Style: BOLD
     Background: 6
@@ -1773,17 +1744,15 @@ Dimensions: 78 rows × 24 columns
 
   Cell L34 (L34):
     Formula: ==G34*H34/1000*I34/1000*K34/1000
-    Calculated Value: 1.6592
+    Calculated Value: 0.204
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell M34 (M34):
     Formula: ==L34*J34/1000
-    Calculated Value: 0.60146
+    Calculated Value: 0.09944999999999998
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell N34 (N34):
     Formula: ==N$1
@@ -1794,13 +1763,12 @@ Dimensions: 78 rows × 24 columns
 
   Cell O34 (O34):
     Formula: ==N34/1000*L34+0.1
-    Calculated Value: 2.42288
+    Calculated Value: 0.38559999999999994
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell P34 (P34):
-    Value: 3.2
+    Value: 0.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -1808,42 +1776,38 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q34 (Q34):
     Formula: ==P34-O34
-    Calculated Value: 0.77712
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell R34 (R34):
     Formula: ==Q34*J34
-    Calculated Value: 281.706
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S34 (S34):
     Formula: ==P34*J34
-    Calculated Value: 1160
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T34 (T34):
     Formula: ==R34/S34%
-    Calculated Value: 24.285000000000004
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
-    Background: 0
 
   Cell U34 (U34):
     Formula: ==R34/M34
-    Calculated Value: 468.37029893924785
+    Calculated Value: 1541.1764705882356
     Type: f
     Format: 0.00
-    Background: 0
 
 --- Row 35 ---
 
   Cell A35 (A35):
     Value: MAHFAR TRADING
-    Background: 0
 
   Cell B35 (B35):
     Value: 2025-10-30 00:00:00
@@ -1855,7 +1819,6 @@ Dimensions: 78 rows × 24 columns
 
   Cell D35 (D35):
     Value: SS
-    Background: 0
 
   Cell E35 (E35):
     Value: 9002
@@ -1863,7 +1826,7 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F35 (F35):
-    Value: PLAIN SHEET
+    Value: FLASHING (G-300)
 
   Cell G35 (G35):
     Value: 0.5
@@ -1872,7 +1835,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H35 (H35):
-    Value: 1220
+    Value: 350
     Type: n
     Background: 6
 
@@ -1882,7 +1845,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J35 (J35):
-    Value: 12.5
+    Value: 25
     Type: n
     Style: BOLD
     Background: 6
@@ -1895,17 +1858,15 @@ Dimensions: 78 rows × 24 columns
 
   Cell L35 (L35):
     Formula: ==G35*H35/1000*I35/1000*K35/1000
-    Calculated Value: 1.6592
+    Calculated Value: 0.4759999999999999
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell M35 (M35):
     Formula: ==L35*J35/1000
-    Calculated Value: 0.020739999999999998
+    Calculated Value: 0.011899999999999999
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell N35 (N35):
     Formula: ==N$1
@@ -1916,13 +1877,12 @@ Dimensions: 78 rows × 24 columns
 
   Cell O35 (O35):
     Formula: ==N35/1000*L35+0.1
-    Calculated Value: 2.42288
+    Calculated Value: 0.7663999999999999
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell P35 (P35):
-    Value: 3.2
+    Value: 1.1
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -1930,36 +1890,21 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q35 (Q35):
     Formula: ==P35-O35
-    Calculated Value: 0.77712
+    Calculated Value: 0.33360000000000023
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell R35 (R35):
     Formula: ==Q35*J35
-    Calculated Value: 9.714
+    Calculated Value: 8.340000000000005
     Type: f
     Format: 0.000
 
   Cell S35 (S35):
     Formula: ==P35*J35
-    Calculated Value: 40
+    Calculated Value: 27.500000000000004
     Type: f
     Format: 0.000
-
-  Cell T35 (T35):
-    Formula: ==R35/S35%
-    Calculated Value: 24.285
-    Type: f
-    Format: 0.0
-    Background: 0
-
-  Cell U35 (U35):
-    Formula: ==R35/M35
-    Calculated Value: 468.3702989392479
-    Type: f
-    Format: 0.00
-    Background: 0
 
 --- Row 36 ---
 
@@ -1972,7 +1917,7 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C36 (C36):
-    Value: PPGI
+    Value: PPAL
 
   Cell D36 (D36):
     Value: SS
@@ -1983,7 +1928,8 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F36 (F36):
-    Value: FLASHING (G-200)
+    Value: FLASHING (G-400)
+    Style: BOLD
 
   Cell G36 (G36):
     Value: 0.5
@@ -1992,7 +1938,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H36 (H36):
-    Value: 250
+    Value: 150
     Type: n
     Background: 6
 
@@ -2002,43 +1948,44 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J36 (J36):
-    Value: 837.5
+    Value: 487.5
     Type: n
     Style: BOLD
     Background: 6
 
   Cell K36 (K36):
-    Value: 7850
+    Value: 2720
     Type: n
     Style: BOLD
     Background: 6
 
   Cell L36 (L36):
     Formula: ==G36*H36/1000*I36/1000*K36/1000
-    Calculated Value: 0.98125
+    Calculated Value: 0.204
     Type: f
     Format: 0.000
 
   Cell M36 (M36):
     Formula: ==L36*J36/1000
-    Calculated Value: 0.821796875
+    Calculated Value: 0.09944999999999998
     Type: f
     Format: 0.000
 
   Cell N36 (N36):
-    Value: 370
-    Type: n
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O36 (O36):
     Formula: ==N36/1000*L36+0.1
-    Calculated Value: 0.46306249999999993
+    Calculated Value: 0.38559999999999994
     Type: f
     Format: 0.000
 
   Cell P36 (P36):
-    Value: 0.75
+    Value: 0.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -2046,31 +1993,31 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q36 (Q36):
     Formula: ==P36-O36
-    Calculated Value: 0.28693750000000007
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
 
   Cell R36 (R36):
     Formula: ==Q36*J36
-    Calculated Value: 240.31015625000006
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S36 (S36):
     Formula: ==P36*J36
-    Calculated Value: 628.125
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T36 (T36):
     Formula: ==R36/S36%
-    Calculated Value: 38.25833333333334
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
 
   Cell U36 (U36):
     Formula: ==R36/M36
-    Calculated Value: 292.4203821656052
+    Calculated Value: 1541.1764705882356
     Type: f
     Format: 0.00
 
@@ -2085,7 +2032,7 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C37 (C37):
-    Value: PPGI
+    Value: PPAL
 
   Cell D37 (D37):
     Value: SS
@@ -2096,7 +2043,8 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F37 (F37):
-    Value: FLASHING (G-300)
+    Value: FLASHING (G-500)
+    Style: BOLD
 
   Cell G37 (G37):
     Value: 0.5
@@ -2105,7 +2053,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H37 (H37):
-    Value: 350
+    Value: 150
     Type: n
     Background: 6
 
@@ -2115,43 +2063,44 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J37 (J37):
-    Value: 345
+    Value: 487.5
     Type: n
     Style: BOLD
     Background: 6
 
   Cell K37 (K37):
-    Value: 7850
+    Value: 2720
     Type: n
     Style: BOLD
     Background: 6
 
   Cell L37 (L37):
     Formula: ==G37*H37/1000*I37/1000*K37/1000
-    Calculated Value: 1.37375
+    Calculated Value: 0.204
     Type: f
     Format: 0.000
 
   Cell M37 (M37):
     Formula: ==L37*J37/1000
-    Calculated Value: 0.47394375
+    Calculated Value: 0.09944999999999998
     Type: f
     Format: 0.000
 
   Cell N37 (N37):
-    Value: 370
-    Type: n
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O37 (O37):
     Formula: ==N37/1000*L37+0.1
-    Calculated Value: 0.6082875
+    Calculated Value: 0.38559999999999994
     Type: f
     Format: 0.000
 
   Cell P37 (P37):
-    Value: 0.95
+    Value: 0.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -2159,31 +2108,31 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q37 (Q37):
     Formula: ==P37-O37
-    Calculated Value: 0.3417125
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
 
   Cell R37 (R37):
     Formula: ==Q37*J37
-    Calculated Value: 117.8908125
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S37 (S37):
     Formula: ==P37*J37
-    Calculated Value: 327.75
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T37 (T37):
     Formula: ==R37/S37%
-    Calculated Value: 35.96973684210526
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
 
   Cell U37 (U37):
     Formula: ==R37/M37
-    Calculated Value: 248.74431301182892
+    Calculated Value: 1541.1764705882356
     Type: f
     Format: 0.00
 
@@ -2198,7 +2147,7 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C38 (C38):
-    Value: PPGI
+    Value: PPAL
 
   Cell D38 (D38):
     Value: SS
@@ -2228,43 +2177,44 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J38 (J38):
-    Value: 112.5
+    Value: 225
     Type: n
     Style: BOLD
     Background: 6
 
   Cell K38 (K38):
-    Value: 7850
+    Value: 2720
     Type: n
     Style: BOLD
     Background: 6
 
   Cell L38 (L38):
     Formula: ==G38*H38/1000*I38/1000*K38/1000
-    Calculated Value: 2.55125
+    Calculated Value: 0.884
     Type: f
     Format: 0.000
 
   Cell M38 (M38):
     Formula: ==L38*J38/1000
-    Calculated Value: 0.287015625
+    Calculated Value: 0.1989
     Type: f
     Format: 0.000
 
   Cell N38 (N38):
-    Value: 370
-    Type: n
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O38 (O38):
     Formula: ==N38/1000*L38+0.1
-    Calculated Value: 1.0439625000000001
+    Calculated Value: 1.3376000000000001
     Type: f
     Format: 0.000
 
   Cell P38 (P38):
-    Value: 1.45
+    Value: 2.1
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -2272,31 +2222,31 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q38 (Q38):
     Formula: ==P38-O38
-    Calculated Value: 0.40603749999999983
+    Calculated Value: 0.7624
     Type: f
     Format: 0.000
 
   Cell R38 (R38):
     Formula: ==Q38*J38
-    Calculated Value: 45.67921874999998
+    Calculated Value: 171.54
     Type: f
     Format: 0.000
 
   Cell S38 (S38):
     Formula: ==P38*J38
-    Calculated Value: 163.125
+    Calculated Value: 472.5
     Type: f
     Format: 0.000
 
   Cell T38 (T38):
     Formula: ==R38/S38%
-    Calculated Value: 28.002586206896538
+    Calculated Value: 36.304761904761904
     Type: f
     Format: 0.0
 
   Cell U38 (U38):
     Formula: ==R38/M38
-    Calculated Value: 159.1523762861342
+    Calculated Value: 862.4434389140272
     Type: f
     Format: 0.00
 
@@ -2304,7 +2254,6 @@ Dimensions: 78 rows × 24 columns
 
   Cell A39 (A39):
     Value: MAHFAR TRADING
-    Background: 0
 
   Cell B39 (B39):
     Value: 2025-10-30 00:00:00
@@ -2312,11 +2261,10 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C39 (C39):
-    Value: PPGI
+    Value: PPAL
 
   Cell D39 (D39):
     Value: SS
-    Background: 0
 
   Cell E39 (E39):
     Value: 9002
@@ -2324,7 +2272,8 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F39 (F39):
-    Value: FLASHING (G-800)
+    Value: FLASHING (G-700)
+    Style: BOLD
 
   Cell G39 (G39):
     Value: 0.5
@@ -2333,7 +2282,7 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell H39 (H39):
-    Value: 850
+    Value: 150
     Type: n
     Background: 6
 
@@ -2343,46 +2292,44 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J39 (J39):
-    Value: 172.5
+    Value: 487.5
     Type: n
     Style: BOLD
     Background: 6
 
   Cell K39 (K39):
-    Value: 7850
+    Value: 2720
     Type: n
     Style: BOLD
     Background: 6
 
   Cell L39 (L39):
     Formula: ==G39*H39/1000*I39/1000*K39/1000
-    Calculated Value: 3.33625
+    Calculated Value: 0.204
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell M39 (M39):
     Formula: ==L39*J39/1000
-    Calculated Value: 0.5755031250000001
+    Calculated Value: 0.09944999999999998
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell N39 (N39):
-    Value: 370
-    Type: n
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O39 (O39):
     Formula: ==N39/1000*L39+0.1
-    Calculated Value: 1.3344125000000002
+    Calculated Value: 0.38559999999999994
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell P39 (P39):
-    Value: 1.75
+    Value: 0.7
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -2390,41 +2337,39 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q39 (Q39):
     Formula: ==P39-O39
-    Calculated Value: 0.4155874999999998
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell R39 (R39):
     Formula: ==Q39*J39
-    Calculated Value: 71.68884374999996
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S39 (S39):
     Formula: ==P39*J39
-    Calculated Value: 301.875
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T39 (T39):
     Formula: ==R39/S39%
-    Calculated Value: 23.747857142857132
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
-    Background: 0
 
   Cell U39 (U39):
     Formula: ==R39/M39
-    Calculated Value: 124.56725365305348
+    Calculated Value: 1541.1764705882356
     Type: f
     Format: 0.00
-    Background: 0
 
 --- Row 40 ---
 
   Cell A40 (A40):
     Value: MAHFAR TRADING
+    Background: 0
 
   Cell B40 (B40):
     Value: 2025-10-30 00:00:00
@@ -2432,25 +2377,28 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C40 (C40):
-    Value: GI
+    Value: PPAL
 
   Cell D40 (D40):
     Value: SS
+    Background: 0
 
   Cell E40 (E40):
-    Value: MILL
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F40 (F40):
-    Value: FLASHING (G-200)
+    Value: FLASHING (G-800)
 
   Cell G40 (G40):
-    Value: 1.5
+    Value: 0.5
     Type: n
     Style: BOLD
     Background: 6
 
   Cell H40 (H40):
-    Value: 206
+    Value: 850
     Type: n
     Background: 6
 
@@ -2460,44 +2408,47 @@ Dimensions: 78 rows × 24 columns
     Background: 6
 
   Cell J40 (J40):
-    Value: 1441.12
+    Value: 112.5
     Type: n
     Style: BOLD
     Background: 6
 
   Cell K40 (K40):
-    Value: 7850
+    Value: 2720
     Type: n
     Style: BOLD
     Background: 6
 
   Cell L40 (L40):
     Formula: ==G40*H40/1000*I40/1000*K40/1000
-    Calculated Value: 2.42565
+    Calculated Value: 1.156
     Type: f
     Format: 0.000
+    Background: 0
 
   Cell M40 (M40):
     Formula: ==L40*J40/1000
-    Calculated Value: 3.495652728
+    Calculated Value: 0.13004999999999997
     Type: f
     Format: 0.000
+    Background: 0
 
   Cell N40 (N40):
-    Value: 350
-    Type: n
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O40 (O40):
     Formula: ==N40/1000*L40+0.1
-    Calculated Value: 0.9489774999999999
+    Calculated Value: 1.7184
     Type: f
     Format: 0.000
     Background: 0
 
   Cell P40 (P40):
-    Value: 1.3
+    Value: 2.4
     Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -2505,33 +2456,36 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q40 (Q40):
     Formula: ==P40-O40
-    Calculated Value: 0.3510225000000001
+    Calculated Value: 0.6816
     Type: f
     Format: 0.000
+    Background: 0
 
   Cell R40 (R40):
     Formula: ==Q40*J40
-    Calculated Value: 505.86554520000016
+    Calculated Value: 76.67999999999999
     Type: f
     Format: 0.000
 
   Cell S40 (S40):
     Formula: ==P40*J40
-    Calculated Value: 1873.456
+    Calculated Value: 270
     Type: f
     Format: 0.000
 
   Cell T40 (T40):
     Formula: ==R40/S40%
-    Calculated Value: 27.00173076923078
+    Calculated Value: 28.399999999999995
     Type: f
     Format: 0.0
+    Background: 0
 
   Cell U40 (U40):
     Formula: ==R40/M40
-    Calculated Value: 144.71275740523163
+    Calculated Value: 589.6193771626298
     Type: f
     Format: 0.00
+    Background: 0
 
 --- Row 41 ---
 
@@ -2544,65 +2498,109 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C41 (C41):
-    Value: GI
+    Value: PPAL
 
   Cell D41 (D41):
     Value: SS
 
   Cell E41 (E41):
-    Value: MILL
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F41 (F41):
-    Value: PARAPET GUTTER SUPPORT
+    Value: FLASHING (G-900)
+    Style: BOLD
 
   Cell G41 (G41):
-    Value: 1.5
+    Value: 0.5
     Type: n
     Style: BOLD
     Background: 6
 
-  Cell J41 (J41):
-    Value: 440
+  Cell H41 (H41):
+    Value: 150
     Type: n
+    Background: 6
+
+  Cell I41 (I41):
+    Value: 1000
+    Type: n
+    Background: 6
+
+  Cell J41 (J41):
+    Value: 487.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K41 (K41):
+    Value: 2720
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L41 (L41):
+    Formula: ==G41*H41/1000*I41/1000*K41/1000
+    Calculated Value: 0.204
+    Type: f
+    Format: 0.000
+
+  Cell M41 (M41):
+    Formula: ==L41*J41/1000
+    Calculated Value: 0.09944999999999998
+    Type: f
+    Format: 0.000
+
+  Cell N41 (N41):
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O41 (O41):
-    Value: 0.7
-    Type: n
+    Formula: ==N41/1000*L41+0.1
+    Calculated Value: 0.38559999999999994
+    Type: f
     Format: 0.000
 
   Cell P41 (P41):
-    Formula: ==O41*1.2
-    Calculated Value: 0.84
-    Type: f
+    Value: 0.7
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q41 (Q41):
     Formula: ==P41-O41
-    Calculated Value: 0.14
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
 
   Cell R41 (R41):
     Formula: ==Q41*J41
-    Calculated Value: 61.60000000000001
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S41 (S41):
     Formula: ==P41*J41
-    Calculated Value: 369.59999999999997
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T41 (T41):
     Formula: ==R41/S41%
-    Calculated Value: 16.66666666666667
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
+
+  Cell U41 (U41):
+    Formula: ==R41/M41
+    Calculated Value: 1541.1764705882356
+    Type: f
+    Format: 0.00
 
 --- Row 42 ---
 
@@ -2615,65 +2613,109 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C42 (C42):
-    Value: GI
+    Value: PPAL
 
   Cell D42 (D42):
     Value: SS
 
   Cell E42 (E42):
-    Value: MILL
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F42 (F42):
-    Value: PARAPET GUTTER SLEEVE
+    Value: FLASHING (G-1000)
+    Style: BOLD
 
   Cell G42 (G42):
-    Value: 1.5
+    Value: 0.5
     Type: n
     Style: BOLD
     Background: 6
 
-  Cell J42 (J42):
-    Value: 145
+  Cell H42 (H42):
+    Value: 150
     Type: n
+    Background: 6
+
+  Cell I42 (I42):
+    Value: 1000
+    Type: n
+    Background: 6
+
+  Cell J42 (J42):
+    Value: 487.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K42 (K42):
+    Value: 2720
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L42 (L42):
+    Formula: ==G42*H42/1000*I42/1000*K42/1000
+    Calculated Value: 0.204
+    Type: f
+    Format: 0.000
+
+  Cell M42 (M42):
+    Formula: ==L42*J42/1000
+    Calculated Value: 0.09944999999999998
+    Type: f
+    Format: 0.000
+
+  Cell N42 (N42):
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
     Style: BOLD
     Background: 6
 
   Cell O42 (O42):
-    Value: 0.7
-    Type: n
+    Formula: ==N42/1000*L42+0.1
+    Calculated Value: 0.38559999999999994
+    Type: f
     Format: 0.000
 
   Cell P42 (P42):
-    Formula: ==O42*1.2
-    Calculated Value: 0.84
-    Type: f
+    Value: 0.7
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q42 (Q42):
     Formula: ==P42-O42
-    Calculated Value: 0.14
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
 
   Cell R42 (R42):
     Formula: ==Q42*J42
-    Calculated Value: 20.3
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S42 (S42):
     Formula: ==P42*J42
-    Calculated Value: 121.8
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T42 (T42):
     Formula: ==R42/S42%
-    Calculated Value: 16.666666666666668
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
+
+  Cell U42 (U42):
+    Formula: ==R42/M42
+    Calculated Value: 1541.1764705882356
+    Type: f
+    Format: 0.00
 
 --- Row 43 ---
 
@@ -2690,7 +2732,6 @@ Dimensions: 78 rows × 24 columns
 
   Cell D43 (D43):
     Value: SS
-    Background: 0
 
   Cell E43 (E43):
     Value: 9002
@@ -2698,55 +2739,104 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F43 (F43):
-    Value:  GUTTER END CAPS
+    Value: FLASHING (G-1220
+    Style: BOLD
 
-  Cell J43 (J43):
-    Value: 12
+  Cell G43 (G43):
+    Value: 0.5
     Type: n
     Style: BOLD
     Background: 6
 
-  Cell O43 (O43):
-    Value: 0.7
+  Cell H43 (H43):
+    Value: 150
     Type: n
+    Background: 6
+
+  Cell I43 (I43):
+    Value: 1000
+    Type: n
+    Background: 6
+
+  Cell J43 (J43):
+    Value: 487.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K43 (K43):
+    Value: 2720
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L43 (L43):
+    Formula: ==G43*H43/1000*I43/1000*K43/1000
+    Calculated Value: 0.204
+    Type: f
+    Format: 0.000
+
+  Cell M43 (M43):
+    Formula: ==L43*J43/1000
+    Calculated Value: 0.09944999999999998
+    Type: f
+    Format: 0.000
+
+  Cell N43 (N43):
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
+    Style: BOLD
+    Background: 6
+
+  Cell O43 (O43):
+    Formula: ==N43/1000*L43+0.1
+    Calculated Value: 0.38559999999999994
+    Type: f
     Format: 0.000
 
   Cell P43 (P43):
-    Formula: ==O43*1.2
-    Calculated Value: 0.84
-    Type: f
+    Value: 0.7
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q43 (Q43):
     Formula: ==P43-O43
-    Calculated Value: 0.14
+    Calculated Value: 0.3144
     Type: f
     Format: 0.000
 
   Cell R43 (R43):
     Formula: ==Q43*J43
-    Calculated Value: 1.6800000000000002
+    Calculated Value: 153.27
     Type: f
     Format: 0.000
 
   Cell S43 (S43):
     Formula: ==P43*J43
-    Calculated Value: 10.08
+    Calculated Value: 341.25
     Type: f
     Format: 0.000
 
   Cell T43 (T43):
     Formula: ==R43/S43%
-    Calculated Value: 16.666666666666668
+    Calculated Value: 44.91428571428572
     Type: f
     Format: 0.0
+
+  Cell U43 (U43):
+    Formula: ==R43/M43
+    Calculated Value: 1541.1764705882356
+    Type: f
+    Format: 0.00
 
 --- Row 44 ---
 
   Cell A44 (A44):
     Value: MAHFAR TRADING
+    Background: 0
 
   Cell B44 (B44):
     Value: 2025-10-30 00:00:00
@@ -2766,55 +2856,109 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F44 (F44):
-    Value: GRP PIPE 100DIA
+    Value: PARAPET GUTTER
 
-  Cell J44 (J44):
-    Value: 70
+  Cell G44 (G44):
+    Value: 0.5
     Type: n
     Style: BOLD
     Background: 6
 
-  Cell O44 (O44):
-    Value: 3
+  Cell H44 (H44):
+    Value: 1220
     Type: n
+    Background: 6
+
+  Cell I44 (I44):
+    Value: 1000
+    Type: n
+    Background: 6
+
+  Cell J44 (J44):
+    Value: 362.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K44 (K44):
+    Value: 2720
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L44 (L44):
+    Formula: ==G44*H44/1000*I44/1000*K44/1000
+    Calculated Value: 1.6592
+    Type: f
     Format: 0.000
+    Background: 0
+
+  Cell M44 (M44):
+    Formula: ==L44*J44/1000
+    Calculated Value: 0.60146
+    Type: f
+    Format: 0.000
+    Background: 0
+
+  Cell N44 (N44):
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
+    Style: BOLD
+    Background: 6
+
+  Cell O44 (O44):
+    Formula: ==N44/1000*L44+0.1
+    Calculated Value: 2.42288
+    Type: f
+    Format: 0.000
+    Background: 0
 
   Cell P44 (P44):
-    Formula: ==O44*1.2
-    Calculated Value: 3.5999999999999996
-    Type: f
+    Value: 3.2
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q44 (Q44):
     Formula: ==P44-O44
-    Calculated Value: 0.5999999999999996
+    Calculated Value: 0.77712
     Type: f
     Format: 0.000
+    Background: 0
 
   Cell R44 (R44):
     Formula: ==Q44*J44
-    Calculated Value: 41.99999999999997
+    Calculated Value: 281.706
     Type: f
     Format: 0.000
 
   Cell S44 (S44):
     Formula: ==P44*J44
-    Calculated Value: 251.99999999999997
+    Calculated Value: 1160
     Type: f
     Format: 0.000
 
   Cell T44 (T44):
     Formula: ==R44/S44%
-    Calculated Value: 16.666666666666657
+    Calculated Value: 24.285000000000004
     Type: f
     Format: 0.0
+    Background: 0
+
+  Cell U44 (U44):
+    Formula: ==R44/M44
+    Calculated Value: 468.37029893924785
+    Type: f
+    Format: 0.00
+    Background: 0
 
 --- Row 45 ---
 
   Cell A45 (A45):
     Value: MAHFAR TRADING
+    Background: 0
 
   Cell B45 (B45):
     Value: 2025-10-30 00:00:00
@@ -2834,44 +2978,103 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F45 (F45):
-    Value: OUTLET
+    Value: PLAIN SHEET
 
-  Cell J45 (J45):
-    Value: 0
+  Cell G45 (G45):
+    Value: 0.5
     Type: n
     Style: BOLD
     Background: 6
 
-  Cell O45 (O45):
-    Value: 3
+  Cell H45 (H45):
+    Value: 1220
     Type: n
+    Background: 6
+
+  Cell I45 (I45):
+    Value: 1000
+    Type: n
+    Background: 6
+
+  Cell J45 (J45):
+    Value: 12.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K45 (K45):
+    Value: 2720
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L45 (L45):
+    Formula: ==G45*H45/1000*I45/1000*K45/1000
+    Calculated Value: 1.6592
+    Type: f
     Format: 0.000
+    Background: 0
+
+  Cell M45 (M45):
+    Formula: ==L45*J45/1000
+    Calculated Value: 0.020739999999999998
+    Type: f
+    Format: 0.000
+    Background: 0
+
+  Cell N45 (N45):
+    Formula: ==N$1
+    Calculated Value: 1400
+    Type: f
+    Style: BOLD
+    Background: 6
+
+  Cell O45 (O45):
+    Formula: ==N45/1000*L45+0.1
+    Calculated Value: 2.42288
+    Type: f
+    Format: 0.000
+    Background: 0
 
   Cell P45 (P45):
-    Formula: ==O45*1.2
-    Calculated Value: 3.5999999999999996
-    Type: f
+    Value: 3.2
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q45 (Q45):
     Formula: ==P45-O45
-    Calculated Value: 0.5999999999999996
+    Calculated Value: 0.77712
     Type: f
     Format: 0.000
+    Background: 0
 
   Cell R45 (R45):
     Formula: ==Q45*J45
-    Calculated Value: 0
+    Calculated Value: 9.714
     Type: f
     Format: 0.000
 
   Cell S45 (S45):
     Formula: ==P45*J45
-    Calculated Value: 0
+    Calculated Value: 40
     Type: f
     Format: 0.000
+
+  Cell T45 (T45):
+    Formula: ==R45/S45%
+    Calculated Value: 24.285
+    Type: f
+    Format: 0.0
+    Background: 0
+
+  Cell U45 (U45):
+    Formula: ==R45/M45
+    Calculated Value: 468.3702989392479
+    Type: f
+    Format: 0.00
+    Background: 0
 
 --- Row 46 ---
 
@@ -2884,11 +3087,10 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C46 (C46):
-    Value: PPAL
+    Value: PPGI
 
   Cell D46 (D46):
     Value: SS
-    Background: 0
 
   Cell E46 (E46):
     Value: 9002
@@ -2896,44 +3098,96 @@ Dimensions: 78 rows × 24 columns
     Background: 0
 
   Cell F46 (F46):
-    Value: BEND
+    Value: FLASHING (G-200)
+
+  Cell G46 (G46):
+    Value: 0.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell H46 (H46):
+    Value: 250
+    Type: n
+    Background: 6
+
+  Cell I46 (I46):
+    Value: 1000
+    Type: n
+    Background: 6
 
   Cell J46 (J46):
-    Value: 0
+    Value: 837.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K46 (K46):
+    Value: 7850
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L46 (L46):
+    Formula: ==G46*H46/1000*I46/1000*K46/1000
+    Calculated Value: 0.98125
+    Type: f
+    Format: 0.000
+
+  Cell M46 (M46):
+    Formula: ==L46*J46/1000
+    Calculated Value: 0.821796875
+    Type: f
+    Format: 0.000
+
+  Cell N46 (N46):
+    Value: 370
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O46 (O46):
-    Value: 3
-    Type: n
+    Formula: ==N46/1000*L46+0.1
+    Calculated Value: 0.46306249999999993
+    Type: f
     Format: 0.000
 
   Cell P46 (P46):
-    Formula: ==O46*1.2
-    Calculated Value: 3.5999999999999996
-    Type: f
+    Value: 0.75
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q46 (Q46):
     Formula: ==P46-O46
-    Calculated Value: 0.5999999999999996
+    Calculated Value: 0.28693750000000007
     Type: f
     Format: 0.000
 
   Cell R46 (R46):
     Formula: ==Q46*J46
-    Calculated Value: 0
+    Calculated Value: 240.31015625000006
     Type: f
     Format: 0.000
 
   Cell S46 (S46):
     Formula: ==P46*J46
-    Calculated Value: 0
+    Calculated Value: 628.125
     Type: f
     Format: 0.000
+
+  Cell T46 (T46):
+    Formula: ==R46/S46%
+    Calculated Value: 38.25833333333334
+    Type: f
+    Format: 0.0
+
+  Cell U46 (U46):
+    Formula: ==R46/M46
+    Calculated Value: 292.4203821656052
+    Type: f
+    Format: 0.00
 
 --- Row 47 ---
 
@@ -2946,7 +3200,7 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C47 (C47):
-    Value: PPAL
+    Value: PPGI
 
   Cell D47 (D47):
     Value: SS
@@ -2954,46 +3208,99 @@ Dimensions: 78 rows × 24 columns
   Cell E47 (E47):
     Value: 9002
     Type: n
+    Background: 0
 
   Cell F47 (F47):
-    Value: DOWN PIPE STRAP
+    Value: FLASHING (G-300)
+
+  Cell G47 (G47):
+    Value: 0.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell H47 (H47):
+    Value: 350
+    Type: n
+    Background: 6
+
+  Cell I47 (I47):
+    Value: 1000
+    Type: n
+    Background: 6
 
   Cell J47 (J47):
-    Value: 0
+    Value: 345
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K47 (K47):
+    Value: 7850
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L47 (L47):
+    Formula: ==G47*H47/1000*I47/1000*K47/1000
+    Calculated Value: 1.37375
+    Type: f
+    Format: 0.000
+
+  Cell M47 (M47):
+    Formula: ==L47*J47/1000
+    Calculated Value: 0.47394375
+    Type: f
+    Format: 0.000
+
+  Cell N47 (N47):
+    Value: 370
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O47 (O47):
-    Value: 0.7
-    Type: n
+    Formula: ==N47/1000*L47+0.1
+    Calculated Value: 0.6082875
+    Type: f
     Format: 0.000
 
   Cell P47 (P47):
-    Formula: ==O47*1.2
-    Calculated Value: 0.84
-    Type: f
+    Value: 0.95
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q47 (Q47):
     Formula: ==P47-O47
-    Calculated Value: 0.14
+    Calculated Value: 0.3417125
     Type: f
     Format: 0.000
 
   Cell R47 (R47):
     Formula: ==Q47*J47
-    Calculated Value: 0
+    Calculated Value: 117.8908125
     Type: f
     Format: 0.000
 
   Cell S47 (S47):
     Formula: ==P47*J47
-    Calculated Value: 0
+    Calculated Value: 327.75
     Type: f
     Format: 0.000
+
+  Cell T47 (T47):
+    Formula: ==R47/S47%
+    Calculated Value: 35.96973684210526
+    Type: f
+    Format: 0.0
+
+  Cell U47 (U47):
+    Formula: ==R47/M47
+    Calculated Value: 248.74431301182892
+    Type: f
+    Format: 0.00
 
 --- Row 48 ---
 
@@ -3006,63 +3313,113 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C48 (C48):
-    Value: TRADING
+    Value: PPGI
+
+  Cell D48 (D48):
+    Value: SS
+
+  Cell E48 (E48):
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F48 (F48):
-    Value: SELF DRILLING SCREW-SS
+    Value: FLASHING (G-600)
 
   Cell G48 (G48):
-    Value: 6.3*150mm (SS410)
+    Value: 0.5
+    Type: n
     Style: BOLD
+    Background: 6
+
+  Cell H48 (H48):
+    Value: 650
+    Type: n
+    Background: 6
+
+  Cell I48 (I48):
+    Value: 1000
+    Type: n
+    Background: 6
 
   Cell J48 (J48):
-    Value: 50300
+    Value: 112.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K48 (K48):
+    Value: 7850
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L48 (L48):
+    Formula: ==G48*H48/1000*I48/1000*K48/1000
+    Calculated Value: 2.55125
+    Type: f
+    Format: 0.000
+
+  Cell M48 (M48):
+    Formula: ==L48*J48/1000
+    Calculated Value: 0.287015625
+    Type: f
+    Format: 0.000
+
+  Cell N48 (N48):
+    Value: 370
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O48 (O48):
-    Value: 0.165
-    Type: n
+    Formula: ==N48/1000*L48+0.1
+    Calculated Value: 1.0439625000000001
+    Type: f
     Format: 0.000
-    Background: 9
 
   Cell P48 (P48):
-    Formula: ==O48*1.2
-    Calculated Value: 0.198
-    Type: f
+    Value: 1.45
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q48 (Q48):
     Formula: ==P48-O48
-    Calculated Value: 0.033
+    Calculated Value: 0.40603749999999983
     Type: f
     Format: 0.000
 
   Cell R48 (R48):
     Formula: ==Q48*J48
-    Calculated Value: 1659.9
+    Calculated Value: 45.67921874999998
     Type: f
     Format: 0.000
 
   Cell S48 (S48):
     Formula: ==P48*J48
-    Calculated Value: 9959.4
+    Calculated Value: 163.125
     Type: f
     Format: 0.000
 
   Cell T48 (T48):
     Formula: ==R48/S48%
-    Calculated Value: 16.666666666666668
+    Calculated Value: 28.002586206896538
     Type: f
     Format: 0.0
+
+  Cell U48 (U48):
+    Formula: ==R48/M48
+    Calculated Value: 159.1523762861342
+    Type: f
+    Format: 0.00
 
 --- Row 49 ---
 
   Cell A49 (A49):
     Value: MAHFAR TRADING
+    Background: 0
 
   Cell B49 (B49):
     Value: 2025-10-30 00:00:00
@@ -3070,58 +3427,114 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C49 (C49):
-    Value: TRADING
+    Value: PPGI
+
+  Cell D49 (D49):
+    Value: SS
+    Background: 0
+
+  Cell E49 (E49):
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F49 (F49):
-    Value: SELF DRILLING SCREW-GI
+    Value: FLASHING (G-800)
 
   Cell G49 (G49):
-    Value: 6.3*25mm
+    Value: 0.5
+    Type: n
     Style: BOLD
+    Background: 6
+
+  Cell H49 (H49):
+    Value: 850
+    Type: n
+    Background: 6
+
+  Cell I49 (I49):
+    Value: 1000
+    Type: n
+    Background: 6
 
   Cell J49 (J49):
-    Value: 5500
+    Value: 172.5
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K49 (K49):
+    Value: 7850
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L49 (L49):
+    Formula: ==G49*H49/1000*I49/1000*K49/1000
+    Calculated Value: 3.33625
+    Type: f
+    Format: 0.000
+    Background: 0
+
+  Cell M49 (M49):
+    Formula: ==L49*J49/1000
+    Calculated Value: 0.5755031250000001
+    Type: f
+    Format: 0.000
+    Background: 0
+
+  Cell N49 (N49):
+    Value: 370
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O49 (O49):
-    Value: 0.018
-    Type: n
+    Formula: ==N49/1000*L49+0.1
+    Calculated Value: 1.3344125000000002
+    Type: f
     Format: 0.000
-    Background: 9
+    Background: 0
 
   Cell P49 (P49):
-    Formula: ==O49*1.2
-    Calculated Value: 0.021599999999999998
-    Type: f
+    Value: 1.75
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q49 (Q49):
     Formula: ==P49-O49
-    Calculated Value: 0.003599999999999999
+    Calculated Value: 0.4155874999999998
     Type: f
     Format: 0.000
+    Background: 0
 
   Cell R49 (R49):
     Formula: ==Q49*J49
-    Calculated Value: 19.799999999999994
+    Calculated Value: 71.68884374999996
     Type: f
     Format: 0.000
 
   Cell S49 (S49):
     Formula: ==P49*J49
-    Calculated Value: 118.79999999999998
+    Calculated Value: 301.875
     Type: f
     Format: 0.000
 
   Cell T49 (T49):
     Formula: ==R49/S49%
-    Calculated Value: 16.666666666666664
+    Calculated Value: 23.747857142857132
     Type: f
     Format: 0.0
+    Background: 0
+
+  Cell U49 (U49):
+    Formula: ==R49/M49
+    Calculated Value: 124.56725365305348
+    Type: f
+    Format: 0.00
+    Background: 0
 
 --- Row 50 ---
 
@@ -3134,63 +3547,106 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C50 (C50):
-    Value: TRADING
+    Value: GI
+
+  Cell D50 (D50):
+    Value: SS
 
   Cell E50 (E50):
-    Value: 9002
-    Type: n
+    Value: MILL
 
   Cell F50 (F50):
-    Value: SCREW CAPS
+    Value: FLASHING (G-200)
 
   Cell G50 (G50):
-    Value: RAL-9002
+    Value: 1.5
+    Type: n
     Style: BOLD
-    Background: 0
+    Background: 6
+
+  Cell H50 (H50):
+    Value: 206
+    Type: n
+    Background: 6
+
+  Cell I50 (I50):
+    Value: 1000
+    Type: n
+    Background: 6
 
   Cell J50 (J50):
-    Value: 50300
+    Value: 1441.12
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell K50 (K50):
+    Value: 7850
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell L50 (L50):
+    Formula: ==G50*H50/1000*I50/1000*K50/1000
+    Calculated Value: 2.42565
+    Type: f
+    Format: 0.000
+
+  Cell M50 (M50):
+    Formula: ==L50*J50/1000
+    Calculated Value: 3.495652728
+    Type: f
+    Format: 0.000
+
+  Cell N50 (N50):
+    Value: 350
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O50 (O50):
-    Value: 0.007
-    Type: n
+    Formula: ==N50/1000*L50+0.1
+    Calculated Value: 0.9489774999999999
+    Type: f
     Format: 0.000
-    Background: 9
+    Background: 0
 
   Cell P50 (P50):
-    Formula: ==O50*1.2
-    Calculated Value: 0.0084
-    Type: f
+    Value: 1.3
+    Type: n
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q50 (Q50):
     Formula: ==P50-O50
-    Calculated Value: 0.0013999999999999993
+    Calculated Value: 0.3510225000000001
     Type: f
     Format: 0.000
 
   Cell R50 (R50):
     Formula: ==Q50*J50
-    Calculated Value: 70.41999999999997
+    Calculated Value: 505.86554520000016
     Type: f
     Format: 0.000
 
   Cell S50 (S50):
     Formula: ==P50*J50
-    Calculated Value: 422.52
+    Calculated Value: 1873.456
     Type: f
     Format: 0.000
 
   Cell T50 (T50):
     Formula: ==R50/S50%
-    Calculated Value: 16.66666666666666
+    Calculated Value: 27.00173076923078
     Type: f
     Format: 0.0
+
+  Cell U50 (U50):
+    Formula: ==R50/M50
+    Calculated Value: 144.71275740523163
+    Type: f
+    Format: 0.00
 
 --- Row 51 ---
 
@@ -3203,29 +3659,37 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C51 (C51):
-    Value: TRADING
+    Value: GI
+
+  Cell D51 (D51):
+    Value: SS
+
+  Cell E51 (E51):
+    Value: MILL
 
   Cell F51 (F51):
-    Value: SITCH SCREW
+    Value: PARAPET GUTTER SUPPORT
 
   Cell G51 (G51):
-    Value: 4.8*20mm
+    Value: 1.5
+    Type: n
     Style: BOLD
+    Background: 6
 
   Cell J51 (J51):
-    Value: 41900
+    Value: 440
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O51 (O51):
-    Value: 0.038
+    Value: 0.7
     Type: n
     Format: 0.000
 
   Cell P51 (P51):
     Formula: ==O51*1.2
-    Calculated Value: 0.045599999999999995
+    Calculated Value: 0.84
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -3233,25 +3697,25 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q51 (Q51):
     Formula: ==P51-O51
-    Calculated Value: 0.007599999999999996
+    Calculated Value: 0.14
     Type: f
     Format: 0.000
 
   Cell R51 (R51):
     Formula: ==Q51*J51
-    Calculated Value: 318.4399999999998
+    Calculated Value: 61.60000000000001
     Type: f
     Format: 0.000
 
   Cell S51 (S51):
     Formula: ==P51*J51
-    Calculated Value: 1910.6399999999999
+    Calculated Value: 369.59999999999997
     Type: f
     Format: 0.000
 
   Cell T51 (T51):
     Formula: ==R51/S51%
-    Calculated Value: 16.66666666666666
+    Calculated Value: 16.66666666666667
     Type: f
     Format: 0.0
 
@@ -3259,7 +3723,6 @@ Dimensions: 78 rows × 24 columns
 
   Cell A52 (A52):
     Value: MAHFAR TRADING
-    Background: 0
 
   Cell B52 (B52):
     Value: 2025-10-30 00:00:00
@@ -3267,32 +3730,37 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C52 (C52):
-    Value: TRADING
-    Background: 0
+    Value: GI
+
+  Cell D52 (D52):
+    Value: SS
+
+  Cell E52 (E52):
+    Value: MILL
 
   Cell F52 (F52):
-    Value: POP REVITS
+    Value: PARAPET GUTTER SLEEVE
 
   Cell G52 (G52):
-    Value: 4.8*12mm
+    Value: 1.5
+    Type: n
     Style: BOLD
-    Background: 0
+    Background: 6
 
   Cell J52 (J52):
-    Value: 52710
+    Value: 145
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O52 (O52):
-    Value: 0.007
+    Value: 0.7
     Type: n
     Format: 0.000
-    Background: 0
 
   Cell P52 (P52):
     Formula: ==O52*1.2
-    Calculated Value: 0.0084
+    Calculated Value: 0.84
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -3300,29 +3768,27 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q52 (Q52):
     Formula: ==P52-O52
-    Calculated Value: 0.0013999999999999993
+    Calculated Value: 0.14
     Type: f
     Format: 0.000
-    Background: 0
 
   Cell R52 (R52):
     Formula: ==Q52*J52
-    Calculated Value: 73.79399999999997
+    Calculated Value: 20.3
     Type: f
     Format: 0.000
 
   Cell S52 (S52):
     Formula: ==P52*J52
-    Calculated Value: 442.76399999999995
+    Calculated Value: 121.8
     Type: f
     Format: 0.000
 
   Cell T52 (T52):
     Formula: ==R52/S52%
-    Calculated Value: 16.66666666666666
+    Calculated Value: 16.666666666666668
     Type: f
     Format: 0.0
-    Background: 0
 
 --- Row 53 ---
 
@@ -3335,30 +3801,34 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C53 (C53):
-    Value: TRADING
+    Value: PPAL
+
+  Cell D53 (D53):
+    Value: SS
+    Background: 0
+
+  Cell E53 (E53):
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F53 (F53):
-    Value: ROPE SEAL TAPE-( 1 ROLL )
-
-  Cell G53 (G53):
-    Value: 9.5mm*2.4mm*19mtrs
-    Style: BOLD
+    Value:  GUTTER END CAPS
 
   Cell J53 (J53):
-    Value: 1360
+    Value: 12
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O53 (O53):
-    Value: 0.96
+    Value: 0.7
     Type: n
     Format: 0.000
-    Background: 9
 
   Cell P53 (P53):
     Formula: ==O53*1.2
-    Calculated Value: 1.152
+    Calculated Value: 0.84
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -3366,25 +3836,25 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q53 (Q53):
     Formula: ==P53-O53
-    Calculated Value: 0.19199999999999995
+    Calculated Value: 0.14
     Type: f
     Format: 0.000
 
   Cell R53 (R53):
     Formula: ==Q53*J53
-    Calculated Value: 261.11999999999995
+    Calculated Value: 1.6800000000000002
     Type: f
     Format: 0.000
 
   Cell S53 (S53):
     Formula: ==P53*J53
-    Calculated Value: 1566.7199999999998
+    Calculated Value: 10.08
     Type: f
     Format: 0.000
 
   Cell T53 (T53):
     Formula: ==R53/S53%
-    Calculated Value: 16.666666666666664
+    Calculated Value: 16.666666666666668
     Type: f
     Format: 0.0
 
@@ -3399,26 +3869,34 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C54 (C54):
-    Value: TRADING
+    Value: PPAL
+
+  Cell D54 (D54):
+    Value: SS
+    Background: 0
+
+  Cell E54 (E54):
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F54 (F54):
-    Value: SAUDAN SILICON CLEAR
+    Value: GRP PIPE 100DIA
 
   Cell J54 (J54):
-    Value: 240
+    Value: 70
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O54 (O54):
-    Value: 0.505
+    Value: 3
     Type: n
     Format: 0.000
-    Background: 9
 
   Cell P54 (P54):
     Formula: ==O54*1.2
-    Calculated Value: 0.606
+    Calculated Value: 3.5999999999999996
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -3426,25 +3904,25 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q54 (Q54):
     Formula: ==P54-O54
-    Calculated Value: 0.10099999999999998
+    Calculated Value: 0.5999999999999996
     Type: f
     Format: 0.000
 
   Cell R54 (R54):
     Formula: ==Q54*J54
-    Calculated Value: 24.239999999999995
+    Calculated Value: 41.99999999999997
     Type: f
     Format: 0.000
 
   Cell S54 (S54):
     Formula: ==P54*J54
-    Calculated Value: 145.44
+    Calculated Value: 251.99999999999997
     Type: f
     Format: 0.000
 
   Cell T54 (T54):
     Formula: ==R54/S54%
-    Calculated Value: 16.666666666666664
+    Calculated Value: 16.666666666666657
     Type: f
     Format: 0.0
 
@@ -3459,30 +3937,34 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C55 (C55):
-    Value: TRADING
+    Value: PPAL
+
+  Cell D55 (D55):
+    Value: SS
+    Background: 0
+
+  Cell E55 (E55):
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F55 (F55):
-    Value: FORM CLOUSRES
-
-  Cell G55 (G55):
-    Value: 32/250 PROFILE
-    Style: BOLD
+    Value: OUTLET
 
   Cell J55 (J55):
-    Value: 330
+    Value: 0
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O55 (O55):
-    Value: 0.55
+    Value: 3
     Type: n
     Format: 0.000
-    Background: 9
 
   Cell P55 (P55):
     Formula: ==O55*1.2
-    Calculated Value: 0.66
+    Calculated Value: 3.5999999999999996
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -3490,27 +3972,21 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q55 (Q55):
     Formula: ==P55-O55
-    Calculated Value: 0.10999999999999999
+    Calculated Value: 0.5999999999999996
     Type: f
     Format: 0.000
 
   Cell R55 (R55):
     Formula: ==Q55*J55
-    Calculated Value: 36.3
+    Calculated Value: 0
     Type: f
     Format: 0.000
 
   Cell S55 (S55):
     Formula: ==P55*J55
-    Calculated Value: 217.8
+    Calculated Value: 0
     Type: f
     Format: 0.000
-
-  Cell T55 (T55):
-    Formula: ==R55/S55%
-    Calculated Value: 16.666666666666664
-    Type: f
-    Format: 0.0
 
 --- Row 56 ---
 
@@ -3523,29 +3999,34 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C56 (C56):
-    Value: TRADING
+    Value: PPAL
+
+  Cell D56 (D56):
+    Value: SS
+    Background: 0
+
+  Cell E56 (E56):
+    Value: 9002
+    Type: n
+    Background: 0
 
   Cell F56 (F56):
-    Value: FIBERGLASS LOOSE INSULATION 50MM
-
-  Cell G56 (G56):
-    Value: DENSITY 12KG/M3 (20MTR ROLL)
-    Style: BOLD
+    Value: BEND
 
   Cell J56 (J56):
-    Value: 6
+    Value: 0
     Type: n
     Style: BOLD
     Background: 6
 
   Cell O56 (O56):
-    Value: 1.5
+    Value: 3
     Type: n
     Format: 0.000
 
   Cell P56 (P56):
-    Formula: ==+O56*1.2
-    Calculated Value: 1.7999999999999998
+    Formula: ==O56*1.2
+    Calculated Value: 3.5999999999999996
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
@@ -3553,27 +4034,21 @@ Dimensions: 78 rows × 24 columns
 
   Cell Q56 (Q56):
     Formula: ==P56-O56
-    Calculated Value: 0.2999999999999998
+    Calculated Value: 0.5999999999999996
     Type: f
     Format: 0.000
 
   Cell R56 (R56):
     Formula: ==Q56*J56
-    Calculated Value: 1.799999999999999
+    Calculated Value: 0
     Type: f
     Format: 0.000
 
   Cell S56 (S56):
     Formula: ==P56*J56
-    Calculated Value: 10.799999999999999
+    Calculated Value: 0
     Type: f
     Format: 0.000
-
-  Cell T56 (T56):
-    Formula: ==R56/S56%
-    Calculated Value: 16.66666666666666
-    Type: f
-    Format: 0.0
 
 --- Row 57 ---
 
@@ -3586,38 +4061,40 @@ Dimensions: 78 rows × 24 columns
     Format: mm-dd-yy
 
   Cell C57 (C57):
-    Value: SERVICE
+    Value: PPAL
+
+  Cell D57 (D57):
+    Value: SS
+
+  Cell E57 (E57):
+    Value: 9002
+    Type: n
 
   Cell F57 (F57):
-    Value: TRANSPORT CHARGES
-
-  Cell G57 (G57):
-    Value: SAMAIL TO BAHRAIN
-    Style: BOLD
+    Value: DOWN PIPE STRAP
 
   Cell J57 (J57):
-    Formula: ==+K10+K21
-    Calculated Value: 4
-    Type: f
-    Format: 0
+    Value: 0
+    Type: n
     Style: BOLD
     Background: 6
 
   Cell O57 (O57):
-    Value: 600
+    Value: 0.7
     Type: n
     Format: 0.000
 
   Cell P57 (P57):
-    Value: 600
-    Type: n
+    Formula: ==O57*1.2
+    Calculated Value: 0.84
+    Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: 6
 
   Cell Q57 (Q57):
     Formula: ==P57-O57
-    Calculated Value: 0
+    Calculated Value: 0.14
     Type: f
     Format: 0.000
 
@@ -3629,409 +4106,1047 @@ Dimensions: 78 rows × 24 columns
 
   Cell S57 (S57):
     Formula: ==P57*J57
-    Calculated Value: 2400
-    Type: f
-    Format: 0.000
-
-  Cell T57 (T57):
-    Formula: ==R57/S57%
     Calculated Value: 0
     Type: f
-    Format: 0.0
+    Format: 0.000
 
 --- Row 58 ---
 
+  Cell A58 (A58):
+    Value: MAHFAR TRADING
+
+  Cell B58 (B58):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C58 (C58):
+    Value: TRADING
+
+  Cell F58 (F58):
+    Value: SELF DRILLING SCREW-SS
+
+  Cell G58 (G58):
+    Value: 6.3*150mm (SS410)
+    Style: BOLD
+
+  Cell J58 (J58):
+    Value: 50300
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O58 (O58):
+    Value: 0.165
+    Type: n
+    Format: 0.000
+    Background: 9
+
+  Cell P58 (P58):
+    Formula: ==O58*1.2
+    Calculated Value: 0.198
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
   Cell Q58 (Q58):
-    Value: Trading 
+    Formula: ==P58-O58
+    Calculated Value: 0.033
+    Type: f
     Format: 0.000
 
   Cell R58 (R58):
-    Formula: ==SUM(R41:R56)
-    Calculated Value: 2591.394
+    Formula: ==Q58*J58
+    Calculated Value: 1659.9
     Type: f
     Format: 0.000
 
   Cell S58 (S58):
-    Formula: ==SUM(S41:S56)
-    Calculated Value: 15548.363999999996
+    Formula: ==P58*J58
+    Calculated Value: 9959.4
     Type: f
     Format: 0.000
 
+  Cell T58 (T58):
+    Formula: ==R58/S58%
+    Calculated Value: 16.666666666666668
+    Type: f
+    Format: 0.0
+
 --- Row 59 ---
 
-  Cell R59 (R59):
-    Formula: ==R11+SUM(R28:R57)
-    Calculated Value: 5490.18401645
-    Type: f
-    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+  Cell A59 (A59):
+    Value: MAHFAR TRADING
+
+  Cell B59 (B59):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C59 (C59):
+    Value: TRADING
+
+  Cell F59 (F59):
+    Value: SELF DRILLING SCREW-GI
+
+  Cell G59 (G59):
+    Value: 6.3*25mm
     Style: BOLD
 
-  Cell S59 (S59):
-    Formula: ==S11+SUM(S28:S57)
-    Calculated Value: 32077.545
+  Cell J59 (J59):
+    Value: 5500
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O59 (O59):
+    Value: 0.018
+    Type: n
+    Format: 0.000
+    Background: 9
+
+  Cell P59 (P59):
+    Formula: ==O59*1.2
+    Calculated Value: 0.021599999999999998
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
+    Background: 6
+
+  Cell Q59 (Q59):
+    Formula: ==P59-O59
+    Calculated Value: 0.003599999999999999
+    Type: f
+    Format: 0.000
+
+  Cell R59 (R59):
+    Formula: ==Q59*J59
+    Calculated Value: 19.799999999999994
+    Type: f
+    Format: 0.000
+
+  Cell S59 (S59):
+    Formula: ==P59*J59
+    Calculated Value: 118.79999999999998
+    Type: f
+    Format: 0.000
 
   Cell T59 (T59):
     Formula: ==R59/S59%
-    Calculated Value: 17.115349745281318
+    Calculated Value: 16.666666666666664
     Type: f
     Format: 0.0
 
 --- Row 60 ---
 
+  Cell A60 (A60):
+    Value: MAHFAR TRADING
+
+  Cell B60 (B60):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C60 (C60):
+    Value: TRADING
+
+  Cell E60 (E60):
+    Value: 9002
+    Type: n
+
+  Cell F60 (F60):
+    Value: SCREW CAPS
+
+  Cell G60 (G60):
+    Value: RAL-9002
+    Style: BOLD
+    Background: 0
+
+  Cell J60 (J60):
+    Value: 50300
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O60 (O60):
+    Value: 0.007
+    Type: n
+    Format: 0.000
+    Background: 9
+
+  Cell P60 (P60):
+    Formula: ==O60*1.2
+    Calculated Value: 0.0084
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q60 (Q60):
+    Formula: ==P60-O60
+    Calculated Value: 0.0013999999999999993
+    Type: f
+    Format: 0.000
+
+  Cell R60 (R60):
+    Formula: ==Q60*J60
+    Calculated Value: 70.41999999999997
+    Type: f
+    Format: 0.000
+
   Cell S60 (S60):
-    Formula: ==S59*0
+    Formula: ==P60*J60
+    Calculated Value: 422.52
+    Type: f
+    Format: 0.000
+
+  Cell T60 (T60):
+    Formula: ==R60/S60%
+    Calculated Value: 16.66666666666666
+    Type: f
+    Format: 0.0
+
+--- Row 61 ---
+
+  Cell A61 (A61):
+    Value: MAHFAR TRADING
+
+  Cell B61 (B61):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C61 (C61):
+    Value: TRADING
+
+  Cell F61 (F61):
+    Value: SITCH SCREW
+
+  Cell G61 (G61):
+    Value: 4.8*20mm
+    Style: BOLD
+
+  Cell J61 (J61):
+    Value: 41900
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O61 (O61):
+    Value: 0.038
+    Type: n
+    Format: 0.000
+
+  Cell P61 (P61):
+    Formula: ==O61*1.2
+    Calculated Value: 0.045599999999999995
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q61 (Q61):
+    Formula: ==P61-O61
+    Calculated Value: 0.007599999999999996
+    Type: f
+    Format: 0.000
+
+  Cell R61 (R61):
+    Formula: ==Q61*J61
+    Calculated Value: 318.4399999999998
+    Type: f
+    Format: 0.000
+
+  Cell S61 (S61):
+    Formula: ==P61*J61
+    Calculated Value: 1910.6399999999999
+    Type: f
+    Format: 0.000
+
+  Cell T61 (T61):
+    Formula: ==R61/S61%
+    Calculated Value: 16.66666666666666
+    Type: f
+    Format: 0.0
+
+--- Row 62 ---
+
+  Cell A62 (A62):
+    Value: MAHFAR TRADING
+    Background: 0
+
+  Cell B62 (B62):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C62 (C62):
+    Value: TRADING
+    Background: 0
+
+  Cell F62 (F62):
+    Value: POP REVITS
+
+  Cell G62 (G62):
+    Value: 4.8*12mm
+    Style: BOLD
+    Background: 0
+
+  Cell J62 (J62):
+    Value: 52710
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O62 (O62):
+    Value: 0.007
+    Type: n
+    Format: 0.000
+    Background: 0
+
+  Cell P62 (P62):
+    Formula: ==O62*1.2
+    Calculated Value: 0.0084
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q62 (Q62):
+    Formula: ==P62-O62
+    Calculated Value: 0.0013999999999999993
+    Type: f
+    Format: 0.000
+    Background: 0
+
+  Cell R62 (R62):
+    Formula: ==Q62*J62
+    Calculated Value: 73.79399999999997
+    Type: f
+    Format: 0.000
+
+  Cell S62 (S62):
+    Formula: ==P62*J62
+    Calculated Value: 442.76399999999995
+    Type: f
+    Format: 0.000
+
+  Cell T62 (T62):
+    Formula: ==R62/S62%
+    Calculated Value: 16.66666666666666
+    Type: f
+    Format: 0.0
+    Background: 0
+
+--- Row 63 ---
+
+  Cell A63 (A63):
+    Value: MAHFAR TRADING
+
+  Cell B63 (B63):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C63 (C63):
+    Value: TRADING
+
+  Cell F63 (F63):
+    Value: ROPE SEAL TAPE-( 1 ROLL )
+
+  Cell G63 (G63):
+    Value: 9.5mm*2.4mm*19mtrs
+    Style: BOLD
+
+  Cell J63 (J63):
+    Value: 1360
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O63 (O63):
+    Value: 0.96
+    Type: n
+    Format: 0.000
+    Background: 9
+
+  Cell P63 (P63):
+    Formula: ==O63*1.2
+    Calculated Value: 1.152
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q63 (Q63):
+    Formula: ==P63-O63
+    Calculated Value: 0.19199999999999995
+    Type: f
+    Format: 0.000
+
+  Cell R63 (R63):
+    Formula: ==Q63*J63
+    Calculated Value: 261.11999999999995
+    Type: f
+    Format: 0.000
+
+  Cell S63 (S63):
+    Formula: ==P63*J63
+    Calculated Value: 1566.7199999999998
+    Type: f
+    Format: 0.000
+
+  Cell T63 (T63):
+    Formula: ==R63/S63%
+    Calculated Value: 16.666666666666664
+    Type: f
+    Format: 0.0
+
+--- Row 64 ---
+
+  Cell A64 (A64):
+    Value: MAHFAR TRADING
+
+  Cell B64 (B64):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C64 (C64):
+    Value: TRADING
+
+  Cell F64 (F64):
+    Value: SAUDAN SILICON CLEAR
+
+  Cell J64 (J64):
+    Value: 240
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O64 (O64):
+    Value: 0.505
+    Type: n
+    Format: 0.000
+    Background: 9
+
+  Cell P64 (P64):
+    Formula: ==O64*1.2
+    Calculated Value: 0.606
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q64 (Q64):
+    Formula: ==P64-O64
+    Calculated Value: 0.10099999999999998
+    Type: f
+    Format: 0.000
+
+  Cell R64 (R64):
+    Formula: ==Q64*J64
+    Calculated Value: 24.239999999999995
+    Type: f
+    Format: 0.000
+
+  Cell S64 (S64):
+    Formula: ==P64*J64
+    Calculated Value: 145.44
+    Type: f
+    Format: 0.000
+
+  Cell T64 (T64):
+    Formula: ==R64/S64%
+    Calculated Value: 16.666666666666664
+    Type: f
+    Format: 0.0
+
+--- Row 65 ---
+
+  Cell A65 (A65):
+    Value: MAHFAR TRADING
+
+  Cell B65 (B65):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C65 (C65):
+    Value: TRADING
+
+  Cell F65 (F65):
+    Value: FORM CLOUSRES
+
+  Cell G65 (G65):
+    Value: 32/250 PROFILE
+    Style: BOLD
+
+  Cell J65 (J65):
+    Value: 330
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O65 (O65):
+    Value: 0.55
+    Type: n
+    Format: 0.000
+    Background: 9
+
+  Cell P65 (P65):
+    Formula: ==O65*1.2
+    Calculated Value: 0.66
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q65 (Q65):
+    Formula: ==P65-O65
+    Calculated Value: 0.10999999999999999
+    Type: f
+    Format: 0.000
+
+  Cell R65 (R65):
+    Formula: ==Q65*J65
+    Calculated Value: 36.3
+    Type: f
+    Format: 0.000
+
+  Cell S65 (S65):
+    Formula: ==P65*J65
+    Calculated Value: 217.8
+    Type: f
+    Format: 0.000
+
+  Cell T65 (T65):
+    Formula: ==R65/S65%
+    Calculated Value: 16.666666666666664
+    Type: f
+    Format: 0.0
+
+--- Row 66 ---
+
+  Cell A66 (A66):
+    Value: MAHFAR TRADING
+
+  Cell B66 (B66):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C66 (C66):
+    Value: TRADING
+
+  Cell F66 (F66):
+    Value: FIBERGLASS LOOSE INSULATION 50MM
+
+  Cell G66 (G66):
+    Value: DENSITY 12KG/M3 (20MTR ROLL)
+    Style: BOLD
+
+  Cell J66 (J66):
+    Value: 6
+    Type: n
+    Style: BOLD
+    Background: 6
+
+  Cell O66 (O66):
+    Value: 1.5
+    Type: n
+    Format: 0.000
+
+  Cell P66 (P66):
+    Formula: ==+O66*1.2
+    Calculated Value: 1.7999999999999998
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q66 (Q66):
+    Formula: ==P66-O66
+    Calculated Value: 0.2999999999999998
+    Type: f
+    Format: 0.000
+
+  Cell R66 (R66):
+    Formula: ==Q66*J66
+    Calculated Value: 1.799999999999999
+    Type: f
+    Format: 0.000
+
+  Cell S66 (S66):
+    Formula: ==P66*J66
+    Calculated Value: 10.799999999999999
+    Type: f
+    Format: 0.000
+
+  Cell T66 (T66):
+    Formula: ==R66/S66%
+    Calculated Value: 16.66666666666666
+    Type: f
+    Format: 0.0
+
+--- Row 67 ---
+
+  Cell A67 (A67):
+    Value: MAHFAR TRADING
+
+  Cell B67 (B67):
+    Value: 2025-10-30 00:00:00
+    Type: d
+    Format: mm-dd-yy
+
+  Cell C67 (C67):
+    Value: SERVICE
+
+  Cell F67 (F67):
+    Value: TRANSPORT CHARGES
+
+  Cell G67 (G67):
+    Value: SAMAIL TO BAHRAIN
+    Style: BOLD
+
+  Cell J67 (J67):
+    Formula: ==+K10+K21
+    Calculated Value: 3
+    Type: f
+    Format: 0
+    Style: BOLD
+    Background: 6
+
+  Cell O67 (O67):
+    Value: 600
+    Type: n
+    Format: 0.000
+
+  Cell P67 (P67):
+    Value: 600
+    Type: n
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+    Background: 6
+
+  Cell Q67 (Q67):
+    Formula: ==P67-O67
+    Calculated Value: 0
+    Type: f
+    Format: 0.000
+
+  Cell R67 (R67):
+    Formula: ==Q67*J67
+    Calculated Value: 0
+    Type: f
+    Format: 0.000
+
+  Cell S67 (S67):
+    Formula: ==P67*J67
+    Calculated Value: 1800
+    Type: f
+    Format: 0.000
+
+  Cell T67 (T67):
+    Formula: ==R67/S67%
+    Calculated Value: 0
+    Type: f
+    Format: 0.0
+
+--- Row 68 ---
+
+  Cell Q68 (Q68):
+    Value: Trading 
+    Format: 0.000
+
+  Cell R68 (R68):
+    Formula: ==SUM(R51:R66)
+    Calculated Value: 2591.394
+    Type: f
+    Format: 0.000
+
+  Cell S68 (S68):
+    Formula: ==SUM(S51:S66)
+    Calculated Value: 15548.363999999996
+    Type: f
+    Format: 0.000
+
+--- Row 69 ---
+
+  Cell R69 (R69):
+    Formula: ==R11+SUM(R28:R67)
+    Calculated Value: 5919.56591645
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+
+  Cell S69 (S69):
+    Formula: ==S11+SUM(S28:S67)
+    Calculated Value: 27281.321
+    Type: f
+    Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
+    Style: BOLD
+
+  Cell T69 (T69):
+    Formula: ==R69/S69%
+    Calculated Value: 21.698237839912515
+    Type: f
+    Format: 0.0
+
+--- Row 70 ---
+
+  Cell S70 (S70):
+    Formula: ==S69*0
     Calculated Value: 0
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell T60 (T60):
+  Cell T70 (T70):
     Value: Vat
     Format: 0.0
 
---- Row 61 ---
+--- Row 71 ---
 
-  Cell S61 (S61):
-    Formula: ==S59+S60
-    Calculated Value: 32077.545
+  Cell S71 (S71):
+    Formula: ==S69+S70
+    Calculated Value: 27281.321
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell T61 (T61):
+  Cell T71 (T71):
     Value: Total
     Format: 0.0
 
---- Row 65 ---
+--- Row 75 ---
 
-  Cell L65 (L65):
+  Cell L75 (L75):
     Value: Wt of AL TOP
     Style: BOLD
 
-  Cell M65 (M65):
-    Formula: ==+SUM(M30:M35)+M28+M6
-    Calculated Value: 2.9904903999999997
+  Cell M75 (M75):
+    Formula: ==+SUM(M33:M45)+M28+M6
+    Calculated Value: 2.0303134999999997
     Type: f
     Format: 0.000
 
-  Cell N65 (N65):
+  Cell N75 (N75):
     Formula: ==N6
-    Calculated Value: 1400
+    Calculated Value: 400
     Type: f
 
-  Cell O65 (O65):
-    Formula: ==M65*N65
-    Calculated Value: 4186.686559999999
+  Cell O75 (O75):
+    Formula: ==M75*N75
+    Calculated Value: 812.1253999999999
     Type: f
     Format: 0.000
 
---- Row 66 ---
+--- Row 76 ---
 
-  Cell L66 (L66):
+  Cell L76 (L76):
     Value: Wt of AL Bottom
 
-  Cell M66 (M66):
+  Cell M76 (M76):
     Formula: ==M7
-    Calculated Value: 1.4688
+    Calculated Value: 0.0025434
     Type: f
     Format: 0.000
 
-  Cell N66 (N66):
+  Cell N76 (N76):
     Formula: ==N7
-    Calculated Value: 1400
+    Calculated Value: 400
     Type: f
 
-  Cell O66 (O66):
-    Formula: ==M66*N66
-    Calculated Value: 2056.32
+  Cell O76 (O76):
+    Formula: ==M76*N76
+    Calculated Value: 1.01736
     Type: f
     Format: 0.000
 
-  Cell R66 (R66):
+  Cell R76 (R76):
     Value: PANEL :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell S66 (S66):
+  Cell S76 (S76):
     Formula: ==S11
-    Calculated Value: 7700
+    Calculated Value: 5.026
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
---- Row 67 ---
+--- Row 77 ---
 
-  Cell L67 (L67):
+  Cell L77 (L77):
     Value: Wt of PPGI
 
-  Cell M67 (M67):
-    Formula: ==+M36+M37+M38+M39
+  Cell M77 (M77):
+    Formula: ==+M46+M47+M48+M49
     Calculated Value: 2.158259375
     Type: f
     Format: 0.000
 
-  Cell N67 (N67):
+  Cell N77 (N77):
     Value: 370
     Type: n
 
-  Cell O67 (O67):
-    Formula: ==M67*N67
+  Cell O77 (O77):
+    Formula: ==M77*N77
     Calculated Value: 798.55596875
     Type: f
     Format: 0.000
 
-  Cell R67 (R67):
+  Cell R77 (R77):
     Value: RIDGE :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell S67 (S67):
+  Cell S77 (S77):
     Formula: ==+S28
     Calculated Value: 453.59999999999997
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
---- Row 68 ---
+--- Row 78 ---
 
-  Cell L68 (L68):
+  Cell L78 (L78):
     Value: Wt GI
 
-  Cell M68 (M68):
-    Formula: ==M40
+  Cell M78 (M78):
+    Formula: ==M50
     Calculated Value: 3.495652728
     Type: f
     Format: 0.000
 
-  Cell N68 (N68):
-    Formula: ==N40
+  Cell N78 (N78):
+    Formula: ==N50
     Calculated Value: 350
     Type: f
 
-  Cell O68 (O68):
-    Formula: ==M68*N68
+  Cell O78 (O78):
+    Formula: ==M78*N78
     Calculated Value: 1223.4784548
     Type: f
     Format: 0.000
 
-  Cell R68 (R68):
+  Cell R78 (R78):
     Value: PROFILE SHEET :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell S68 (S68):
+  Cell S78 (S78):
     Formula: ==+S29
     Calculated Value: 370
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
---- Row 69 ---
+--- Row 79 ---
 
-  Cell L69 (L69):
+  Cell L79 (L79):
     Value: Wt of Insulation
 
-  Cell M69 (M69):
+  Cell M79 (M79):
     Formula: ==M8
-    Calculated Value: 2.215
+    Calculated Value: 0.002115
     Type: f
     Format: 0.000
 
-  Cell N69 (N69):
+  Cell N79 (N79):
     Formula: ==N8
     Calculated Value: 900
     Type: f
 
-  Cell O69 (O69):
-    Formula: ==M69*N69
-    Calculated Value: 1993.4999999999998
+  Cell O79 (O79):
+    Formula: ==M79*N79
+    Calculated Value: 1.9035000000000002
     Type: f
     Format: 0.000
 
-  Cell R69 (R69):
+  Cell R79 (R79):
     Value: SKY LIGHT :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell S69 (S69):
+  Cell S79 (S79):
     Formula: ==S29
     Calculated Value: 370
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
---- Row 70 ---
+--- Row 80 ---
 
-  Cell L70 (L70):
+  Cell L80 (L80):
     Value: Trading
 
-  Cell O70 (O70):
-    Formula: ==S58-R58
+  Cell O80 (O80):
+    Formula: ==S68-R68
     Calculated Value: 12956.969999999996
     Type: f
     Format: 0.000
 
-  Cell R70 (R70):
+  Cell R80 (R80):
     Value: FL & ACC.  :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell S70 (S70):
-    Formula: ==SUM(S30:S56)
-    Calculated Value: 21153.944999999996
+  Cell S80 (S80):
+    Formula: ==SUM(S33:S66)
+    Calculated Value: 23542.694999999996
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell U70 (U70):
+  Cell U80 (U80):
     Value: 1048.155
     Type: n
 
---- Row 71 ---
+--- Row 81 ---
 
-  Cell L71 (L71):
+  Cell L81 (L81):
     Value: Total Mat
 
-  Cell O71 (O71):
-    Formula: ==SUM(O65:O70)
-    Calculated Value: 23215.510983549997
+  Cell O81 (O81):
+    Formula: ==SUM(O75:O80)
+    Calculated Value: 15794.050683549996
     Type: f
     Format: 0.000
     Style: BOLD
 
-  Cell R71 (R71):
+  Cell R81 (R81):
     Value: TRANSPORT :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell S71 (S71):
-    Formula: ==+S57
-    Calculated Value: 2400
+  Cell S81 (S81):
+    Formula: ==+S67
+    Calculated Value: 1800
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
 
---- Row 72 ---
+--- Row 82 ---
 
-  Cell L72 (L72):
+  Cell L82 (L82):
     Value: Total Labour
 
-  Cell O72 (O72):
+  Cell O82 (O82):
     Formula: ==R10
-    Calculated Value: 200
+    Calculated Value: 0.2
     Type: f
     Format: 0.000
 
-  Cell R72 (R72):
+  Cell R82 (R82):
     Value: TOTAL :
     Format: _(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: FFFFFF00
 
-  Cell S72 (S72):
-    Formula: ==SUM(S65:S71)
-    Calculated Value: 32447.545
+  Cell S82 (S82):
+    Formula: ==SUM(S75:S81)
+    Calculated Value: 26541.320999999996
     Type: f
     Format: _(* #,##0.000_);_(* \(#,##0.000\);_(* "-"??_);_(@_)
     Style: BOLD
     Background: FFFFFF00
 
-  Cell U72 (U72):
-    Formula: ==150000-S72
-    Calculated Value: 117552.455
+  Cell U82 (U82):
+    Formula: ==150000-S82
+    Calculated Value: 123458.679
     Type: f
     Format: 0.000
 
---- Row 73 ---
+--- Row 83 ---
 
-  Cell L73 (L73):
+  Cell L83 (L83):
     Value: Total Over head
 
-  Cell O73 (O73):
+  Cell O83 (O83):
     Formula: ==R12
-    Calculated Value: 667.27
+    Calculated Value: 0.43701
     Type: f
     Format: 0.000
 
---- Row 74 ---
+--- Row 84 ---
 
-  Cell L74 (L74):
+  Cell L84 (L84):
     Value: Transport
 
-  Cell O74 (O74):
-    Formula: ==+S57
-    Calculated Value: 2400
+  Cell O84 (O84):
+    Formula: ==+S67
+    Calculated Value: 1800
     Type: f
     Format: 0.000
 
-  Cell P74 (P74):
-    Formula: ==O74/J57
+  Cell P84 (P84):
+    Formula: ==O84/J67
     Calculated Value: 600
     Type: f
     Format: _(* #,##0_);_(* \(#,##0\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell Q74 (Q74):
+  Cell Q84 (Q84):
     Value: OMR Per Trip
     Style: BOLD
 
---- Row 75 ---
+--- Row 85 ---
 
-  Cell L75 (L75):
+  Cell L85 (L85):
     Value: LC
 
-  Cell O75 (O75):
+  Cell O85 (O85):
     Formula: ==R13
-    Calculated Value: 333.635
+    Calculated Value: 0.218505
     Type: f
     Format: 0.000
 
-  Cell P75 (P75):
-    Formula: ==O74/P74
-    Calculated Value: 4
+  Cell P85 (P85):
+    Formula: ==O84/P84
+    Calculated Value: 3
     Type: f
     Format: _(* #,##0_);_(* \(#,##0\);_(* "-"??_);_(@_)
     Style: BOLD
 
-  Cell Q75 (Q75):
+  Cell Q85 (Q85):
     Value: TRANSPORT
     Style: BOLD
 
---- Row 76 ---
+--- Row 86 ---
 
-  Cell L76 (L76):
+  Cell L86 (L86):
     Value: Sales
 
-  Cell O76 (O76):
-    Formula: ==S59
-    Calculated Value: 32077.545
+  Cell O86 (O86):
+    Formula: ==S69
+    Calculated Value: 27281.321
     Type: f
     Format: 0.000
     Style: BOLD
 
---- Row 77 ---
+--- Row 87 ---
 
-  Cell L77 (L77):
+  Cell L87 (L87):
     Value: Value Add
 
-  Cell O77 (O77):
-    Formula: ==R59
-    Calculated Value: 5490.18401645
+  Cell O87 (O87):
+    Formula: ==R69
+    Calculated Value: 5919.56591645
     Type: f
     Format: 0.000
     Style: BOLD
 
---- Row 78 ---
+--- Row 88 ---
 
-  Cell L78 (L78):
+  Cell L88 (L88):
     Value: Value Add %
 
-  Cell O78 (O78):
-    Formula: ==+O77/O76%
-    Calculated Value: 17.115349745281318
+  Cell O88 (O88):
+    Formula: ==+O87/O86%
+    Calculated Value: 21.698237839912515
     Type: f
     Format: 0.000
     Style: BOLD

@@ -1,0 +1,29 @@
+1. change material type into metal 
+
+2. remove ceiling partition
+
+3. remove material type from top and botton and add the main material type to into and remove the main material type from top and bottom
+
+4.change Hidden into concealed
+
+5. change core thickness into dropdown add 30, 50, 75, 100, 150, 200
+
+6. hide core constant hide and show
+
+7. change D-cost into delivery
+
+8. duty cost will be manual enter dont change automatic
+
+9. change total cost color into green 
+
+10. change type of panel in calcualtion section change into material
+
+11. change the cost as 3,6,9 for Material cost not for Cost/Ton ..leave cost/ton as 0, change it in calculation section
+
+12. remove ruppes symbol from all places
+
+13. change overhead and lc as manual enter and show in calculation by overhead * cost and lc * cost
+
+14. change SS into others
+
+15. remove the color, material type,cost/ton from the top and add it to individual section

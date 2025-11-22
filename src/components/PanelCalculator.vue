@@ -58,7 +58,7 @@
           </div>
 
           <!-- Top Skin (Columns F-K, N) -->
-          <div class="mb-6">
+          <div class="mb-6" v-show="formData.panelType !== 'SS'">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-purple-500">📐 Top Skin</h2>
             <div class="grid grid-cols-2 md:grid-cols-7 gap-4">
               <!-- F: Material Type -->
@@ -104,7 +104,7 @@
           </div>
 
           <!-- Bottom Skin (Columns F-K, N) -->
-          <div class="mb-6">
+          <div class="mb-6" v-show="formData.panelType !== 'SS'">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-indigo-500">📐 Bottom Skin</h2>
             <div class="grid grid-cols-2 md:grid-cols-7 gap-4">
               <!-- F: Material Type -->
@@ -150,7 +150,7 @@
           </div>
 
           <!-- Core (Columns F-K, N) -->
-          <div class="mb-6">
+          <div class="mb-6" v-show="formData.panelType !== 'SS'">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-pink-500">Core</h2>
             <div class="grid grid-cols-2 md:grid-cols-7 gap-4">
               <!-- F: Material Type -->
@@ -203,7 +203,7 @@
           </div>
 
           <!-- Pricing & Additional Costs -->
-          <div class="mb-6">
+          <div class="mb-6" v-show="formData.panelType !== 'SS'">
             <h2 class="text-xl font-semibold text-gray-800 mb-3 pb-2 border-b-2 border-orange-500">💵 Pricing & Additional Costs</h2>
             
             <!-- Additional Cost Components -->
@@ -238,15 +238,24 @@
             </div>
           </div>
 
+          <!-- SS Products for SS panel type -->
+          <SSProducts
+            v-if="formData.panelType === 'SS'"
+            :quote="formData.quoteNo"
+            :date="formData.date"
+            :material="formData.materialType"
+            :color="formData.color"
+          />
+
           <!-- Calculate Button -->
-          <div class="flex justify-center mb-6">
+          <div class="flex justify-center mb-6" v-show="formData.panelType !== 'SS'">
             <button type="submit" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transform transition hover:scale-105">
               🧮 Calculate Total Cost
             </button>
           </div>
 
           <!-- Results (Excel Columns L-T) -->
-          <div v-if="result.calculated" class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-300">
+          <div v-if="result.calculated && formData.panelType !== 'SS'" class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-300">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-green-500">💰 Calculation Results</h2>
             
             <!-- Results Table -->
@@ -254,7 +263,7 @@
               <table class="w-full text-sm border-collapse">
                 <thead>
                   <tr class="bg-gray-100 border-b-2 border-gray-300">
-                    <th class="px-3 py-2 text-left border">Type of Panel</th>
+                    <th class="px-3 py-2 text-left border">Material</th>
                     <th class="px-3 py-2 text-right border">Weight/Meter</th>
                     <th class="px-3 py-2 text-right border">Total Weight/Meter</th>
                     <th class="px-3 py-2 text-right border">Cost/Ton</th>
@@ -386,10 +395,11 @@
       </div>
     </div>
   </div>
-</template>
+ </template>
 
-<script setup>
-import { reactive, watch } from 'vue'
+ <script setup>
+ import { reactive, watch } from 'vue'
+ import SSProducts from './SSProducts.vue'
 
 const formData = reactive({
   quoteNo: 'MAHFAR TRADING',

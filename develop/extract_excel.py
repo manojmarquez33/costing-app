@@ -147,7 +147,7 @@ def save_to_files(data, base_filename='excel_data'):
     print(f"✓ Saved Formulas: {formulas_file}")
 
 if __name__ == '__main__':
-    excel_file = 'Pug-cost.xlsx'
+    excel_file = 'Pug-cost sample 2.xlsx'
     
     print(f"Extracting data from {excel_file}...")
     data = extract_excel_data(excel_file)
