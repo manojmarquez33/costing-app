@@ -61,7 +61,7 @@
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-yellow-50 p-4 rounded-lg">
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Top Skin Cost/Ton (₹)</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Top Skin Cost/Ton</label>
                 <input
                   v-model.number="formData.topSkinCostPerTon"
                   type="number"
@@ -70,7 +70,7 @@
                 />
               </div>
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Bottom Skin Cost/Ton (₹)</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Bottom Skin Cost/Ton</label>
                 <input
                   v-model.number="formData.bottomSkinCostPerTon"
                   type="number"
@@ -79,7 +79,7 @@
                 />
               </div>
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Core Cost/Ton (₹)</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Core Cost/Ton</label>
                 <input
                   v-model.number="formData.coreCostPerTon"
                   type="number"
@@ -486,7 +486,7 @@
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Material Rate (₹)</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Material Rate</label>
                 <input
                   v-model.number="formData.materialRate"
                   type="number"
@@ -519,7 +519,7 @@
               </div>
 
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Transport Cost (₹)</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Transport Cost</label>
                 <input
                   v-model.number="formData.transportCost"
                   type="number"
@@ -571,40 +571,40 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Material Cost</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.materialCost) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.materialCost) }}</p>
               </div>
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Labour Cost</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.labourCostAmount) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.labourCostAmount) }}</p>
               </div>
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Overhead</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.overheadAmount) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.overheadAmount) }}</p>
               </div>
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Transport Cost</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.transportCost) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.transportCost) }}</p>
               </div>
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Subtotal</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.subtotal) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.subtotal) }}</p>
               </div>
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Profit</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.profitAmount) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.profitAmount) }}</p>
               </div>
               <div class="bg-white rounded-lg p-4 shadow">
                 <p class="text-sm text-gray-600 mb-1">Tax Amount</p>
-                <p class="text-xl font-bold text-gray-900">₹{{ formatCurrency(result.taxAmount) }}</p>
+                <p class="text-xl font-bold text-gray-900">{{ formatCurrency(result.taxAmount) }}</p>
               </div>
               <div class="bg-gradient-to-r from-green-400 to-emerald-500 rounded-lg p-4 shadow-lg md:col-span-2">
                 <p class="text-sm text-white mb-1">Total Cost</p>
-                <p class="text-3xl font-bold text-white">₹{{ formatCurrency(result.totalCost) }}</p>
+                <p class="text-3xl font-bold text-white">{{ formatCurrency(result.totalCost) }}</p>
               </div>
             </div>
             <div class="mt-4 bg-white rounded-lg p-4 shadow">
               <p class="text-sm text-gray-600 mb-1">Cost per Unit ({{ formData.unit }})</p>
-              <p class="text-2xl font-bold text-indigo-600">₹{{ formatCurrency(result.costPerUnit) }}</p>
+              <p class="text-2xl font-bold text-indigo-600">{{ formatCurrency(result.costPerUnit) }}</p>
             </div>
           </div>
         </form>
